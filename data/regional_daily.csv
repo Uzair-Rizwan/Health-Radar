@@ -1,0 +1,4033 @@
+date,city,disease,cases
+2026-10-15,Bengaluru,Dengue,5
+2026-10-16,Bengaluru,Dengue,10
+2026-10-17,Bengaluru,Dengue,4
+2026-10-18,Bengaluru,Dengue,6
+2026-10-19,Bengaluru,Dengue,3
+2026-10-20,Bengaluru,Dengue,8
+2026-10-21,Bengaluru,Dengue,5
+2026-10-22,Bengaluru,Dengue,7
+2026-10-23,Bengaluru,Dengue,4
+2026-10-24,Bengaluru,Dengue,9
+2026-10-25,Bengaluru,Dengue,8
+2026-10-26,Bengaluru,Dengue,6
+2026-10-27,Bengaluru,Dengue,8
+2026-10-28,Bengaluru,Dengue,4
+2026-10-29,Bengaluru,Dengue,4
+2026-10-30,Bengaluru,Dengue,6
+2026-10-31,Bengaluru,Dengue,9
+2026-11-01,Bengaluru,Dengue,9
+2026-11-02,Bengaluru,Dengue,7
+2026-11-03,Bengaluru,Dengue,6
+2026-11-04,Bengaluru,Dengue,5
+2026-11-05,Bengaluru,Dengue,9
+2026-11-06,Bengaluru,Dengue,0
+2026-11-07,Bengaluru,Dengue,3
+2026-11-08,Bengaluru,Dengue,3
+2026-11-09,Bengaluru,Dengue,10
+2026-11-10,Bengaluru,Dengue,5
+2026-11-11,Bengaluru,Dengue,7
+2026-11-12,Bengaluru,Dengue,8
+2026-11-13,Bengaluru,Dengue,7
+2026-11-14,Bengaluru,Dengue,6
+2026-11-15,Bengaluru,Dengue,4
+2026-11-16,Bengaluru,Dengue,3
+2026-11-17,Bengaluru,Dengue,3
+2026-11-18,Bengaluru,Dengue,10
+2026-11-19,Bengaluru,Dengue,4
+2026-11-20,Bengaluru,Dengue,11
+2026-11-21,Bengaluru,Dengue,7
+2026-11-22,Bengaluru,Dengue,11
+2026-11-23,Bengaluru,Dengue,6
+2026-11-24,Bengaluru,Dengue,6
+2026-11-25,Bengaluru,Dengue,3
+2026-10-15,Bengaluru,Malaria,5
+2026-10-16,Bengaluru,Malaria,1
+2026-10-17,Bengaluru,Malaria,4
+2026-10-18,Bengaluru,Malaria,6
+2026-10-19,Bengaluru,Malaria,6
+2026-10-20,Bengaluru,Malaria,5
+2026-10-21,Bengaluru,Malaria,5
+2026-10-22,Bengaluru,Malaria,7
+2026-10-23,Bengaluru,Malaria,7
+2026-10-24,Bengaluru,Malaria,11
+2026-10-25,Bengaluru,Malaria,3
+2026-10-26,Bengaluru,Malaria,9
+2026-10-27,Bengaluru,Malaria,4
+2026-10-28,Bengaluru,Malaria,6
+2026-10-29,Bengaluru,Malaria,8
+2026-10-30,Bengaluru,Malaria,9
+2026-10-31,Bengaluru,Malaria,7
+2026-11-01,Bengaluru,Malaria,5
+2026-11-02,Bengaluru,Malaria,7
+2026-11-03,Bengaluru,Malaria,8
+2026-11-04,Bengaluru,Malaria,5
+2026-11-05,Bengaluru,Malaria,5
+2026-11-06,Bengaluru,Malaria,5
+2026-11-07,Bengaluru,Malaria,4
+2026-11-08,Bengaluru,Malaria,6
+2026-11-09,Bengaluru,Malaria,7
+2026-11-10,Bengaluru,Malaria,3
+2026-11-11,Bengaluru,Malaria,2
+2026-11-12,Bengaluru,Malaria,1
+2026-11-13,Bengaluru,Malaria,3
+2026-11-14,Bengaluru,Malaria,7
+2026-11-15,Bengaluru,Malaria,6
+2026-11-16,Bengaluru,Malaria,9
+2026-11-17,Bengaluru,Malaria,3
+2026-11-18,Bengaluru,Malaria,4
+2026-11-19,Bengaluru,Malaria,7
+2026-11-20,Bengaluru,Malaria,5
+2026-11-21,Bengaluru,Malaria,6
+2026-11-22,Bengaluru,Malaria,5
+2026-11-23,Bengaluru,Malaria,9
+2026-11-24,Bengaluru,Malaria,4
+2026-11-25,Bengaluru,Malaria,4
+2026-10-15,Bengaluru,Typhoid,2
+2026-10-16,Bengaluru,Typhoid,5
+2026-10-17,Bengaluru,Typhoid,2
+2026-10-18,Bengaluru,Typhoid,4
+2026-10-19,Bengaluru,Typhoid,3
+2026-10-20,Bengaluru,Typhoid,4
+2026-10-21,Bengaluru,Typhoid,1
+2026-10-22,Bengaluru,Typhoid,8
+2026-10-23,Bengaluru,Typhoid,2
+2026-10-24,Bengaluru,Typhoid,5
+2026-10-25,Bengaluru,Typhoid,3
+2026-10-26,Bengaluru,Typhoid,3
+2026-10-27,Bengaluru,Typhoid,3
+2026-10-28,Bengaluru,Typhoid,2
+2026-10-29,Bengaluru,Typhoid,4
+2026-10-30,Bengaluru,Typhoid,5
+2026-10-31,Bengaluru,Typhoid,4
+2026-11-01,Bengaluru,Typhoid,1
+2026-11-02,Bengaluru,Typhoid,2
+2026-11-03,Bengaluru,Typhoid,1
+2026-11-04,Bengaluru,Typhoid,4
+2026-11-05,Bengaluru,Typhoid,5
+2026-11-06,Bengaluru,Typhoid,4
+2026-11-07,Bengaluru,Typhoid,4
+2026-11-08,Bengaluru,Typhoid,1
+2026-11-09,Bengaluru,Typhoid,5
+2026-11-10,Bengaluru,Typhoid,7
+2026-11-11,Bengaluru,Typhoid,7
+2026-11-12,Bengaluru,Typhoid,3
+2026-11-13,Bengaluru,Typhoid,5
+2026-11-14,Bengaluru,Typhoid,4
+2026-11-15,Bengaluru,Typhoid,4
+2026-11-16,Bengaluru,Typhoid,4
+2026-11-17,Bengaluru,Typhoid,2
+2026-11-18,Bengaluru,Typhoid,3
+2026-11-19,Bengaluru,Typhoid,4
+2026-11-20,Bengaluru,Typhoid,2
+2026-11-21,Bengaluru,Typhoid,1
+2026-11-22,Bengaluru,Typhoid,1
+2026-11-23,Bengaluru,Typhoid,3
+2026-11-24,Bengaluru,Typhoid,4
+2026-11-25,Bengaluru,Typhoid,0
+2026-10-15,Bengaluru,Jaundice,0
+2026-10-16,Bengaluru,Jaundice,1
+2026-10-17,Bengaluru,Jaundice,2
+2026-10-18,Bengaluru,Jaundice,4
+2026-10-19,Bengaluru,Jaundice,5
+2026-10-20,Bengaluru,Jaundice,1
+2026-10-21,Bengaluru,Jaundice,4
+2026-10-22,Bengaluru,Jaundice,5
+2026-10-23,Bengaluru,Jaundice,1
+2026-10-24,Bengaluru,Jaundice,6
+2026-10-25,Bengaluru,Jaundice,0
+2026-10-26,Bengaluru,Jaundice,3
+2026-10-27,Bengaluru,Jaundice,3
+2026-10-28,Bengaluru,Jaundice,4
+2026-10-29,Bengaluru,Jaundice,0
+2026-10-30,Bengaluru,Jaundice,4
+2026-10-31,Bengaluru,Jaundice,1
+2026-11-01,Bengaluru,Jaundice,0
+2026-11-02,Bengaluru,Jaundice,3
+2026-11-03,Bengaluru,Jaundice,5
+2026-11-04,Bengaluru,Jaundice,5
+2026-11-05,Bengaluru,Jaundice,3
+2026-11-06,Bengaluru,Jaundice,1
+2026-11-07,Bengaluru,Jaundice,6
+2026-11-08,Bengaluru,Jaundice,5
+2026-11-09,Bengaluru,Jaundice,1
+2026-11-10,Bengaluru,Jaundice,1
+2026-11-11,Bengaluru,Jaundice,1
+2026-11-12,Bengaluru,Jaundice,2
+2026-11-13,Bengaluru,Jaundice,4
+2026-11-14,Bengaluru,Jaundice,6
+2026-11-15,Bengaluru,Jaundice,1
+2026-11-16,Bengaluru,Jaundice,1
+2026-11-17,Bengaluru,Jaundice,1
+2026-11-18,Bengaluru,Jaundice,2
+2026-11-19,Bengaluru,Jaundice,4
+2026-11-20,Bengaluru,Jaundice,3
+2026-11-21,Bengaluru,Jaundice,6
+2026-11-22,Bengaluru,Jaundice,5
+2026-11-23,Bengaluru,Jaundice,4
+2026-11-24,Bengaluru,Jaundice,3
+2026-11-25,Bengaluru,Jaundice,1
+2026-10-15,Bengaluru,Pneumonia,3
+2026-10-16,Bengaluru,Pneumonia,3
+2026-10-17,Bengaluru,Pneumonia,4
+2026-10-18,Bengaluru,Pneumonia,3
+2026-10-19,Bengaluru,Pneumonia,4
+2026-10-20,Bengaluru,Pneumonia,6
+2026-10-21,Bengaluru,Pneumonia,6
+2026-10-22,Bengaluru,Pneumonia,4
+2026-10-23,Bengaluru,Pneumonia,5
+2026-10-24,Bengaluru,Pneumonia,2
+2026-10-25,Bengaluru,Pneumonia,2
+2026-10-26,Bengaluru,Pneumonia,7
+2026-10-27,Bengaluru,Pneumonia,5
+2026-10-28,Bengaluru,Pneumonia,4
+2026-10-29,Bengaluru,Pneumonia,5
+2026-10-30,Bengaluru,Pneumonia,5
+2026-10-31,Bengaluru,Pneumonia,5
+2026-11-01,Bengaluru,Pneumonia,3
+2026-11-02,Bengaluru,Pneumonia,2
+2026-11-03,Bengaluru,Pneumonia,3
+2026-11-04,Bengaluru,Pneumonia,6
+2026-11-05,Bengaluru,Pneumonia,4
+2026-11-06,Bengaluru,Pneumonia,7
+2026-11-07,Bengaluru,Pneumonia,2
+2026-11-08,Bengaluru,Pneumonia,4
+2026-11-09,Bengaluru,Pneumonia,1
+2026-11-10,Bengaluru,Pneumonia,3
+2026-11-11,Bengaluru,Pneumonia,3
+2026-11-12,Bengaluru,Pneumonia,7
+2026-11-13,Bengaluru,Pneumonia,3
+2026-11-14,Bengaluru,Pneumonia,7
+2026-11-15,Bengaluru,Pneumonia,3
+2026-11-16,Bengaluru,Pneumonia,6
+2026-11-17,Bengaluru,Pneumonia,7
+2026-11-18,Bengaluru,Pneumonia,5
+2026-11-19,Bengaluru,Pneumonia,5
+2026-11-20,Bengaluru,Pneumonia,6
+2026-11-21,Bengaluru,Pneumonia,3
+2026-11-22,Bengaluru,Pneumonia,4
+2026-11-23,Bengaluru,Pneumonia,5
+2026-11-24,Bengaluru,Pneumonia,4
+2026-11-25,Bengaluru,Pneumonia,2
+2026-10-15,Bengaluru,Common Cold,15
+2026-10-16,Bengaluru,Common Cold,5
+2026-10-17,Bengaluru,Common Cold,7
+2026-10-18,Bengaluru,Common Cold,13
+2026-10-19,Bengaluru,Common Cold,10
+2026-10-20,Bengaluru,Common Cold,5
+2026-10-21,Bengaluru,Common Cold,15
+2026-10-22,Bengaluru,Common Cold,10
+2026-10-23,Bengaluru,Common Cold,11
+2026-10-24,Bengaluru,Common Cold,15
+2026-10-25,Bengaluru,Common Cold,10
+2026-10-26,Bengaluru,Common Cold,10
+2026-10-27,Bengaluru,Common Cold,6
+2026-10-28,Bengaluru,Common Cold,15
+2026-10-29,Bengaluru,Common Cold,5
+2026-10-30,Bengaluru,Common Cold,10
+2026-10-31,Bengaluru,Common Cold,8
+2026-11-01,Bengaluru,Common Cold,8
+2026-11-02,Bengaluru,Common Cold,9
+2026-11-03,Bengaluru,Common Cold,5
+2026-11-04,Bengaluru,Common Cold,10
+2026-11-05,Bengaluru,Common Cold,9
+2026-11-06,Bengaluru,Common Cold,7
+2026-11-07,Bengaluru,Common Cold,9
+2026-11-08,Bengaluru,Common Cold,4
+2026-11-09,Bengaluru,Common Cold,15
+2026-11-10,Bengaluru,Common Cold,6
+2026-11-11,Bengaluru,Common Cold,10
+2026-11-12,Bengaluru,Common Cold,11
+2026-11-13,Bengaluru,Common Cold,8
+2026-11-14,Bengaluru,Common Cold,15
+2026-11-15,Bengaluru,Common Cold,3
+2026-11-16,Bengaluru,Common Cold,3
+2026-11-17,Bengaluru,Common Cold,9
+2026-11-18,Bengaluru,Common Cold,6
+2026-11-19,Bengaluru,Common Cold,13
+2026-11-20,Bengaluru,Common Cold,3
+2026-11-21,Bengaluru,Common Cold,6
+2026-11-22,Bengaluru,Common Cold,9
+2026-11-23,Bengaluru,Common Cold,9
+2026-11-24,Bengaluru,Common Cold,13
+2026-11-25,Bengaluru,Common Cold,7
+2026-10-15,Bengaluru,Chicken pox,1
+2026-10-16,Bengaluru,Chicken pox,2
+2026-10-17,Bengaluru,Chicken pox,2
+2026-10-18,Bengaluru,Chicken pox,1
+2026-10-19,Bengaluru,Chicken pox,3
+2026-10-20,Bengaluru,Chicken pox,2
+2026-10-21,Bengaluru,Chicken pox,1
+2026-10-22,Bengaluru,Chicken pox,2
+2026-10-23,Bengaluru,Chicken pox,1
+2026-10-24,Bengaluru,Chicken pox,1
+2026-10-25,Bengaluru,Chicken pox,2
+2026-10-26,Bengaluru,Chicken pox,2
+2026-10-27,Bengaluru,Chicken pox,3
+2026-10-28,Bengaluru,Chicken pox,2
+2026-10-29,Bengaluru,Chicken pox,1
+2026-10-30,Bengaluru,Chicken pox,1
+2026-10-31,Bengaluru,Chicken pox,1
+2026-11-01,Bengaluru,Chicken pox,1
+2026-11-02,Bengaluru,Chicken pox,4
+2026-11-03,Bengaluru,Chicken pox,1
+2026-11-04,Bengaluru,Chicken pox,2
+2026-11-05,Bengaluru,Chicken pox,2
+2026-11-06,Bengaluru,Chicken pox,1
+2026-11-07,Bengaluru,Chicken pox,4
+2026-11-08,Bengaluru,Chicken pox,0
+2026-11-09,Bengaluru,Chicken pox,0
+2026-11-10,Bengaluru,Chicken pox,1
+2026-11-11,Bengaluru,Chicken pox,0
+2026-11-12,Bengaluru,Chicken pox,4
+2026-11-13,Bengaluru,Chicken pox,5
+2026-11-14,Bengaluru,Chicken pox,2
+2026-11-15,Bengaluru,Chicken pox,2
+2026-11-16,Bengaluru,Chicken pox,0
+2026-11-17,Bengaluru,Chicken pox,2
+2026-11-18,Bengaluru,Chicken pox,0
+2026-11-19,Bengaluru,Chicken pox,1
+2026-11-20,Bengaluru,Chicken pox,3
+2026-11-21,Bengaluru,Chicken pox,2
+2026-11-22,Bengaluru,Chicken pox,0
+2026-11-23,Bengaluru,Chicken pox,4
+2026-11-24,Bengaluru,Chicken pox,4
+2026-11-25,Bengaluru,Chicken pox,2
+2026-10-15,Bengaluru,Tuberculosis,5
+2026-10-16,Bengaluru,Tuberculosis,3
+2026-10-17,Bengaluru,Tuberculosis,5
+2026-10-18,Bengaluru,Tuberculosis,6
+2026-10-19,Bengaluru,Tuberculosis,5
+2026-10-20,Bengaluru,Tuberculosis,4
+2026-10-21,Bengaluru,Tuberculosis,4
+2026-10-22,Bengaluru,Tuberculosis,6
+2026-10-23,Bengaluru,Tuberculosis,0
+2026-10-24,Bengaluru,Tuberculosis,1
+2026-10-25,Bengaluru,Tuberculosis,3
+2026-10-26,Bengaluru,Tuberculosis,5
+2026-10-27,Bengaluru,Tuberculosis,3
+2026-10-28,Bengaluru,Tuberculosis,4
+2026-10-29,Bengaluru,Tuberculosis,6
+2026-10-30,Bengaluru,Tuberculosis,5
+2026-10-31,Bengaluru,Tuberculosis,3
+2026-11-01,Bengaluru,Tuberculosis,4
+2026-11-02,Bengaluru,Tuberculosis,4
+2026-11-03,Bengaluru,Tuberculosis,6
+2026-11-04,Bengaluru,Tuberculosis,3
+2026-11-05,Bengaluru,Tuberculosis,2
+2026-11-06,Bengaluru,Tuberculosis,5
+2026-11-07,Bengaluru,Tuberculosis,2
+2026-11-08,Bengaluru,Tuberculosis,0
+2026-11-09,Bengaluru,Tuberculosis,8
+2026-11-10,Bengaluru,Tuberculosis,6
+2026-11-11,Bengaluru,Tuberculosis,1
+2026-11-12,Bengaluru,Tuberculosis,1
+2026-11-13,Bengaluru,Tuberculosis,4
+2026-11-14,Bengaluru,Tuberculosis,0
+2026-11-15,Bengaluru,Tuberculosis,5
+2026-11-16,Bengaluru,Tuberculosis,1
+2026-11-17,Bengaluru,Tuberculosis,3
+2026-11-18,Bengaluru,Tuberculosis,7
+2026-11-19,Bengaluru,Tuberculosis,1
+2026-11-20,Bengaluru,Tuberculosis,2
+2026-11-21,Bengaluru,Tuberculosis,0
+2026-11-22,Bengaluru,Tuberculosis,3
+2026-11-23,Bengaluru,Tuberculosis,1
+2026-11-24,Bengaluru,Tuberculosis,4
+2026-11-25,Bengaluru,Tuberculosis,1
+2026-10-15,Mumbai,Dengue,4
+2026-10-16,Mumbai,Dengue,4
+2026-10-17,Mumbai,Dengue,6
+2026-10-18,Mumbai,Dengue,4
+2026-10-19,Mumbai,Dengue,7
+2026-10-20,Mumbai,Dengue,10
+2026-10-21,Mumbai,Dengue,7
+2026-10-22,Mumbai,Dengue,5
+2026-10-23,Mumbai,Dengue,10
+2026-10-24,Mumbai,Dengue,5
+2026-10-25,Mumbai,Dengue,7
+2026-10-26,Mumbai,Dengue,6
+2026-10-27,Mumbai,Dengue,14
+2026-10-28,Mumbai,Dengue,7
+2026-10-29,Mumbai,Dengue,3
+2026-10-30,Mumbai,Dengue,15
+2026-10-31,Mumbai,Dengue,5
+2026-11-01,Mumbai,Dengue,2
+2026-11-02,Mumbai,Dengue,6
+2026-11-03,Mumbai,Dengue,7
+2026-11-04,Mumbai,Dengue,8
+2026-11-05,Mumbai,Dengue,1
+2026-11-06,Mumbai,Dengue,12
+2026-11-07,Mumbai,Dengue,7
+2026-11-08,Mumbai,Dengue,4
+2026-11-09,Mumbai,Dengue,6
+2026-11-10,Mumbai,Dengue,5
+2026-11-11,Mumbai,Dengue,3
+2026-11-12,Mumbai,Dengue,5
+2026-11-13,Mumbai,Dengue,10
+2026-11-14,Mumbai,Dengue,2
+2026-11-15,Mumbai,Dengue,9
+2026-11-16,Mumbai,Dengue,2
+2026-11-17,Mumbai,Dengue,11
+2026-11-18,Mumbai,Dengue,3
+2026-11-19,Mumbai,Dengue,10
+2026-11-20,Mumbai,Dengue,3
+2026-11-21,Mumbai,Dengue,6
+2026-11-22,Mumbai,Dengue,6
+2026-11-23,Mumbai,Dengue,1
+2026-11-24,Mumbai,Dengue,14
+2026-11-25,Mumbai,Dengue,3
+2026-10-15,Mumbai,Malaria,6
+2026-10-16,Mumbai,Malaria,11
+2026-10-17,Mumbai,Malaria,5
+2026-10-18,Mumbai,Malaria,2
+2026-10-19,Mumbai,Malaria,5
+2026-10-20,Mumbai,Malaria,6
+2026-10-21,Mumbai,Malaria,11
+2026-10-22,Mumbai,Malaria,4
+2026-10-23,Mumbai,Malaria,5
+2026-10-24,Mumbai,Malaria,8
+2026-10-25,Mumbai,Malaria,7
+2026-10-26,Mumbai,Malaria,3
+2026-10-27,Mumbai,Malaria,6
+2026-10-28,Mumbai,Malaria,3
+2026-10-29,Mumbai,Malaria,10
+2026-10-30,Mumbai,Malaria,6
+2026-10-31,Mumbai,Malaria,9
+2026-11-01,Mumbai,Malaria,3
+2026-11-02,Mumbai,Malaria,2
+2026-11-03,Mumbai,Malaria,7
+2026-11-04,Mumbai,Malaria,6
+2026-11-05,Mumbai,Malaria,9
+2026-11-06,Mumbai,Malaria,10
+2026-11-07,Mumbai,Malaria,6
+2026-11-08,Mumbai,Malaria,1
+2026-11-09,Mumbai,Malaria,8
+2026-11-10,Mumbai,Malaria,6
+2026-11-11,Mumbai,Malaria,7
+2026-11-12,Mumbai,Malaria,1
+2026-11-13,Mumbai,Malaria,4
+2026-11-14,Mumbai,Malaria,5
+2026-11-15,Mumbai,Malaria,4
+2026-11-16,Mumbai,Malaria,2
+2026-11-17,Mumbai,Malaria,7
+2026-11-18,Mumbai,Malaria,2
+2026-11-19,Mumbai,Malaria,5
+2026-11-20,Mumbai,Malaria,8
+2026-11-21,Mumbai,Malaria,6
+2026-11-22,Mumbai,Malaria,2
+2026-11-23,Mumbai,Malaria,4
+2026-11-24,Mumbai,Malaria,6
+2026-11-25,Mumbai,Malaria,7
+2026-10-15,Mumbai,Typhoid,8
+2026-10-16,Mumbai,Typhoid,3
+2026-10-17,Mumbai,Typhoid,7
+2026-10-18,Mumbai,Typhoid,4
+2026-10-19,Mumbai,Typhoid,0
+2026-10-20,Mumbai,Typhoid,3
+2026-10-21,Mumbai,Typhoid,1
+2026-10-22,Mumbai,Typhoid,5
+2026-10-23,Mumbai,Typhoid,7
+2026-10-24,Mumbai,Typhoid,4
+2026-10-25,Mumbai,Typhoid,7
+2026-10-26,Mumbai,Typhoid,0
+2026-10-27,Mumbai,Typhoid,3
+2026-10-28,Mumbai,Typhoid,6
+2026-10-29,Mumbai,Typhoid,2
+2026-10-30,Mumbai,Typhoid,3
+2026-10-31,Mumbai,Typhoid,2
+2026-11-01,Mumbai,Typhoid,8
+2026-11-02,Mumbai,Typhoid,2
+2026-11-03,Mumbai,Typhoid,4
+2026-11-04,Mumbai,Typhoid,7
+2026-11-05,Mumbai,Typhoid,8
+2026-11-06,Mumbai,Typhoid,1
+2026-11-07,Mumbai,Typhoid,4
+2026-11-08,Mumbai,Typhoid,1
+2026-11-09,Mumbai,Typhoid,4
+2026-11-10,Mumbai,Typhoid,2
+2026-11-11,Mumbai,Typhoid,2
+2026-11-12,Mumbai,Typhoid,2
+2026-11-13,Mumbai,Typhoid,5
+2026-11-14,Mumbai,Typhoid,4
+2026-11-15,Mumbai,Typhoid,6
+2026-11-16,Mumbai,Typhoid,5
+2026-11-17,Mumbai,Typhoid,1
+2026-11-18,Mumbai,Typhoid,9
+2026-11-19,Mumbai,Typhoid,8
+2026-11-20,Mumbai,Typhoid,14
+2026-11-21,Mumbai,Typhoid,7
+2026-11-22,Mumbai,Typhoid,7
+2026-11-23,Mumbai,Typhoid,15
+2026-11-24,Mumbai,Typhoid,10
+2026-11-25,Mumbai,Typhoid,16
+2026-10-15,Mumbai,Jaundice,3
+2026-10-16,Mumbai,Jaundice,1
+2026-10-17,Mumbai,Jaundice,2
+2026-10-18,Mumbai,Jaundice,4
+2026-10-19,Mumbai,Jaundice,1
+2026-10-20,Mumbai,Jaundice,2
+2026-10-21,Mumbai,Jaundice,4
+2026-10-22,Mumbai,Jaundice,4
+2026-10-23,Mumbai,Jaundice,7
+2026-10-24,Mumbai,Jaundice,2
+2026-10-25,Mumbai,Jaundice,4
+2026-10-26,Mumbai,Jaundice,3
+2026-10-27,Mumbai,Jaundice,3
+2026-10-28,Mumbai,Jaundice,2
+2026-10-29,Mumbai,Jaundice,3
+2026-10-30,Mumbai,Jaundice,4
+2026-10-31,Mumbai,Jaundice,7
+2026-11-01,Mumbai,Jaundice,2
+2026-11-02,Mumbai,Jaundice,3
+2026-11-03,Mumbai,Jaundice,1
+2026-11-04,Mumbai,Jaundice,5
+2026-11-05,Mumbai,Jaundice,2
+2026-11-06,Mumbai,Jaundice,4
+2026-11-07,Mumbai,Jaundice,3
+2026-11-08,Mumbai,Jaundice,6
+2026-11-09,Mumbai,Jaundice,2
+2026-11-10,Mumbai,Jaundice,0
+2026-11-11,Mumbai,Jaundice,6
+2026-11-12,Mumbai,Jaundice,0
+2026-11-13,Mumbai,Jaundice,3
+2026-11-14,Mumbai,Jaundice,2
+2026-11-15,Mumbai,Jaundice,4
+2026-11-16,Mumbai,Jaundice,1
+2026-11-17,Mumbai,Jaundice,5
+2026-11-18,Mumbai,Jaundice,1
+2026-11-19,Mumbai,Jaundice,2
+2026-11-20,Mumbai,Jaundice,6
+2026-11-21,Mumbai,Jaundice,2
+2026-11-22,Mumbai,Jaundice,3
+2026-11-23,Mumbai,Jaundice,2
+2026-11-24,Mumbai,Jaundice,5
+2026-11-25,Mumbai,Jaundice,3
+2026-10-15,Mumbai,Pneumonia,3
+2026-10-16,Mumbai,Pneumonia,1
+2026-10-17,Mumbai,Pneumonia,2
+2026-10-18,Mumbai,Pneumonia,8
+2026-10-19,Mumbai,Pneumonia,6
+2026-10-20,Mumbai,Pneumonia,6
+2026-10-21,Mumbai,Pneumonia,4
+2026-10-22,Mumbai,Pneumonia,6
+2026-10-23,Mumbai,Pneumonia,1
+2026-10-24,Mumbai,Pneumonia,4
+2026-10-25,Mumbai,Pneumonia,2
+2026-10-26,Mumbai,Pneumonia,5
+2026-10-27,Mumbai,Pneumonia,4
+2026-10-28,Mumbai,Pneumonia,3
+2026-10-29,Mumbai,Pneumonia,5
+2026-10-30,Mumbai,Pneumonia,6
+2026-10-31,Mumbai,Pneumonia,2
+2026-11-01,Mumbai,Pneumonia,6
+2026-11-02,Mumbai,Pneumonia,1
+2026-11-03,Mumbai,Pneumonia,6
+2026-11-04,Mumbai,Pneumonia,3
+2026-11-05,Mumbai,Pneumonia,6
+2026-11-06,Mumbai,Pneumonia,3
+2026-11-07,Mumbai,Pneumonia,1
+2026-11-08,Mumbai,Pneumonia,3
+2026-11-09,Mumbai,Pneumonia,3
+2026-11-10,Mumbai,Pneumonia,6
+2026-11-11,Mumbai,Pneumonia,3
+2026-11-12,Mumbai,Pneumonia,8
+2026-11-13,Mumbai,Pneumonia,4
+2026-11-14,Mumbai,Pneumonia,6
+2026-11-15,Mumbai,Pneumonia,10
+2026-11-16,Mumbai,Pneumonia,8
+2026-11-17,Mumbai,Pneumonia,4
+2026-11-18,Mumbai,Pneumonia,1
+2026-11-19,Mumbai,Pneumonia,5
+2026-11-20,Mumbai,Pneumonia,4
+2026-11-21,Mumbai,Pneumonia,5
+2026-11-22,Mumbai,Pneumonia,1
+2026-11-23,Mumbai,Pneumonia,2
+2026-11-24,Mumbai,Pneumonia,10
+2026-11-25,Mumbai,Pneumonia,7
+2026-10-15,Mumbai,Common Cold,4
+2026-10-16,Mumbai,Common Cold,9
+2026-10-17,Mumbai,Common Cold,15
+2026-10-18,Mumbai,Common Cold,9
+2026-10-19,Mumbai,Common Cold,7
+2026-10-20,Mumbai,Common Cold,7
+2026-10-21,Mumbai,Common Cold,11
+2026-10-22,Mumbai,Common Cold,7
+2026-10-23,Mumbai,Common Cold,5
+2026-10-24,Mumbai,Common Cold,9
+2026-10-25,Mumbai,Common Cold,4
+2026-10-26,Mumbai,Common Cold,7
+2026-10-27,Mumbai,Common Cold,6
+2026-10-28,Mumbai,Common Cold,6
+2026-10-29,Mumbai,Common Cold,10
+2026-10-30,Mumbai,Common Cold,9
+2026-10-31,Mumbai,Common Cold,15
+2026-11-01,Mumbai,Common Cold,4
+2026-11-02,Mumbai,Common Cold,13
+2026-11-03,Mumbai,Common Cold,10
+2026-11-04,Mumbai,Common Cold,11
+2026-11-05,Mumbai,Common Cold,13
+2026-11-06,Mumbai,Common Cold,8
+2026-11-07,Mumbai,Common Cold,8
+2026-11-08,Mumbai,Common Cold,6
+2026-11-09,Mumbai,Common Cold,9
+2026-11-10,Mumbai,Common Cold,11
+2026-11-11,Mumbai,Common Cold,14
+2026-11-12,Mumbai,Common Cold,10
+2026-11-13,Mumbai,Common Cold,5
+2026-11-14,Mumbai,Common Cold,9
+2026-11-15,Mumbai,Common Cold,7
+2026-11-16,Mumbai,Common Cold,11
+2026-11-17,Mumbai,Common Cold,5
+2026-11-18,Mumbai,Common Cold,7
+2026-11-19,Mumbai,Common Cold,12
+2026-11-20,Mumbai,Common Cold,3
+2026-11-21,Mumbai,Common Cold,14
+2026-11-22,Mumbai,Common Cold,8
+2026-11-23,Mumbai,Common Cold,10
+2026-11-24,Mumbai,Common Cold,8
+2026-11-25,Mumbai,Common Cold,11
+2026-10-15,Mumbai,Chicken pox,6
+2026-10-16,Mumbai,Chicken pox,2
+2026-10-17,Mumbai,Chicken pox,3
+2026-10-18,Mumbai,Chicken pox,0
+2026-10-19,Mumbai,Chicken pox,1
+2026-10-20,Mumbai,Chicken pox,2
+2026-10-21,Mumbai,Chicken pox,3
+2026-10-22,Mumbai,Chicken pox,1
+2026-10-23,Mumbai,Chicken pox,1
+2026-10-24,Mumbai,Chicken pox,2
+2026-10-25,Mumbai,Chicken pox,1
+2026-10-26,Mumbai,Chicken pox,1
+2026-10-27,Mumbai,Chicken pox,3
+2026-10-28,Mumbai,Chicken pox,2
+2026-10-29,Mumbai,Chicken pox,1
+2026-10-30,Mumbai,Chicken pox,3
+2026-10-31,Mumbai,Chicken pox,3
+2026-11-01,Mumbai,Chicken pox,0
+2026-11-02,Mumbai,Chicken pox,1
+2026-11-03,Mumbai,Chicken pox,2
+2026-11-04,Mumbai,Chicken pox,1
+2026-11-05,Mumbai,Chicken pox,0
+2026-11-06,Mumbai,Chicken pox,0
+2026-11-07,Mumbai,Chicken pox,2
+2026-11-08,Mumbai,Chicken pox,0
+2026-11-09,Mumbai,Chicken pox,0
+2026-11-10,Mumbai,Chicken pox,2
+2026-11-11,Mumbai,Chicken pox,4
+2026-11-12,Mumbai,Chicken pox,0
+2026-11-13,Mumbai,Chicken pox,0
+2026-11-14,Mumbai,Chicken pox,2
+2026-11-15,Mumbai,Chicken pox,3
+2026-11-16,Mumbai,Chicken pox,1
+2026-11-17,Mumbai,Chicken pox,0
+2026-11-18,Mumbai,Chicken pox,0
+2026-11-19,Mumbai,Chicken pox,4
+2026-11-20,Mumbai,Chicken pox,3
+2026-11-21,Mumbai,Chicken pox,1
+2026-11-22,Mumbai,Chicken pox,2
+2026-11-23,Mumbai,Chicken pox,0
+2026-11-24,Mumbai,Chicken pox,1
+2026-11-25,Mumbai,Chicken pox,0
+2026-10-15,Mumbai,Tuberculosis,3
+2026-10-16,Mumbai,Tuberculosis,0
+2026-10-17,Mumbai,Tuberculosis,2
+2026-10-18,Mumbai,Tuberculosis,4
+2026-10-19,Mumbai,Tuberculosis,0
+2026-10-20,Mumbai,Tuberculosis,2
+2026-10-21,Mumbai,Tuberculosis,4
+2026-10-22,Mumbai,Tuberculosis,2
+2026-10-23,Mumbai,Tuberculosis,1
+2026-10-24,Mumbai,Tuberculosis,7
+2026-10-25,Mumbai,Tuberculosis,2
+2026-10-26,Mumbai,Tuberculosis,1
+2026-10-27,Mumbai,Tuberculosis,4
+2026-10-28,Mumbai,Tuberculosis,3
+2026-10-29,Mumbai,Tuberculosis,1
+2026-10-30,Mumbai,Tuberculosis,3
+2026-10-31,Mumbai,Tuberculosis,3
+2026-11-01,Mumbai,Tuberculosis,2
+2026-11-02,Mumbai,Tuberculosis,4
+2026-11-03,Mumbai,Tuberculosis,3
+2026-11-04,Mumbai,Tuberculosis,3
+2026-11-05,Mumbai,Tuberculosis,2
+2026-11-06,Mumbai,Tuberculosis,6
+2026-11-07,Mumbai,Tuberculosis,2
+2026-11-08,Mumbai,Tuberculosis,2
+2026-11-09,Mumbai,Tuberculosis,3
+2026-11-10,Mumbai,Tuberculosis,5
+2026-11-11,Mumbai,Tuberculosis,1
+2026-11-12,Mumbai,Tuberculosis,0
+2026-11-13,Mumbai,Tuberculosis,3
+2026-11-14,Mumbai,Tuberculosis,1
+2026-11-15,Mumbai,Tuberculosis,3
+2026-11-16,Mumbai,Tuberculosis,5
+2026-11-17,Mumbai,Tuberculosis,4
+2026-11-18,Mumbai,Tuberculosis,3
+2026-11-19,Mumbai,Tuberculosis,2
+2026-11-20,Mumbai,Tuberculosis,2
+2026-11-21,Mumbai,Tuberculosis,1
+2026-11-22,Mumbai,Tuberculosis,2
+2026-11-23,Mumbai,Tuberculosis,4
+2026-11-24,Mumbai,Tuberculosis,1
+2026-11-25,Mumbai,Tuberculosis,3
+2026-10-15,Delhi,Dengue,4
+2026-10-16,Delhi,Dengue,8
+2026-10-17,Delhi,Dengue,10
+2026-10-18,Delhi,Dengue,3
+2026-10-19,Delhi,Dengue,4
+2026-10-20,Delhi,Dengue,5
+2026-10-21,Delhi,Dengue,3
+2026-10-22,Delhi,Dengue,8
+2026-10-23,Delhi,Dengue,2
+2026-10-24,Delhi,Dengue,3
+2026-10-25,Delhi,Dengue,7
+2026-10-26,Delhi,Dengue,1
+2026-10-27,Delhi,Dengue,7
+2026-10-28,Delhi,Dengue,6
+2026-10-29,Delhi,Dengue,4
+2026-10-30,Delhi,Dengue,3
+2026-10-31,Delhi,Dengue,6
+2026-11-01,Delhi,Dengue,4
+2026-11-02,Delhi,Dengue,3
+2026-11-03,Delhi,Dengue,1
+2026-11-04,Delhi,Dengue,6
+2026-11-05,Delhi,Dengue,4
+2026-11-06,Delhi,Dengue,6
+2026-11-07,Delhi,Dengue,6
+2026-11-08,Delhi,Dengue,5
+2026-11-09,Delhi,Dengue,6
+2026-11-10,Delhi,Dengue,6
+2026-11-11,Delhi,Dengue,6
+2026-11-12,Delhi,Dengue,7
+2026-11-13,Delhi,Dengue,4
+2026-11-14,Delhi,Dengue,7
+2026-11-15,Delhi,Dengue,10
+2026-11-16,Delhi,Dengue,5
+2026-11-17,Delhi,Dengue,2
+2026-11-18,Delhi,Dengue,4
+2026-11-19,Delhi,Dengue,5
+2026-11-20,Delhi,Dengue,6
+2026-11-21,Delhi,Dengue,9
+2026-11-22,Delhi,Dengue,2
+2026-11-23,Delhi,Dengue,6
+2026-11-24,Delhi,Dengue,3
+2026-11-25,Delhi,Dengue,5
+2026-10-15,Delhi,Malaria,3
+2026-10-16,Delhi,Malaria,4
+2026-10-17,Delhi,Malaria,1
+2026-10-18,Delhi,Malaria,0
+2026-10-19,Delhi,Malaria,4
+2026-10-20,Delhi,Malaria,5
+2026-10-21,Delhi,Malaria,4
+2026-10-22,Delhi,Malaria,6
+2026-10-23,Delhi,Malaria,5
+2026-10-24,Delhi,Malaria,2
+2026-10-25,Delhi,Malaria,4
+2026-10-26,Delhi,Malaria,2
+2026-10-27,Delhi,Malaria,4
+2026-10-28,Delhi,Malaria,4
+2026-10-29,Delhi,Malaria,6
+2026-10-30,Delhi,Malaria,1
+2026-10-31,Delhi,Malaria,7
+2026-11-01,Delhi,Malaria,3
+2026-11-02,Delhi,Malaria,5
+2026-11-03,Delhi,Malaria,6
+2026-11-04,Delhi,Malaria,9
+2026-11-05,Delhi,Malaria,7
+2026-11-06,Delhi,Malaria,2
+2026-11-07,Delhi,Malaria,10
+2026-11-08,Delhi,Malaria,13
+2026-11-09,Delhi,Malaria,7
+2026-11-10,Delhi,Malaria,5
+2026-11-11,Delhi,Malaria,9
+2026-11-12,Delhi,Malaria,9
+2026-11-13,Delhi,Malaria,5
+2026-11-14,Delhi,Malaria,2
+2026-11-15,Delhi,Malaria,12
+2026-11-16,Delhi,Malaria,3
+2026-11-17,Delhi,Malaria,2
+2026-11-18,Delhi,Malaria,2
+2026-11-19,Delhi,Malaria,4
+2026-11-20,Delhi,Malaria,6
+2026-11-21,Delhi,Malaria,2
+2026-11-22,Delhi,Malaria,2
+2026-11-23,Delhi,Malaria,5
+2026-11-24,Delhi,Malaria,3
+2026-11-25,Delhi,Malaria,7
+2026-10-15,Delhi,Typhoid,3
+2026-10-16,Delhi,Typhoid,5
+2026-10-17,Delhi,Typhoid,6
+2026-10-18,Delhi,Typhoid,1
+2026-10-19,Delhi,Typhoid,6
+2026-10-20,Delhi,Typhoid,0
+2026-10-21,Delhi,Typhoid,0
+2026-10-22,Delhi,Typhoid,3
+2026-10-23,Delhi,Typhoid,2
+2026-10-24,Delhi,Typhoid,5
+2026-10-25,Delhi,Typhoid,5
+2026-10-26,Delhi,Typhoid,1
+2026-10-27,Delhi,Typhoid,5
+2026-10-28,Delhi,Typhoid,7
+2026-10-29,Delhi,Typhoid,5
+2026-10-30,Delhi,Typhoid,5
+2026-10-31,Delhi,Typhoid,5
+2026-11-01,Delhi,Typhoid,5
+2026-11-02,Delhi,Typhoid,9
+2026-11-03,Delhi,Typhoid,8
+2026-11-04,Delhi,Typhoid,5
+2026-11-05,Delhi,Typhoid,3
+2026-11-06,Delhi,Typhoid,4
+2026-11-07,Delhi,Typhoid,7
+2026-11-08,Delhi,Typhoid,4
+2026-11-09,Delhi,Typhoid,6
+2026-11-10,Delhi,Typhoid,4
+2026-11-11,Delhi,Typhoid,3
+2026-11-12,Delhi,Typhoid,2
+2026-11-13,Delhi,Typhoid,1
+2026-11-14,Delhi,Typhoid,4
+2026-11-15,Delhi,Typhoid,3
+2026-11-16,Delhi,Typhoid,5
+2026-11-17,Delhi,Typhoid,5
+2026-11-18,Delhi,Typhoid,1
+2026-11-19,Delhi,Typhoid,2
+2026-11-20,Delhi,Typhoid,2
+2026-11-21,Delhi,Typhoid,7
+2026-11-22,Delhi,Typhoid,8
+2026-11-23,Delhi,Typhoid,5
+2026-11-24,Delhi,Typhoid,4
+2026-11-25,Delhi,Typhoid,7
+2026-10-15,Delhi,Jaundice,0
+2026-10-16,Delhi,Jaundice,4
+2026-10-17,Delhi,Jaundice,2
+2026-10-18,Delhi,Jaundice,2
+2026-10-19,Delhi,Jaundice,4
+2026-10-20,Delhi,Jaundice,3
+2026-10-21,Delhi,Jaundice,4
+2026-10-22,Delhi,Jaundice,4
+2026-10-23,Delhi,Jaundice,4
+2026-10-24,Delhi,Jaundice,2
+2026-10-25,Delhi,Jaundice,5
+2026-10-26,Delhi,Jaundice,3
+2026-10-27,Delhi,Jaundice,8
+2026-10-28,Delhi,Jaundice,3
+2026-10-29,Delhi,Jaundice,4
+2026-10-30,Delhi,Jaundice,1
+2026-10-31,Delhi,Jaundice,3
+2026-11-01,Delhi,Jaundice,4
+2026-11-02,Delhi,Jaundice,2
+2026-11-03,Delhi,Jaundice,3
+2026-11-04,Delhi,Jaundice,5
+2026-11-05,Delhi,Jaundice,4
+2026-11-06,Delhi,Jaundice,3
+2026-11-07,Delhi,Jaundice,5
+2026-11-08,Delhi,Jaundice,1
+2026-11-09,Delhi,Jaundice,3
+2026-11-10,Delhi,Jaundice,6
+2026-11-11,Delhi,Jaundice,1
+2026-11-12,Delhi,Jaundice,1
+2026-11-13,Delhi,Jaundice,1
+2026-11-14,Delhi,Jaundice,3
+2026-11-15,Delhi,Jaundice,2
+2026-11-16,Delhi,Jaundice,1
+2026-11-17,Delhi,Jaundice,1
+2026-11-18,Delhi,Jaundice,1
+2026-11-19,Delhi,Jaundice,1
+2026-11-20,Delhi,Jaundice,8
+2026-11-21,Delhi,Jaundice,2
+2026-11-22,Delhi,Jaundice,1
+2026-11-23,Delhi,Jaundice,2
+2026-11-24,Delhi,Jaundice,0
+2026-11-25,Delhi,Jaundice,1
+2026-10-15,Delhi,Pneumonia,2
+2026-10-16,Delhi,Pneumonia,5
+2026-10-17,Delhi,Pneumonia,2
+2026-10-18,Delhi,Pneumonia,5
+2026-10-19,Delhi,Pneumonia,0
+2026-10-20,Delhi,Pneumonia,5
+2026-10-21,Delhi,Pneumonia,4
+2026-10-22,Delhi,Pneumonia,5
+2026-10-23,Delhi,Pneumonia,2
+2026-10-24,Delhi,Pneumonia,5
+2026-10-25,Delhi,Pneumonia,2
+2026-10-26,Delhi,Pneumonia,3
+2026-10-27,Delhi,Pneumonia,3
+2026-10-28,Delhi,Pneumonia,0
+2026-10-29,Delhi,Pneumonia,5
+2026-10-30,Delhi,Pneumonia,6
+2026-10-31,Delhi,Pneumonia,4
+2026-11-01,Delhi,Pneumonia,3
+2026-11-02,Delhi,Pneumonia,5
+2026-11-03,Delhi,Pneumonia,4
+2026-11-04,Delhi,Pneumonia,7
+2026-11-05,Delhi,Pneumonia,5
+2026-11-06,Delhi,Pneumonia,5
+2026-11-07,Delhi,Pneumonia,5
+2026-11-08,Delhi,Pneumonia,5
+2026-11-09,Delhi,Pneumonia,2
+2026-11-10,Delhi,Pneumonia,12
+2026-11-11,Delhi,Pneumonia,5
+2026-11-12,Delhi,Pneumonia,13
+2026-11-13,Delhi,Pneumonia,0
+2026-11-14,Delhi,Pneumonia,4
+2026-11-15,Delhi,Pneumonia,4
+2026-11-16,Delhi,Pneumonia,3
+2026-11-17,Delhi,Pneumonia,7
+2026-11-18,Delhi,Pneumonia,2
+2026-11-19,Delhi,Pneumonia,2
+2026-11-20,Delhi,Pneumonia,2
+2026-11-21,Delhi,Pneumonia,3
+2026-11-22,Delhi,Pneumonia,3
+2026-11-23,Delhi,Pneumonia,5
+2026-11-24,Delhi,Pneumonia,2
+2026-11-25,Delhi,Pneumonia,4
+2026-10-15,Delhi,Common Cold,10
+2026-10-16,Delhi,Common Cold,8
+2026-10-17,Delhi,Common Cold,15
+2026-10-18,Delhi,Common Cold,4
+2026-10-19,Delhi,Common Cold,6
+2026-10-20,Delhi,Common Cold,11
+2026-10-21,Delhi,Common Cold,10
+2026-10-22,Delhi,Common Cold,8
+2026-10-23,Delhi,Common Cold,3
+2026-10-24,Delhi,Common Cold,11
+2026-10-25,Delhi,Common Cold,6
+2026-10-26,Delhi,Common Cold,15
+2026-10-27,Delhi,Common Cold,6
+2026-10-28,Delhi,Common Cold,12
+2026-10-29,Delhi,Common Cold,3
+2026-10-30,Delhi,Common Cold,2
+2026-10-31,Delhi,Common Cold,6
+2026-11-01,Delhi,Common Cold,16
+2026-11-02,Delhi,Common Cold,12
+2026-11-03,Delhi,Common Cold,7
+2026-11-04,Delhi,Common Cold,6
+2026-11-05,Delhi,Common Cold,5
+2026-11-06,Delhi,Common Cold,10
+2026-11-07,Delhi,Common Cold,9
+2026-11-08,Delhi,Common Cold,6
+2026-11-09,Delhi,Common Cold,9
+2026-11-10,Delhi,Common Cold,9
+2026-11-11,Delhi,Common Cold,7
+2026-11-12,Delhi,Common Cold,8
+2026-11-13,Delhi,Common Cold,10
+2026-11-14,Delhi,Common Cold,10
+2026-11-15,Delhi,Common Cold,11
+2026-11-16,Delhi,Common Cold,3
+2026-11-17,Delhi,Common Cold,12
+2026-11-18,Delhi,Common Cold,9
+2026-11-19,Delhi,Common Cold,15
+2026-11-20,Delhi,Common Cold,13
+2026-11-21,Delhi,Common Cold,10
+2026-11-22,Delhi,Common Cold,9
+2026-11-23,Delhi,Common Cold,10
+2026-11-24,Delhi,Common Cold,12
+2026-11-25,Delhi,Common Cold,10
+2026-10-15,Delhi,Chicken pox,3
+2026-10-16,Delhi,Chicken pox,3
+2026-10-17,Delhi,Chicken pox,6
+2026-10-18,Delhi,Chicken pox,0
+2026-10-19,Delhi,Chicken pox,0
+2026-10-20,Delhi,Chicken pox,1
+2026-10-21,Delhi,Chicken pox,1
+2026-10-22,Delhi,Chicken pox,2
+2026-10-23,Delhi,Chicken pox,2
+2026-10-24,Delhi,Chicken pox,1
+2026-10-25,Delhi,Chicken pox,1
+2026-10-26,Delhi,Chicken pox,2
+2026-10-27,Delhi,Chicken pox,2
+2026-10-28,Delhi,Chicken pox,1
+2026-10-29,Delhi,Chicken pox,2
+2026-10-30,Delhi,Chicken pox,0
+2026-10-31,Delhi,Chicken pox,1
+2026-11-01,Delhi,Chicken pox,1
+2026-11-02,Delhi,Chicken pox,4
+2026-11-03,Delhi,Chicken pox,1
+2026-11-04,Delhi,Chicken pox,0
+2026-11-05,Delhi,Chicken pox,3
+2026-11-06,Delhi,Chicken pox,0
+2026-11-07,Delhi,Chicken pox,0
+2026-11-08,Delhi,Chicken pox,2
+2026-11-09,Delhi,Chicken pox,4
+2026-11-10,Delhi,Chicken pox,2
+2026-11-11,Delhi,Chicken pox,4
+2026-11-12,Delhi,Chicken pox,0
+2026-11-13,Delhi,Chicken pox,2
+2026-11-14,Delhi,Chicken pox,4
+2026-11-15,Delhi,Chicken pox,1
+2026-11-16,Delhi,Chicken pox,3
+2026-11-17,Delhi,Chicken pox,1
+2026-11-18,Delhi,Chicken pox,2
+2026-11-19,Delhi,Chicken pox,2
+2026-11-20,Delhi,Chicken pox,2
+2026-11-21,Delhi,Chicken pox,2
+2026-11-22,Delhi,Chicken pox,0
+2026-11-23,Delhi,Chicken pox,2
+2026-11-24,Delhi,Chicken pox,2
+2026-11-25,Delhi,Chicken pox,3
+2026-10-15,Delhi,Tuberculosis,5
+2026-10-16,Delhi,Tuberculosis,0
+2026-10-17,Delhi,Tuberculosis,1
+2026-10-18,Delhi,Tuberculosis,5
+2026-10-19,Delhi,Tuberculosis,3
+2026-10-20,Delhi,Tuberculosis,3
+2026-10-21,Delhi,Tuberculosis,1
+2026-10-22,Delhi,Tuberculosis,4
+2026-10-23,Delhi,Tuberculosis,2
+2026-10-24,Delhi,Tuberculosis,1
+2026-10-25,Delhi,Tuberculosis,1
+2026-10-26,Delhi,Tuberculosis,1
+2026-10-27,Delhi,Tuberculosis,3
+2026-10-28,Delhi,Tuberculosis,3
+2026-10-29,Delhi,Tuberculosis,3
+2026-10-30,Delhi,Tuberculosis,1
+2026-10-31,Delhi,Tuberculosis,4
+2026-11-01,Delhi,Tuberculosis,1
+2026-11-02,Delhi,Tuberculosis,2
+2026-11-03,Delhi,Tuberculosis,7
+2026-11-04,Delhi,Tuberculosis,4
+2026-11-05,Delhi,Tuberculosis,0
+2026-11-06,Delhi,Tuberculosis,1
+2026-11-07,Delhi,Tuberculosis,4
+2026-11-08,Delhi,Tuberculosis,5
+2026-11-09,Delhi,Tuberculosis,6
+2026-11-10,Delhi,Tuberculosis,1
+2026-11-11,Delhi,Tuberculosis,3
+2026-11-12,Delhi,Tuberculosis,2
+2026-11-13,Delhi,Tuberculosis,6
+2026-11-14,Delhi,Tuberculosis,6
+2026-11-15,Delhi,Tuberculosis,3
+2026-11-16,Delhi,Tuberculosis,3
+2026-11-17,Delhi,Tuberculosis,6
+2026-11-18,Delhi,Tuberculosis,11
+2026-11-19,Delhi,Tuberculosis,9
+2026-11-20,Delhi,Tuberculosis,5
+2026-11-21,Delhi,Tuberculosis,4
+2026-11-22,Delhi,Tuberculosis,1
+2026-11-23,Delhi,Tuberculosis,2
+2026-11-24,Delhi,Tuberculosis,2
+2026-11-25,Delhi,Tuberculosis,4
+2026-10-15,Chennai,Dengue,4
+2026-10-16,Chennai,Dengue,8
+2026-10-17,Chennai,Dengue,7
+2026-10-18,Chennai,Dengue,5
+2026-10-19,Chennai,Dengue,3
+2026-10-20,Chennai,Dengue,7
+2026-10-21,Chennai,Dengue,6
+2026-10-22,Chennai,Dengue,4
+2026-10-23,Chennai,Dengue,3
+2026-10-24,Chennai,Dengue,9
+2026-10-25,Chennai,Dengue,4
+2026-10-26,Chennai,Dengue,12
+2026-10-27,Chennai,Dengue,8
+2026-10-28,Chennai,Dengue,2
+2026-10-29,Chennai,Dengue,8
+2026-10-30,Chennai,Dengue,2
+2026-10-31,Chennai,Dengue,10
+2026-11-01,Chennai,Dengue,4
+2026-11-02,Chennai,Dengue,6
+2026-11-03,Chennai,Dengue,5
+2026-11-04,Chennai,Dengue,7
+2026-11-05,Chennai,Dengue,4
+2026-11-06,Chennai,Dengue,5
+2026-11-07,Chennai,Dengue,2
+2026-11-08,Chennai,Dengue,3
+2026-11-09,Chennai,Dengue,8
+2026-11-10,Chennai,Dengue,13
+2026-11-11,Chennai,Dengue,2
+2026-11-12,Chennai,Dengue,6
+2026-11-13,Chennai,Dengue,6
+2026-11-14,Chennai,Dengue,9
+2026-11-15,Chennai,Dengue,5
+2026-11-16,Chennai,Dengue,8
+2026-11-17,Chennai,Dengue,8
+2026-11-18,Chennai,Dengue,9
+2026-11-19,Chennai,Dengue,31
+2026-11-20,Chennai,Dengue,30
+2026-11-21,Chennai,Dengue,33
+2026-11-22,Chennai,Dengue,13
+2026-11-23,Chennai,Dengue,18
+2026-11-24,Chennai,Dengue,16
+2026-11-25,Chennai,Dengue,14
+2026-10-15,Chennai,Malaria,8
+2026-10-16,Chennai,Malaria,4
+2026-10-17,Chennai,Malaria,4
+2026-10-18,Chennai,Malaria,4
+2026-10-19,Chennai,Malaria,6
+2026-10-20,Chennai,Malaria,1
+2026-10-21,Chennai,Malaria,10
+2026-10-22,Chennai,Malaria,4
+2026-10-23,Chennai,Malaria,8
+2026-10-24,Chennai,Malaria,5
+2026-10-25,Chennai,Malaria,4
+2026-10-26,Chennai,Malaria,8
+2026-10-27,Chennai,Malaria,5
+2026-10-28,Chennai,Malaria,4
+2026-10-29,Chennai,Malaria,9
+2026-10-30,Chennai,Malaria,3
+2026-10-31,Chennai,Malaria,6
+2026-11-01,Chennai,Malaria,11
+2026-11-02,Chennai,Malaria,8
+2026-11-03,Chennai,Malaria,4
+2026-11-04,Chennai,Malaria,5
+2026-11-05,Chennai,Malaria,5
+2026-11-06,Chennai,Malaria,7
+2026-11-07,Chennai,Malaria,7
+2026-11-08,Chennai,Malaria,11
+2026-11-09,Chennai,Malaria,8
+2026-11-10,Chennai,Malaria,7
+2026-11-11,Chennai,Malaria,5
+2026-11-12,Chennai,Malaria,7
+2026-11-13,Chennai,Malaria,6
+2026-11-14,Chennai,Malaria,9
+2026-11-15,Chennai,Malaria,9
+2026-11-16,Chennai,Malaria,9
+2026-11-17,Chennai,Malaria,6
+2026-11-18,Chennai,Malaria,5
+2026-11-19,Chennai,Malaria,9
+2026-11-20,Chennai,Malaria,5
+2026-11-21,Chennai,Malaria,4
+2026-11-22,Chennai,Malaria,8
+2026-11-23,Chennai,Malaria,4
+2026-11-24,Chennai,Malaria,3
+2026-11-25,Chennai,Malaria,8
+2026-10-15,Chennai,Typhoid,3
+2026-10-16,Chennai,Typhoid,3
+2026-10-17,Chennai,Typhoid,8
+2026-10-18,Chennai,Typhoid,4
+2026-10-19,Chennai,Typhoid,7
+2026-10-20,Chennai,Typhoid,1
+2026-10-21,Chennai,Typhoid,8
+2026-10-22,Chennai,Typhoid,7
+2026-10-23,Chennai,Typhoid,9
+2026-10-24,Chennai,Typhoid,5
+2026-10-25,Chennai,Typhoid,8
+2026-10-26,Chennai,Typhoid,5
+2026-10-27,Chennai,Typhoid,1
+2026-10-28,Chennai,Typhoid,3
+2026-10-29,Chennai,Typhoid,2
+2026-10-30,Chennai,Typhoid,4
+2026-10-31,Chennai,Typhoid,3
+2026-11-01,Chennai,Typhoid,5
+2026-11-02,Chennai,Typhoid,6
+2026-11-03,Chennai,Typhoid,1
+2026-11-04,Chennai,Typhoid,3
+2026-11-05,Chennai,Typhoid,0
+2026-11-06,Chennai,Typhoid,2
+2026-11-07,Chennai,Typhoid,3
+2026-11-08,Chennai,Typhoid,6
+2026-11-09,Chennai,Typhoid,3
+2026-11-10,Chennai,Typhoid,2
+2026-11-11,Chennai,Typhoid,3
+2026-11-12,Chennai,Typhoid,2
+2026-11-13,Chennai,Typhoid,1
+2026-11-14,Chennai,Typhoid,3
+2026-11-15,Chennai,Typhoid,3
+2026-11-16,Chennai,Typhoid,7
+2026-11-17,Chennai,Typhoid,3
+2026-11-18,Chennai,Typhoid,10
+2026-11-19,Chennai,Typhoid,10
+2026-11-20,Chennai,Typhoid,3
+2026-11-21,Chennai,Typhoid,2
+2026-11-22,Chennai,Typhoid,4
+2026-11-23,Chennai,Typhoid,4
+2026-11-24,Chennai,Typhoid,3
+2026-11-25,Chennai,Typhoid,5
+2026-10-15,Chennai,Jaundice,5
+2026-10-16,Chennai,Jaundice,2
+2026-10-17,Chennai,Jaundice,2
+2026-10-18,Chennai,Jaundice,6
+2026-10-19,Chennai,Jaundice,4
+2026-10-20,Chennai,Jaundice,4
+2026-10-21,Chennai,Jaundice,1
+2026-10-22,Chennai,Jaundice,1
+2026-10-23,Chennai,Jaundice,2
+2026-10-24,Chennai,Jaundice,3
+2026-10-25,Chennai,Jaundice,3
+2026-10-26,Chennai,Jaundice,4
+2026-10-27,Chennai,Jaundice,1
+2026-10-28,Chennai,Jaundice,0
+2026-10-29,Chennai,Jaundice,6
+2026-10-30,Chennai,Jaundice,3
+2026-10-31,Chennai,Jaundice,4
+2026-11-01,Chennai,Jaundice,3
+2026-11-02,Chennai,Jaundice,2
+2026-11-03,Chennai,Jaundice,6
+2026-11-04,Chennai,Jaundice,2
+2026-11-05,Chennai,Jaundice,0
+2026-11-06,Chennai,Jaundice,2
+2026-11-07,Chennai,Jaundice,3
+2026-11-08,Chennai,Jaundice,5
+2026-11-09,Chennai,Jaundice,3
+2026-11-10,Chennai,Jaundice,1
+2026-11-11,Chennai,Jaundice,3
+2026-11-12,Chennai,Jaundice,8
+2026-11-13,Chennai,Jaundice,5
+2026-11-14,Chennai,Jaundice,1
+2026-11-15,Chennai,Jaundice,1
+2026-11-16,Chennai,Jaundice,4
+2026-11-17,Chennai,Jaundice,4
+2026-11-18,Chennai,Jaundice,1
+2026-11-19,Chennai,Jaundice,0
+2026-11-20,Chennai,Jaundice,4
+2026-11-21,Chennai,Jaundice,1
+2026-11-22,Chennai,Jaundice,1
+2026-11-23,Chennai,Jaundice,4
+2026-11-24,Chennai,Jaundice,1
+2026-11-25,Chennai,Jaundice,1
+2026-10-15,Chennai,Pneumonia,2
+2026-10-16,Chennai,Pneumonia,7
+2026-10-17,Chennai,Pneumonia,8
+2026-10-18,Chennai,Pneumonia,2
+2026-10-19,Chennai,Pneumonia,7
+2026-10-20,Chennai,Pneumonia,2
+2026-10-21,Chennai,Pneumonia,6
+2026-10-22,Chennai,Pneumonia,3
+2026-10-23,Chennai,Pneumonia,5
+2026-10-24,Chennai,Pneumonia,5
+2026-10-25,Chennai,Pneumonia,3
+2026-10-26,Chennai,Pneumonia,6
+2026-10-27,Chennai,Pneumonia,4
+2026-10-28,Chennai,Pneumonia,3
+2026-10-29,Chennai,Pneumonia,8
+2026-10-30,Chennai,Pneumonia,3
+2026-10-31,Chennai,Pneumonia,3
+2026-11-01,Chennai,Pneumonia,1
+2026-11-02,Chennai,Pneumonia,2
+2026-11-03,Chennai,Pneumonia,3
+2026-11-04,Chennai,Pneumonia,1
+2026-11-05,Chennai,Pneumonia,5
+2026-11-06,Chennai,Pneumonia,9
+2026-11-07,Chennai,Pneumonia,2
+2026-11-08,Chennai,Pneumonia,7
+2026-11-09,Chennai,Pneumonia,2
+2026-11-10,Chennai,Pneumonia,3
+2026-11-11,Chennai,Pneumonia,3
+2026-11-12,Chennai,Pneumonia,3
+2026-11-13,Chennai,Pneumonia,6
+2026-11-14,Chennai,Pneumonia,2
+2026-11-15,Chennai,Pneumonia,2
+2026-11-16,Chennai,Pneumonia,4
+2026-11-17,Chennai,Pneumonia,6
+2026-11-18,Chennai,Pneumonia,6
+2026-11-19,Chennai,Pneumonia,2
+2026-11-20,Chennai,Pneumonia,3
+2026-11-21,Chennai,Pneumonia,2
+2026-11-22,Chennai,Pneumonia,7
+2026-11-23,Chennai,Pneumonia,4
+2026-11-24,Chennai,Pneumonia,5
+2026-11-25,Chennai,Pneumonia,3
+2026-10-15,Chennai,Common Cold,7
+2026-10-16,Chennai,Common Cold,8
+2026-10-17,Chennai,Common Cold,16
+2026-10-18,Chennai,Common Cold,7
+2026-10-19,Chennai,Common Cold,11
+2026-10-20,Chennai,Common Cold,6
+2026-10-21,Chennai,Common Cold,19
+2026-10-22,Chennai,Common Cold,10
+2026-10-23,Chennai,Common Cold,7
+2026-10-24,Chennai,Common Cold,8
+2026-10-25,Chennai,Common Cold,16
+2026-10-26,Chennai,Common Cold,6
+2026-10-27,Chennai,Common Cold,10
+2026-10-28,Chennai,Common Cold,7
+2026-10-29,Chennai,Common Cold,12
+2026-10-30,Chennai,Common Cold,12
+2026-10-31,Chennai,Common Cold,5
+2026-11-01,Chennai,Common Cold,7
+2026-11-02,Chennai,Common Cold,8
+2026-11-03,Chennai,Common Cold,6
+2026-11-04,Chennai,Common Cold,6
+2026-11-05,Chennai,Common Cold,13
+2026-11-06,Chennai,Common Cold,10
+2026-11-07,Chennai,Common Cold,11
+2026-11-08,Chennai,Common Cold,6
+2026-11-09,Chennai,Common Cold,11
+2026-11-10,Chennai,Common Cold,12
+2026-11-11,Chennai,Common Cold,10
+2026-11-12,Chennai,Common Cold,12
+2026-11-13,Chennai,Common Cold,6
+2026-11-14,Chennai,Common Cold,7
+2026-11-15,Chennai,Common Cold,12
+2026-11-16,Chennai,Common Cold,4
+2026-11-17,Chennai,Common Cold,9
+2026-11-18,Chennai,Common Cold,7
+2026-11-19,Chennai,Common Cold,4
+2026-11-20,Chennai,Common Cold,8
+2026-11-21,Chennai,Common Cold,11
+2026-11-22,Chennai,Common Cold,6
+2026-11-23,Chennai,Common Cold,7
+2026-11-24,Chennai,Common Cold,4
+2026-11-25,Chennai,Common Cold,11
+2026-10-15,Chennai,Chicken pox,3
+2026-10-16,Chennai,Chicken pox,1
+2026-10-17,Chennai,Chicken pox,3
+2026-10-18,Chennai,Chicken pox,2
+2026-10-19,Chennai,Chicken pox,2
+2026-10-20,Chennai,Chicken pox,5
+2026-10-21,Chennai,Chicken pox,3
+2026-10-22,Chennai,Chicken pox,3
+2026-10-23,Chennai,Chicken pox,0
+2026-10-24,Chennai,Chicken pox,4
+2026-10-25,Chennai,Chicken pox,1
+2026-10-26,Chennai,Chicken pox,1
+2026-10-27,Chennai,Chicken pox,0
+2026-10-28,Chennai,Chicken pox,1
+2026-10-29,Chennai,Chicken pox,6
+2026-10-30,Chennai,Chicken pox,0
+2026-10-31,Chennai,Chicken pox,1
+2026-11-01,Chennai,Chicken pox,1
+2026-11-02,Chennai,Chicken pox,0
+2026-11-03,Chennai,Chicken pox,4
+2026-11-04,Chennai,Chicken pox,4
+2026-11-05,Chennai,Chicken pox,8
+2026-11-06,Chennai,Chicken pox,0
+2026-11-07,Chennai,Chicken pox,1
+2026-11-08,Chennai,Chicken pox,2
+2026-11-09,Chennai,Chicken pox,2
+2026-11-10,Chennai,Chicken pox,1
+2026-11-11,Chennai,Chicken pox,3
+2026-11-12,Chennai,Chicken pox,4
+2026-11-13,Chennai,Chicken pox,1
+2026-11-14,Chennai,Chicken pox,6
+2026-11-15,Chennai,Chicken pox,2
+2026-11-16,Chennai,Chicken pox,5
+2026-11-17,Chennai,Chicken pox,1
+2026-11-18,Chennai,Chicken pox,4
+2026-11-19,Chennai,Chicken pox,3
+2026-11-20,Chennai,Chicken pox,2
+2026-11-21,Chennai,Chicken pox,0
+2026-11-22,Chennai,Chicken pox,4
+2026-11-23,Chennai,Chicken pox,2
+2026-11-24,Chennai,Chicken pox,2
+2026-11-25,Chennai,Chicken pox,1
+2026-10-15,Chennai,Tuberculosis,4
+2026-10-16,Chennai,Tuberculosis,2
+2026-10-17,Chennai,Tuberculosis,3
+2026-10-18,Chennai,Tuberculosis,1
+2026-10-19,Chennai,Tuberculosis,4
+2026-10-20,Chennai,Tuberculosis,5
+2026-10-21,Chennai,Tuberculosis,4
+2026-10-22,Chennai,Tuberculosis,8
+2026-10-23,Chennai,Tuberculosis,2
+2026-10-24,Chennai,Tuberculosis,2
+2026-10-25,Chennai,Tuberculosis,1
+2026-10-26,Chennai,Tuberculosis,2
+2026-10-27,Chennai,Tuberculosis,3
+2026-10-28,Chennai,Tuberculosis,1
+2026-10-29,Chennai,Tuberculosis,4
+2026-10-30,Chennai,Tuberculosis,3
+2026-10-31,Chennai,Tuberculosis,7
+2026-11-01,Chennai,Tuberculosis,4
+2026-11-02,Chennai,Tuberculosis,3
+2026-11-03,Chennai,Tuberculosis,4
+2026-11-04,Chennai,Tuberculosis,2
+2026-11-05,Chennai,Tuberculosis,1
+2026-11-06,Chennai,Tuberculosis,2
+2026-11-07,Chennai,Tuberculosis,4
+2026-11-08,Chennai,Tuberculosis,2
+2026-11-09,Chennai,Tuberculosis,2
+2026-11-10,Chennai,Tuberculosis,4
+2026-11-11,Chennai,Tuberculosis,2
+2026-11-12,Chennai,Tuberculosis,1
+2026-11-13,Chennai,Tuberculosis,3
+2026-11-14,Chennai,Tuberculosis,7
+2026-11-15,Chennai,Tuberculosis,1
+2026-11-16,Chennai,Tuberculosis,3
+2026-11-17,Chennai,Tuberculosis,3
+2026-11-18,Chennai,Tuberculosis,1
+2026-11-19,Chennai,Tuberculosis,6
+2026-11-20,Chennai,Tuberculosis,1
+2026-11-21,Chennai,Tuberculosis,1
+2026-11-22,Chennai,Tuberculosis,7
+2026-11-23,Chennai,Tuberculosis,2
+2026-11-24,Chennai,Tuberculosis,4
+2026-11-25,Chennai,Tuberculosis,1
+2026-10-15,Kolkata,Dengue,4
+2026-10-16,Kolkata,Dengue,8
+2026-10-17,Kolkata,Dengue,3
+2026-10-18,Kolkata,Dengue,13
+2026-10-19,Kolkata,Dengue,6
+2026-10-20,Kolkata,Dengue,10
+2026-10-21,Kolkata,Dengue,10
+2026-10-22,Kolkata,Dengue,8
+2026-10-23,Kolkata,Dengue,6
+2026-10-24,Kolkata,Dengue,10
+2026-10-25,Kolkata,Dengue,5
+2026-10-26,Kolkata,Dengue,7
+2026-10-27,Kolkata,Dengue,6
+2026-10-28,Kolkata,Dengue,7
+2026-10-29,Kolkata,Dengue,5
+2026-10-30,Kolkata,Dengue,12
+2026-10-31,Kolkata,Dengue,6
+2026-11-01,Kolkata,Dengue,8
+2026-11-02,Kolkata,Dengue,6
+2026-11-03,Kolkata,Dengue,3
+2026-11-04,Kolkata,Dengue,2
+2026-11-05,Kolkata,Dengue,5
+2026-11-06,Kolkata,Dengue,3
+2026-11-07,Kolkata,Dengue,4
+2026-11-08,Kolkata,Dengue,6
+2026-11-09,Kolkata,Dengue,8
+2026-11-10,Kolkata,Dengue,3
+2026-11-11,Kolkata,Dengue,7
+2026-11-12,Kolkata,Dengue,1
+2026-11-13,Kolkata,Dengue,8
+2026-11-14,Kolkata,Dengue,5
+2026-11-15,Kolkata,Dengue,6
+2026-11-16,Kolkata,Dengue,9
+2026-11-17,Kolkata,Dengue,5
+2026-11-18,Kolkata,Dengue,2
+2026-11-19,Kolkata,Dengue,4
+2026-11-20,Kolkata,Dengue,7
+2026-11-21,Kolkata,Dengue,6
+2026-11-22,Kolkata,Dengue,3
+2026-11-23,Kolkata,Dengue,6
+2026-11-24,Kolkata,Dengue,5
+2026-11-25,Kolkata,Dengue,8
+2026-10-15,Kolkata,Malaria,8
+2026-10-16,Kolkata,Malaria,5
+2026-10-17,Kolkata,Malaria,6
+2026-10-18,Kolkata,Malaria,6
+2026-10-19,Kolkata,Malaria,1
+2026-10-20,Kolkata,Malaria,8
+2026-10-21,Kolkata,Malaria,0
+2026-10-22,Kolkata,Malaria,3
+2026-10-23,Kolkata,Malaria,4
+2026-10-24,Kolkata,Malaria,2
+2026-10-25,Kolkata,Malaria,3
+2026-10-26,Kolkata,Malaria,6
+2026-10-27,Kolkata,Malaria,3
+2026-10-28,Kolkata,Malaria,11
+2026-10-29,Kolkata,Malaria,5
+2026-10-30,Kolkata,Malaria,2
+2026-10-31,Kolkata,Malaria,8
+2026-11-01,Kolkata,Malaria,3
+2026-11-02,Kolkata,Malaria,5
+2026-11-03,Kolkata,Malaria,8
+2026-11-04,Kolkata,Malaria,5
+2026-11-05,Kolkata,Malaria,4
+2026-11-06,Kolkata,Malaria,4
+2026-11-07,Kolkata,Malaria,4
+2026-11-08,Kolkata,Malaria,2
+2026-11-09,Kolkata,Malaria,4
+2026-11-10,Kolkata,Malaria,5
+2026-11-11,Kolkata,Malaria,6
+2026-11-12,Kolkata,Malaria,5
+2026-11-13,Kolkata,Malaria,7
+2026-11-14,Kolkata,Malaria,8
+2026-11-15,Kolkata,Malaria,3
+2026-11-16,Kolkata,Malaria,5
+2026-11-17,Kolkata,Malaria,3
+2026-11-18,Kolkata,Malaria,5
+2026-11-19,Kolkata,Malaria,3
+2026-11-20,Kolkata,Malaria,3
+2026-11-21,Kolkata,Malaria,7
+2026-11-22,Kolkata,Malaria,4
+2026-11-23,Kolkata,Malaria,3
+2026-11-24,Kolkata,Malaria,4
+2026-11-25,Kolkata,Malaria,8
+2026-10-15,Kolkata,Typhoid,4
+2026-10-16,Kolkata,Typhoid,9
+2026-10-17,Kolkata,Typhoid,6
+2026-10-18,Kolkata,Typhoid,1
+2026-10-19,Kolkata,Typhoid,8
+2026-10-20,Kolkata,Typhoid,7
+2026-10-21,Kolkata,Typhoid,8
+2026-10-22,Kolkata,Typhoid,8
+2026-10-23,Kolkata,Typhoid,4
+2026-10-24,Kolkata,Typhoid,1
+2026-10-25,Kolkata,Typhoid,2
+2026-10-26,Kolkata,Typhoid,1
+2026-10-27,Kolkata,Typhoid,4
+2026-10-28,Kolkata,Typhoid,6
+2026-10-29,Kolkata,Typhoid,4
+2026-10-30,Kolkata,Typhoid,6
+2026-10-31,Kolkata,Typhoid,4
+2026-11-01,Kolkata,Typhoid,2
+2026-11-02,Kolkata,Typhoid,7
+2026-11-03,Kolkata,Typhoid,1
+2026-11-04,Kolkata,Typhoid,3
+2026-11-05,Kolkata,Typhoid,4
+2026-11-06,Kolkata,Typhoid,2
+2026-11-07,Kolkata,Typhoid,4
+2026-11-08,Kolkata,Typhoid,3
+2026-11-09,Kolkata,Typhoid,4
+2026-11-10,Kolkata,Typhoid,7
+2026-11-11,Kolkata,Typhoid,5
+2026-11-12,Kolkata,Typhoid,0
+2026-11-13,Kolkata,Typhoid,3
+2026-11-14,Kolkata,Typhoid,5
+2026-11-15,Kolkata,Typhoid,3
+2026-11-16,Kolkata,Typhoid,6
+2026-11-17,Kolkata,Typhoid,8
+2026-11-18,Kolkata,Typhoid,7
+2026-11-19,Kolkata,Typhoid,2
+2026-11-20,Kolkata,Typhoid,4
+2026-11-21,Kolkata,Typhoid,3
+2026-11-22,Kolkata,Typhoid,2
+2026-11-23,Kolkata,Typhoid,9
+2026-11-24,Kolkata,Typhoid,3
+2026-11-25,Kolkata,Typhoid,6
+2026-10-15,Kolkata,Jaundice,2
+2026-10-16,Kolkata,Jaundice,5
+2026-10-17,Kolkata,Jaundice,5
+2026-10-18,Kolkata,Jaundice,2
+2026-10-19,Kolkata,Jaundice,7
+2026-10-20,Kolkata,Jaundice,1
+2026-10-21,Kolkata,Jaundice,1
+2026-10-22,Kolkata,Jaundice,6
+2026-10-23,Kolkata,Jaundice,3
+2026-10-24,Kolkata,Jaundice,2
+2026-10-25,Kolkata,Jaundice,3
+2026-10-26,Kolkata,Jaundice,2
+2026-10-27,Kolkata,Jaundice,3
+2026-10-28,Kolkata,Jaundice,4
+2026-10-29,Kolkata,Jaundice,5
+2026-10-30,Kolkata,Jaundice,5
+2026-10-31,Kolkata,Jaundice,2
+2026-11-01,Kolkata,Jaundice,1
+2026-11-02,Kolkata,Jaundice,5
+2026-11-03,Kolkata,Jaundice,5
+2026-11-04,Kolkata,Jaundice,5
+2026-11-05,Kolkata,Jaundice,4
+2026-11-06,Kolkata,Jaundice,2
+2026-11-07,Kolkata,Jaundice,4
+2026-11-08,Kolkata,Jaundice,5
+2026-11-09,Kolkata,Jaundice,4
+2026-11-10,Kolkata,Jaundice,3
+2026-11-11,Kolkata,Jaundice,3
+2026-11-12,Kolkata,Jaundice,3
+2026-11-13,Kolkata,Jaundice,3
+2026-11-14,Kolkata,Jaundice,4
+2026-11-15,Kolkata,Jaundice,4
+2026-11-16,Kolkata,Jaundice,1
+2026-11-17,Kolkata,Jaundice,2
+2026-11-18,Kolkata,Jaundice,6
+2026-11-19,Kolkata,Jaundice,9
+2026-11-20,Kolkata,Jaundice,10
+2026-11-21,Kolkata,Jaundice,7
+2026-11-22,Kolkata,Jaundice,14
+2026-11-23,Kolkata,Jaundice,10
+2026-11-24,Kolkata,Jaundice,14
+2026-11-25,Kolkata,Jaundice,9
+2026-10-15,Kolkata,Pneumonia,2
+2026-10-16,Kolkata,Pneumonia,6
+2026-10-17,Kolkata,Pneumonia,4
+2026-10-18,Kolkata,Pneumonia,4
+2026-10-19,Kolkata,Pneumonia,7
+2026-10-20,Kolkata,Pneumonia,1
+2026-10-21,Kolkata,Pneumonia,1
+2026-10-22,Kolkata,Pneumonia,6
+2026-10-23,Kolkata,Pneumonia,7
+2026-10-24,Kolkata,Pneumonia,5
+2026-10-25,Kolkata,Pneumonia,7
+2026-10-26,Kolkata,Pneumonia,3
+2026-10-27,Kolkata,Pneumonia,5
+2026-10-28,Kolkata,Pneumonia,4
+2026-10-29,Kolkata,Pneumonia,7
+2026-10-30,Kolkata,Pneumonia,1
+2026-10-31,Kolkata,Pneumonia,6
+2026-11-01,Kolkata,Pneumonia,5
+2026-11-02,Kolkata,Pneumonia,6
+2026-11-03,Kolkata,Pneumonia,3
+2026-11-04,Kolkata,Pneumonia,4
+2026-11-05,Kolkata,Pneumonia,4
+2026-11-06,Kolkata,Pneumonia,2
+2026-11-07,Kolkata,Pneumonia,3
+2026-11-08,Kolkata,Pneumonia,1
+2026-11-09,Kolkata,Pneumonia,5
+2026-11-10,Kolkata,Pneumonia,3
+2026-11-11,Kolkata,Pneumonia,3
+2026-11-12,Kolkata,Pneumonia,1
+2026-11-13,Kolkata,Pneumonia,1
+2026-11-14,Kolkata,Pneumonia,9
+2026-11-15,Kolkata,Pneumonia,4
+2026-11-16,Kolkata,Pneumonia,3
+2026-11-17,Kolkata,Pneumonia,2
+2026-11-18,Kolkata,Pneumonia,4
+2026-11-19,Kolkata,Pneumonia,2
+2026-11-20,Kolkata,Pneumonia,7
+2026-11-21,Kolkata,Pneumonia,0
+2026-11-22,Kolkata,Pneumonia,1
+2026-11-23,Kolkata,Pneumonia,2
+2026-11-24,Kolkata,Pneumonia,2
+2026-11-25,Kolkata,Pneumonia,8
+2026-10-15,Kolkata,Common Cold,10
+2026-10-16,Kolkata,Common Cold,8
+2026-10-17,Kolkata,Common Cold,7
+2026-10-18,Kolkata,Common Cold,11
+2026-10-19,Kolkata,Common Cold,4
+2026-10-20,Kolkata,Common Cold,11
+2026-10-21,Kolkata,Common Cold,6
+2026-10-22,Kolkata,Common Cold,7
+2026-10-23,Kolkata,Common Cold,5
+2026-10-24,Kolkata,Common Cold,6
+2026-10-25,Kolkata,Common Cold,7
+2026-10-26,Kolkata,Common Cold,17
+2026-10-27,Kolkata,Common Cold,10
+2026-10-28,Kolkata,Common Cold,9
+2026-10-29,Kolkata,Common Cold,9
+2026-10-30,Kolkata,Common Cold,5
+2026-10-31,Kolkata,Common Cold,15
+2026-11-01,Kolkata,Common Cold,9
+2026-11-02,Kolkata,Common Cold,11
+2026-11-03,Kolkata,Common Cold,9
+2026-11-04,Kolkata,Common Cold,6
+2026-11-05,Kolkata,Common Cold,9
+2026-11-06,Kolkata,Common Cold,13
+2026-11-07,Kolkata,Common Cold,8
+2026-11-08,Kolkata,Common Cold,9
+2026-11-09,Kolkata,Common Cold,5
+2026-11-10,Kolkata,Common Cold,6
+2026-11-11,Kolkata,Common Cold,5
+2026-11-12,Kolkata,Common Cold,11
+2026-11-13,Kolkata,Common Cold,10
+2026-11-14,Kolkata,Common Cold,14
+2026-11-15,Kolkata,Common Cold,14
+2026-11-16,Kolkata,Common Cold,13
+2026-11-17,Kolkata,Common Cold,6
+2026-11-18,Kolkata,Common Cold,7
+2026-11-19,Kolkata,Common Cold,9
+2026-11-20,Kolkata,Common Cold,9
+2026-11-21,Kolkata,Common Cold,11
+2026-11-22,Kolkata,Common Cold,13
+2026-11-23,Kolkata,Common Cold,9
+2026-11-24,Kolkata,Common Cold,12
+2026-11-25,Kolkata,Common Cold,6
+2026-10-15,Kolkata,Chicken pox,1
+2026-10-16,Kolkata,Chicken pox,2
+2026-10-17,Kolkata,Chicken pox,0
+2026-10-18,Kolkata,Chicken pox,2
+2026-10-19,Kolkata,Chicken pox,2
+2026-10-20,Kolkata,Chicken pox,5
+2026-10-21,Kolkata,Chicken pox,3
+2026-10-22,Kolkata,Chicken pox,2
+2026-10-23,Kolkata,Chicken pox,1
+2026-10-24,Kolkata,Chicken pox,2
+2026-10-25,Kolkata,Chicken pox,0
+2026-10-26,Kolkata,Chicken pox,1
+2026-10-27,Kolkata,Chicken pox,4
+2026-10-28,Kolkata,Chicken pox,2
+2026-10-29,Kolkata,Chicken pox,4
+2026-10-30,Kolkata,Chicken pox,0
+2026-10-31,Kolkata,Chicken pox,0
+2026-11-01,Kolkata,Chicken pox,0
+2026-11-02,Kolkata,Chicken pox,2
+2026-11-03,Kolkata,Chicken pox,4
+2026-11-04,Kolkata,Chicken pox,1
+2026-11-05,Kolkata,Chicken pox,4
+2026-11-06,Kolkata,Chicken pox,3
+2026-11-07,Kolkata,Chicken pox,0
+2026-11-08,Kolkata,Chicken pox,1
+2026-11-09,Kolkata,Chicken pox,2
+2026-11-10,Kolkata,Chicken pox,5
+2026-11-11,Kolkata,Chicken pox,3
+2026-11-12,Kolkata,Chicken pox,2
+2026-11-13,Kolkata,Chicken pox,1
+2026-11-14,Kolkata,Chicken pox,3
+2026-11-15,Kolkata,Chicken pox,3
+2026-11-16,Kolkata,Chicken pox,3
+2026-11-17,Kolkata,Chicken pox,3
+2026-11-18,Kolkata,Chicken pox,4
+2026-11-19,Kolkata,Chicken pox,4
+2026-11-20,Kolkata,Chicken pox,1
+2026-11-21,Kolkata,Chicken pox,2
+2026-11-22,Kolkata,Chicken pox,5
+2026-11-23,Kolkata,Chicken pox,3
+2026-11-24,Kolkata,Chicken pox,0
+2026-11-25,Kolkata,Chicken pox,3
+2026-10-15,Kolkata,Tuberculosis,3
+2026-10-16,Kolkata,Tuberculosis,6
+2026-10-17,Kolkata,Tuberculosis,5
+2026-10-18,Kolkata,Tuberculosis,2
+2026-10-19,Kolkata,Tuberculosis,0
+2026-10-20,Kolkata,Tuberculosis,3
+2026-10-21,Kolkata,Tuberculosis,4
+2026-10-22,Kolkata,Tuberculosis,7
+2026-10-23,Kolkata,Tuberculosis,3
+2026-10-24,Kolkata,Tuberculosis,0
+2026-10-25,Kolkata,Tuberculosis,1
+2026-10-26,Kolkata,Tuberculosis,1
+2026-10-27,Kolkata,Tuberculosis,3
+2026-10-28,Kolkata,Tuberculosis,3
+2026-10-29,Kolkata,Tuberculosis,4
+2026-10-30,Kolkata,Tuberculosis,3
+2026-10-31,Kolkata,Tuberculosis,2
+2026-11-01,Kolkata,Tuberculosis,2
+2026-11-02,Kolkata,Tuberculosis,8
+2026-11-03,Kolkata,Tuberculosis,1
+2026-11-04,Kolkata,Tuberculosis,3
+2026-11-05,Kolkata,Tuberculosis,2
+2026-11-06,Kolkata,Tuberculosis,2
+2026-11-07,Kolkata,Tuberculosis,3
+2026-11-08,Kolkata,Tuberculosis,6
+2026-11-09,Kolkata,Tuberculosis,4
+2026-11-10,Kolkata,Tuberculosis,2
+2026-11-11,Kolkata,Tuberculosis,6
+2026-11-12,Kolkata,Tuberculosis,2
+2026-11-13,Kolkata,Tuberculosis,3
+2026-11-14,Kolkata,Tuberculosis,2
+2026-11-15,Kolkata,Tuberculosis,3
+2026-11-16,Kolkata,Tuberculosis,3
+2026-11-17,Kolkata,Tuberculosis,4
+2026-11-18,Kolkata,Tuberculosis,4
+2026-11-19,Kolkata,Tuberculosis,1
+2026-11-20,Kolkata,Tuberculosis,2
+2026-11-21,Kolkata,Tuberculosis,1
+2026-11-22,Kolkata,Tuberculosis,2
+2026-11-23,Kolkata,Tuberculosis,0
+2026-11-24,Kolkata,Tuberculosis,6
+2026-11-25,Kolkata,Tuberculosis,4
+2026-10-15,Hyderabad,Dengue,13
+2026-10-16,Hyderabad,Dengue,4
+2026-10-17,Hyderabad,Dengue,4
+2026-10-18,Hyderabad,Dengue,8
+2026-10-19,Hyderabad,Dengue,11
+2026-10-20,Hyderabad,Dengue,5
+2026-10-21,Hyderabad,Dengue,1
+2026-10-22,Hyderabad,Dengue,13
+2026-10-23,Hyderabad,Dengue,8
+2026-10-24,Hyderabad,Dengue,4
+2026-10-25,Hyderabad,Dengue,5
+2026-10-26,Hyderabad,Dengue,7
+2026-10-27,Hyderabad,Dengue,8
+2026-10-28,Hyderabad,Dengue,4
+2026-10-29,Hyderabad,Dengue,7
+2026-10-30,Hyderabad,Dengue,7
+2026-10-31,Hyderabad,Dengue,5
+2026-11-01,Hyderabad,Dengue,7
+2026-11-02,Hyderabad,Dengue,3
+2026-11-03,Hyderabad,Dengue,2
+2026-11-04,Hyderabad,Dengue,6
+2026-11-05,Hyderabad,Dengue,12
+2026-11-06,Hyderabad,Dengue,5
+2026-11-07,Hyderabad,Dengue,8
+2026-11-08,Hyderabad,Dengue,5
+2026-11-09,Hyderabad,Dengue,8
+2026-11-10,Hyderabad,Dengue,1
+2026-11-11,Hyderabad,Dengue,3
+2026-11-12,Hyderabad,Dengue,9
+2026-11-13,Hyderabad,Dengue,4
+2026-11-14,Hyderabad,Dengue,3
+2026-11-15,Hyderabad,Dengue,2
+2026-11-16,Hyderabad,Dengue,8
+2026-11-17,Hyderabad,Dengue,10
+2026-11-18,Hyderabad,Dengue,10
+2026-11-19,Hyderabad,Dengue,12
+2026-11-20,Hyderabad,Dengue,6
+2026-11-21,Hyderabad,Dengue,1
+2026-11-22,Hyderabad,Dengue,13
+2026-11-23,Hyderabad,Dengue,9
+2026-11-24,Hyderabad,Dengue,7
+2026-11-25,Hyderabad,Dengue,3
+2026-10-15,Hyderabad,Malaria,6
+2026-10-16,Hyderabad,Malaria,10
+2026-10-17,Hyderabad,Malaria,6
+2026-10-18,Hyderabad,Malaria,4
+2026-10-19,Hyderabad,Malaria,6
+2026-10-20,Hyderabad,Malaria,5
+2026-10-21,Hyderabad,Malaria,5
+2026-10-22,Hyderabad,Malaria,4
+2026-10-23,Hyderabad,Malaria,6
+2026-10-24,Hyderabad,Malaria,2
+2026-10-25,Hyderabad,Malaria,3
+2026-10-26,Hyderabad,Malaria,4
+2026-10-27,Hyderabad,Malaria,1
+2026-10-28,Hyderabad,Malaria,6
+2026-10-29,Hyderabad,Malaria,5
+2026-10-30,Hyderabad,Malaria,10
+2026-10-31,Hyderabad,Malaria,6
+2026-11-01,Hyderabad,Malaria,4
+2026-11-02,Hyderabad,Malaria,5
+2026-11-03,Hyderabad,Malaria,1
+2026-11-04,Hyderabad,Malaria,8
+2026-11-05,Hyderabad,Malaria,1
+2026-11-06,Hyderabad,Malaria,5
+2026-11-07,Hyderabad,Malaria,2
+2026-11-08,Hyderabad,Malaria,3
+2026-11-09,Hyderabad,Malaria,7
+2026-11-10,Hyderabad,Malaria,5
+2026-11-11,Hyderabad,Malaria,7
+2026-11-12,Hyderabad,Malaria,8
+2026-11-13,Hyderabad,Malaria,11
+2026-11-14,Hyderabad,Malaria,4
+2026-11-15,Hyderabad,Malaria,6
+2026-11-16,Hyderabad,Malaria,3
+2026-11-17,Hyderabad,Malaria,5
+2026-11-18,Hyderabad,Malaria,7
+2026-11-19,Hyderabad,Malaria,2
+2026-11-20,Hyderabad,Malaria,5
+2026-11-21,Hyderabad,Malaria,7
+2026-11-22,Hyderabad,Malaria,3
+2026-11-23,Hyderabad,Malaria,6
+2026-11-24,Hyderabad,Malaria,6
+2026-11-25,Hyderabad,Malaria,9
+2026-10-15,Hyderabad,Typhoid,5
+2026-10-16,Hyderabad,Typhoid,3
+2026-10-17,Hyderabad,Typhoid,4
+2026-10-18,Hyderabad,Typhoid,3
+2026-10-19,Hyderabad,Typhoid,7
+2026-10-20,Hyderabad,Typhoid,3
+2026-10-21,Hyderabad,Typhoid,5
+2026-10-22,Hyderabad,Typhoid,7
+2026-10-23,Hyderabad,Typhoid,5
+2026-10-24,Hyderabad,Typhoid,4
+2026-10-25,Hyderabad,Typhoid,4
+2026-10-26,Hyderabad,Typhoid,6
+2026-10-27,Hyderabad,Typhoid,3
+2026-10-28,Hyderabad,Typhoid,7
+2026-10-29,Hyderabad,Typhoid,3
+2026-10-30,Hyderabad,Typhoid,1
+2026-10-31,Hyderabad,Typhoid,5
+2026-11-01,Hyderabad,Typhoid,0
+2026-11-02,Hyderabad,Typhoid,3
+2026-11-03,Hyderabad,Typhoid,2
+2026-11-04,Hyderabad,Typhoid,4
+2026-11-05,Hyderabad,Typhoid,3
+2026-11-06,Hyderabad,Typhoid,5
+2026-11-07,Hyderabad,Typhoid,5
+2026-11-08,Hyderabad,Typhoid,6
+2026-11-09,Hyderabad,Typhoid,5
+2026-11-10,Hyderabad,Typhoid,4
+2026-11-11,Hyderabad,Typhoid,4
+2026-11-12,Hyderabad,Typhoid,2
+2026-11-13,Hyderabad,Typhoid,3
+2026-11-14,Hyderabad,Typhoid,2
+2026-11-15,Hyderabad,Typhoid,7
+2026-11-16,Hyderabad,Typhoid,1
+2026-11-17,Hyderabad,Typhoid,5
+2026-11-18,Hyderabad,Typhoid,6
+2026-11-19,Hyderabad,Typhoid,4
+2026-11-20,Hyderabad,Typhoid,2
+2026-11-21,Hyderabad,Typhoid,2
+2026-11-22,Hyderabad,Typhoid,5
+2026-11-23,Hyderabad,Typhoid,9
+2026-11-24,Hyderabad,Typhoid,4
+2026-11-25,Hyderabad,Typhoid,2
+2026-10-15,Hyderabad,Jaundice,2
+2026-10-16,Hyderabad,Jaundice,3
+2026-10-17,Hyderabad,Jaundice,2
+2026-10-18,Hyderabad,Jaundice,0
+2026-10-19,Hyderabad,Jaundice,1
+2026-10-20,Hyderabad,Jaundice,6
+2026-10-21,Hyderabad,Jaundice,5
+2026-10-22,Hyderabad,Jaundice,1
+2026-10-23,Hyderabad,Jaundice,5
+2026-10-24,Hyderabad,Jaundice,2
+2026-10-25,Hyderabad,Jaundice,3
+2026-10-26,Hyderabad,Jaundice,2
+2026-10-27,Hyderabad,Jaundice,1
+2026-10-28,Hyderabad,Jaundice,6
+2026-10-29,Hyderabad,Jaundice,2
+2026-10-30,Hyderabad,Jaundice,4
+2026-10-31,Hyderabad,Jaundice,4
+2026-11-01,Hyderabad,Jaundice,3
+2026-11-02,Hyderabad,Jaundice,2
+2026-11-03,Hyderabad,Jaundice,1
+2026-11-04,Hyderabad,Jaundice,3
+2026-11-05,Hyderabad,Jaundice,4
+2026-11-06,Hyderabad,Jaundice,5
+2026-11-07,Hyderabad,Jaundice,3
+2026-11-08,Hyderabad,Jaundice,2
+2026-11-09,Hyderabad,Jaundice,3
+2026-11-10,Hyderabad,Jaundice,6
+2026-11-11,Hyderabad,Jaundice,2
+2026-11-12,Hyderabad,Jaundice,2
+2026-11-13,Hyderabad,Jaundice,4
+2026-11-14,Hyderabad,Jaundice,3
+2026-11-15,Hyderabad,Jaundice,2
+2026-11-16,Hyderabad,Jaundice,3
+2026-11-17,Hyderabad,Jaundice,2
+2026-11-18,Hyderabad,Jaundice,3
+2026-11-19,Hyderabad,Jaundice,2
+2026-11-20,Hyderabad,Jaundice,2
+2026-11-21,Hyderabad,Jaundice,4
+2026-11-22,Hyderabad,Jaundice,2
+2026-11-23,Hyderabad,Jaundice,4
+2026-11-24,Hyderabad,Jaundice,4
+2026-11-25,Hyderabad,Jaundice,4
+2026-10-15,Hyderabad,Pneumonia,3
+2026-10-16,Hyderabad,Pneumonia,10
+2026-10-17,Hyderabad,Pneumonia,3
+2026-10-18,Hyderabad,Pneumonia,4
+2026-10-19,Hyderabad,Pneumonia,4
+2026-10-20,Hyderabad,Pneumonia,5
+2026-10-21,Hyderabad,Pneumonia,3
+2026-10-22,Hyderabad,Pneumonia,2
+2026-10-23,Hyderabad,Pneumonia,2
+2026-10-24,Hyderabad,Pneumonia,4
+2026-10-25,Hyderabad,Pneumonia,2
+2026-10-26,Hyderabad,Pneumonia,6
+2026-10-27,Hyderabad,Pneumonia,4
+2026-10-28,Hyderabad,Pneumonia,6
+2026-10-29,Hyderabad,Pneumonia,1
+2026-10-30,Hyderabad,Pneumonia,1
+2026-10-31,Hyderabad,Pneumonia,3
+2026-11-01,Hyderabad,Pneumonia,1
+2026-11-02,Hyderabad,Pneumonia,1
+2026-11-03,Hyderabad,Pneumonia,11
+2026-11-04,Hyderabad,Pneumonia,3
+2026-11-05,Hyderabad,Pneumonia,6
+2026-11-06,Hyderabad,Pneumonia,7
+2026-11-07,Hyderabad,Pneumonia,4
+2026-11-08,Hyderabad,Pneumonia,3
+2026-11-09,Hyderabad,Pneumonia,3
+2026-11-10,Hyderabad,Pneumonia,3
+2026-11-11,Hyderabad,Pneumonia,7
+2026-11-12,Hyderabad,Pneumonia,2
+2026-11-13,Hyderabad,Pneumonia,2
+2026-11-14,Hyderabad,Pneumonia,4
+2026-11-15,Hyderabad,Pneumonia,5
+2026-11-16,Hyderabad,Pneumonia,8
+2026-11-17,Hyderabad,Pneumonia,1
+2026-11-18,Hyderabad,Pneumonia,3
+2026-11-19,Hyderabad,Pneumonia,3
+2026-11-20,Hyderabad,Pneumonia,5
+2026-11-21,Hyderabad,Pneumonia,3
+2026-11-22,Hyderabad,Pneumonia,4
+2026-11-23,Hyderabad,Pneumonia,4
+2026-11-24,Hyderabad,Pneumonia,3
+2026-11-25,Hyderabad,Pneumonia,1
+2026-10-15,Hyderabad,Common Cold,6
+2026-10-16,Hyderabad,Common Cold,7
+2026-10-17,Hyderabad,Common Cold,8
+2026-10-18,Hyderabad,Common Cold,7
+2026-10-19,Hyderabad,Common Cold,4
+2026-10-20,Hyderabad,Common Cold,5
+2026-10-21,Hyderabad,Common Cold,9
+2026-10-22,Hyderabad,Common Cold,5
+2026-10-23,Hyderabad,Common Cold,13
+2026-10-24,Hyderabad,Common Cold,8
+2026-10-25,Hyderabad,Common Cold,19
+2026-10-26,Hyderabad,Common Cold,13
+2026-10-27,Hyderabad,Common Cold,16
+2026-10-28,Hyderabad,Common Cold,8
+2026-10-29,Hyderabad,Common Cold,6
+2026-10-30,Hyderabad,Common Cold,5
+2026-10-31,Hyderabad,Common Cold,7
+2026-11-01,Hyderabad,Common Cold,10
+2026-11-02,Hyderabad,Common Cold,13
+2026-11-03,Hyderabad,Common Cold,8
+2026-11-04,Hyderabad,Common Cold,7
+2026-11-05,Hyderabad,Common Cold,9
+2026-11-06,Hyderabad,Common Cold,3
+2026-11-07,Hyderabad,Common Cold,6
+2026-11-08,Hyderabad,Common Cold,13
+2026-11-09,Hyderabad,Common Cold,7
+2026-11-10,Hyderabad,Common Cold,15
+2026-11-11,Hyderabad,Common Cold,13
+2026-11-12,Hyderabad,Common Cold,8
+2026-11-13,Hyderabad,Common Cold,5
+2026-11-14,Hyderabad,Common Cold,9
+2026-11-15,Hyderabad,Common Cold,11
+2026-11-16,Hyderabad,Common Cold,6
+2026-11-17,Hyderabad,Common Cold,10
+2026-11-18,Hyderabad,Common Cold,7
+2026-11-19,Hyderabad,Common Cold,14
+2026-11-20,Hyderabad,Common Cold,4
+2026-11-21,Hyderabad,Common Cold,11
+2026-11-22,Hyderabad,Common Cold,11
+2026-11-23,Hyderabad,Common Cold,4
+2026-11-24,Hyderabad,Common Cold,17
+2026-11-25,Hyderabad,Common Cold,9
+2026-10-15,Hyderabad,Chicken pox,3
+2026-10-16,Hyderabad,Chicken pox,3
+2026-10-17,Hyderabad,Chicken pox,4
+2026-10-18,Hyderabad,Chicken pox,0
+2026-10-19,Hyderabad,Chicken pox,2
+2026-10-20,Hyderabad,Chicken pox,1
+2026-10-21,Hyderabad,Chicken pox,1
+2026-10-22,Hyderabad,Chicken pox,2
+2026-10-23,Hyderabad,Chicken pox,2
+2026-10-24,Hyderabad,Chicken pox,2
+2026-10-25,Hyderabad,Chicken pox,0
+2026-10-26,Hyderabad,Chicken pox,3
+2026-10-27,Hyderabad,Chicken pox,0
+2026-10-28,Hyderabad,Chicken pox,1
+2026-10-29,Hyderabad,Chicken pox,2
+2026-10-30,Hyderabad,Chicken pox,4
+2026-10-31,Hyderabad,Chicken pox,1
+2026-11-01,Hyderabad,Chicken pox,1
+2026-11-02,Hyderabad,Chicken pox,5
+2026-11-03,Hyderabad,Chicken pox,2
+2026-11-04,Hyderabad,Chicken pox,2
+2026-11-05,Hyderabad,Chicken pox,3
+2026-11-06,Hyderabad,Chicken pox,1
+2026-11-07,Hyderabad,Chicken pox,4
+2026-11-08,Hyderabad,Chicken pox,3
+2026-11-09,Hyderabad,Chicken pox,0
+2026-11-10,Hyderabad,Chicken pox,4
+2026-11-11,Hyderabad,Chicken pox,2
+2026-11-12,Hyderabad,Chicken pox,3
+2026-11-13,Hyderabad,Chicken pox,1
+2026-11-14,Hyderabad,Chicken pox,1
+2026-11-15,Hyderabad,Chicken pox,3
+2026-11-16,Hyderabad,Chicken pox,1
+2026-11-17,Hyderabad,Chicken pox,4
+2026-11-18,Hyderabad,Chicken pox,2
+2026-11-19,Hyderabad,Chicken pox,0
+2026-11-20,Hyderabad,Chicken pox,4
+2026-11-21,Hyderabad,Chicken pox,2
+2026-11-22,Hyderabad,Chicken pox,2
+2026-11-23,Hyderabad,Chicken pox,6
+2026-11-24,Hyderabad,Chicken pox,3
+2026-11-25,Hyderabad,Chicken pox,2
+2026-10-15,Hyderabad,Tuberculosis,6
+2026-10-16,Hyderabad,Tuberculosis,2
+2026-10-17,Hyderabad,Tuberculosis,7
+2026-10-18,Hyderabad,Tuberculosis,2
+2026-10-19,Hyderabad,Tuberculosis,5
+2026-10-20,Hyderabad,Tuberculosis,3
+2026-10-21,Hyderabad,Tuberculosis,2
+2026-10-22,Hyderabad,Tuberculosis,4
+2026-10-23,Hyderabad,Tuberculosis,4
+2026-10-24,Hyderabad,Tuberculosis,2
+2026-10-25,Hyderabad,Tuberculosis,3
+2026-10-26,Hyderabad,Tuberculosis,0
+2026-10-27,Hyderabad,Tuberculosis,6
+2026-10-28,Hyderabad,Tuberculosis,3
+2026-10-29,Hyderabad,Tuberculosis,4
+2026-10-30,Hyderabad,Tuberculosis,3
+2026-10-31,Hyderabad,Tuberculosis,4
+2026-11-01,Hyderabad,Tuberculosis,1
+2026-11-02,Hyderabad,Tuberculosis,3
+2026-11-03,Hyderabad,Tuberculosis,2
+2026-11-04,Hyderabad,Tuberculosis,3
+2026-11-05,Hyderabad,Tuberculosis,1
+2026-11-06,Hyderabad,Tuberculosis,1
+2026-11-07,Hyderabad,Tuberculosis,3
+2026-11-08,Hyderabad,Tuberculosis,2
+2026-11-09,Hyderabad,Tuberculosis,3
+2026-11-10,Hyderabad,Tuberculosis,4
+2026-11-11,Hyderabad,Tuberculosis,2
+2026-11-12,Hyderabad,Tuberculosis,6
+2026-11-13,Hyderabad,Tuberculosis,7
+2026-11-14,Hyderabad,Tuberculosis,4
+2026-11-15,Hyderabad,Tuberculosis,0
+2026-11-16,Hyderabad,Tuberculosis,3
+2026-11-17,Hyderabad,Tuberculosis,6
+2026-11-18,Hyderabad,Tuberculosis,2
+2026-11-19,Hyderabad,Tuberculosis,2
+2026-11-20,Hyderabad,Tuberculosis,1
+2026-11-21,Hyderabad,Tuberculosis,0
+2026-11-22,Hyderabad,Tuberculosis,3
+2026-11-23,Hyderabad,Tuberculosis,5
+2026-11-24,Hyderabad,Tuberculosis,3
+2026-11-25,Hyderabad,Tuberculosis,3
+2026-10-15,Pune,Dengue,9
+2026-10-16,Pune,Dengue,3
+2026-10-17,Pune,Dengue,6
+2026-10-18,Pune,Dengue,0
+2026-10-19,Pune,Dengue,4
+2026-10-20,Pune,Dengue,4
+2026-10-21,Pune,Dengue,10
+2026-10-22,Pune,Dengue,6
+2026-10-23,Pune,Dengue,3
+2026-10-24,Pune,Dengue,5
+2026-10-25,Pune,Dengue,3
+2026-10-26,Pune,Dengue,7
+2026-10-27,Pune,Dengue,7
+2026-10-28,Pune,Dengue,4
+2026-10-29,Pune,Dengue,9
+2026-10-30,Pune,Dengue,5
+2026-10-31,Pune,Dengue,2
+2026-11-01,Pune,Dengue,9
+2026-11-02,Pune,Dengue,5
+2026-11-03,Pune,Dengue,6
+2026-11-04,Pune,Dengue,8
+2026-11-05,Pune,Dengue,8
+2026-11-06,Pune,Dengue,8
+2026-11-07,Pune,Dengue,11
+2026-11-08,Pune,Dengue,4
+2026-11-09,Pune,Dengue,13
+2026-11-10,Pune,Dengue,4
+2026-11-11,Pune,Dengue,13
+2026-11-12,Pune,Dengue,3
+2026-11-13,Pune,Dengue,10
+2026-11-14,Pune,Dengue,2
+2026-11-15,Pune,Dengue,10
+2026-11-16,Pune,Dengue,5
+2026-11-17,Pune,Dengue,4
+2026-11-18,Pune,Dengue,4
+2026-11-19,Pune,Dengue,3
+2026-11-20,Pune,Dengue,12
+2026-11-21,Pune,Dengue,7
+2026-11-22,Pune,Dengue,7
+2026-11-23,Pune,Dengue,6
+2026-11-24,Pune,Dengue,9
+2026-11-25,Pune,Dengue,8
+2026-10-15,Pune,Malaria,3
+2026-10-16,Pune,Malaria,5
+2026-10-17,Pune,Malaria,4
+2026-10-18,Pune,Malaria,8
+2026-10-19,Pune,Malaria,6
+2026-10-20,Pune,Malaria,1
+2026-10-21,Pune,Malaria,8
+2026-10-22,Pune,Malaria,5
+2026-10-23,Pune,Malaria,5
+2026-10-24,Pune,Malaria,9
+2026-10-25,Pune,Malaria,9
+2026-10-26,Pune,Malaria,7
+2026-10-27,Pune,Malaria,6
+2026-10-28,Pune,Malaria,5
+2026-10-29,Pune,Malaria,6
+2026-10-30,Pune,Malaria,5
+2026-10-31,Pune,Malaria,3
+2026-11-01,Pune,Malaria,3
+2026-11-02,Pune,Malaria,7
+2026-11-03,Pune,Malaria,8
+2026-11-04,Pune,Malaria,9
+2026-11-05,Pune,Malaria,11
+2026-11-06,Pune,Malaria,5
+2026-11-07,Pune,Malaria,5
+2026-11-08,Pune,Malaria,5
+2026-11-09,Pune,Malaria,4
+2026-11-10,Pune,Malaria,2
+2026-11-11,Pune,Malaria,5
+2026-11-12,Pune,Malaria,6
+2026-11-13,Pune,Malaria,2
+2026-11-14,Pune,Malaria,6
+2026-11-15,Pune,Malaria,6
+2026-11-16,Pune,Malaria,7
+2026-11-17,Pune,Malaria,8
+2026-11-18,Pune,Malaria,7
+2026-11-19,Pune,Malaria,4
+2026-11-20,Pune,Malaria,3
+2026-11-21,Pune,Malaria,11
+2026-11-22,Pune,Malaria,6
+2026-11-23,Pune,Malaria,8
+2026-11-24,Pune,Malaria,6
+2026-11-25,Pune,Malaria,4
+2026-10-15,Pune,Typhoid,5
+2026-10-16,Pune,Typhoid,5
+2026-10-17,Pune,Typhoid,4
+2026-10-18,Pune,Typhoid,4
+2026-10-19,Pune,Typhoid,7
+2026-10-20,Pune,Typhoid,2
+2026-10-21,Pune,Typhoid,0
+2026-10-22,Pune,Typhoid,6
+2026-10-23,Pune,Typhoid,3
+2026-10-24,Pune,Typhoid,7
+2026-10-25,Pune,Typhoid,1
+2026-10-26,Pune,Typhoid,2
+2026-10-27,Pune,Typhoid,5
+2026-10-28,Pune,Typhoid,3
+2026-10-29,Pune,Typhoid,4
+2026-10-30,Pune,Typhoid,4
+2026-10-31,Pune,Typhoid,4
+2026-11-01,Pune,Typhoid,2
+2026-11-02,Pune,Typhoid,2
+2026-11-03,Pune,Typhoid,3
+2026-11-04,Pune,Typhoid,2
+2026-11-05,Pune,Typhoid,3
+2026-11-06,Pune,Typhoid,3
+2026-11-07,Pune,Typhoid,6
+2026-11-08,Pune,Typhoid,8
+2026-11-09,Pune,Typhoid,2
+2026-11-10,Pune,Typhoid,4
+2026-11-11,Pune,Typhoid,0
+2026-11-12,Pune,Typhoid,3
+2026-11-13,Pune,Typhoid,2
+2026-11-14,Pune,Typhoid,6
+2026-11-15,Pune,Typhoid,4
+2026-11-16,Pune,Typhoid,6
+2026-11-17,Pune,Typhoid,1
+2026-11-18,Pune,Typhoid,7
+2026-11-19,Pune,Typhoid,6
+2026-11-20,Pune,Typhoid,0
+2026-11-21,Pune,Typhoid,5
+2026-11-22,Pune,Typhoid,0
+2026-11-23,Pune,Typhoid,4
+2026-11-24,Pune,Typhoid,3
+2026-11-25,Pune,Typhoid,3
+2026-10-15,Pune,Jaundice,3
+2026-10-16,Pune,Jaundice,4
+2026-10-17,Pune,Jaundice,3
+2026-10-18,Pune,Jaundice,3
+2026-10-19,Pune,Jaundice,1
+2026-10-20,Pune,Jaundice,1
+2026-10-21,Pune,Jaundice,1
+2026-10-22,Pune,Jaundice,2
+2026-10-23,Pune,Jaundice,1
+2026-10-24,Pune,Jaundice,5
+2026-10-25,Pune,Jaundice,4
+2026-10-26,Pune,Jaundice,4
+2026-10-27,Pune,Jaundice,4
+2026-10-28,Pune,Jaundice,4
+2026-10-29,Pune,Jaundice,3
+2026-10-30,Pune,Jaundice,5
+2026-10-31,Pune,Jaundice,5
+2026-11-01,Pune,Jaundice,3
+2026-11-02,Pune,Jaundice,5
+2026-11-03,Pune,Jaundice,2
+2026-11-04,Pune,Jaundice,3
+2026-11-05,Pune,Jaundice,1
+2026-11-06,Pune,Jaundice,3
+2026-11-07,Pune,Jaundice,3
+2026-11-08,Pune,Jaundice,5
+2026-11-09,Pune,Jaundice,2
+2026-11-10,Pune,Jaundice,0
+2026-11-11,Pune,Jaundice,3
+2026-11-12,Pune,Jaundice,2
+2026-11-13,Pune,Jaundice,3
+2026-11-14,Pune,Jaundice,3
+2026-11-15,Pune,Jaundice,1
+2026-11-16,Pune,Jaundice,4
+2026-11-17,Pune,Jaundice,5
+2026-11-18,Pune,Jaundice,3
+2026-11-19,Pune,Jaundice,5
+2026-11-20,Pune,Jaundice,6
+2026-11-21,Pune,Jaundice,5
+2026-11-22,Pune,Jaundice,2
+2026-11-23,Pune,Jaundice,2
+2026-11-24,Pune,Jaundice,3
+2026-11-25,Pune,Jaundice,4
+2026-10-15,Pune,Pneumonia,4
+2026-10-16,Pune,Pneumonia,1
+2026-10-17,Pune,Pneumonia,0
+2026-10-18,Pune,Pneumonia,4
+2026-10-19,Pune,Pneumonia,2
+2026-10-20,Pune,Pneumonia,2
+2026-10-21,Pune,Pneumonia,9
+2026-10-22,Pune,Pneumonia,2
+2026-10-23,Pune,Pneumonia,4
+2026-10-24,Pune,Pneumonia,4
+2026-10-25,Pune,Pneumonia,5
+2026-10-26,Pune,Pneumonia,2
+2026-10-27,Pune,Pneumonia,5
+2026-10-28,Pune,Pneumonia,11
+2026-10-29,Pune,Pneumonia,2
+2026-10-30,Pune,Pneumonia,6
+2026-10-31,Pune,Pneumonia,7
+2026-11-01,Pune,Pneumonia,6
+2026-11-02,Pune,Pneumonia,9
+2026-11-03,Pune,Pneumonia,3
+2026-11-04,Pune,Pneumonia,2
+2026-11-05,Pune,Pneumonia,0
+2026-11-06,Pune,Pneumonia,5
+2026-11-07,Pune,Pneumonia,3
+2026-11-08,Pune,Pneumonia,4
+2026-11-09,Pune,Pneumonia,2
+2026-11-10,Pune,Pneumonia,1
+2026-11-11,Pune,Pneumonia,4
+2026-11-12,Pune,Pneumonia,4
+2026-11-13,Pune,Pneumonia,6
+2026-11-14,Pune,Pneumonia,3
+2026-11-15,Pune,Pneumonia,2
+2026-11-16,Pune,Pneumonia,6
+2026-11-17,Pune,Pneumonia,4
+2026-11-18,Pune,Pneumonia,5
+2026-11-19,Pune,Pneumonia,1
+2026-11-20,Pune,Pneumonia,6
+2026-11-21,Pune,Pneumonia,1
+2026-11-22,Pune,Pneumonia,4
+2026-11-23,Pune,Pneumonia,0
+2026-11-24,Pune,Pneumonia,6
+2026-11-25,Pune,Pneumonia,4
+2026-10-15,Pune,Common Cold,11
+2026-10-16,Pune,Common Cold,9
+2026-10-17,Pune,Common Cold,11
+2026-10-18,Pune,Common Cold,13
+2026-10-19,Pune,Common Cold,12
+2026-10-20,Pune,Common Cold,8
+2026-10-21,Pune,Common Cold,9
+2026-10-22,Pune,Common Cold,4
+2026-10-23,Pune,Common Cold,15
+2026-10-24,Pune,Common Cold,12
+2026-10-25,Pune,Common Cold,9
+2026-10-26,Pune,Common Cold,11
+2026-10-27,Pune,Common Cold,8
+2026-10-28,Pune,Common Cold,8
+2026-10-29,Pune,Common Cold,5
+2026-10-30,Pune,Common Cold,10
+2026-10-31,Pune,Common Cold,7
+2026-11-01,Pune,Common Cold,10
+2026-11-02,Pune,Common Cold,8
+2026-11-03,Pune,Common Cold,6
+2026-11-04,Pune,Common Cold,5
+2026-11-05,Pune,Common Cold,5
+2026-11-06,Pune,Common Cold,9
+2026-11-07,Pune,Common Cold,14
+2026-11-08,Pune,Common Cold,11
+2026-11-09,Pune,Common Cold,9
+2026-11-10,Pune,Common Cold,9
+2026-11-11,Pune,Common Cold,3
+2026-11-12,Pune,Common Cold,12
+2026-11-13,Pune,Common Cold,11
+2026-11-14,Pune,Common Cold,12
+2026-11-15,Pune,Common Cold,5
+2026-11-16,Pune,Common Cold,4
+2026-11-17,Pune,Common Cold,7
+2026-11-18,Pune,Common Cold,3
+2026-11-19,Pune,Common Cold,6
+2026-11-20,Pune,Common Cold,10
+2026-11-21,Pune,Common Cold,9
+2026-11-22,Pune,Common Cold,7
+2026-11-23,Pune,Common Cold,7
+2026-11-24,Pune,Common Cold,8
+2026-11-25,Pune,Common Cold,16
+2026-10-15,Pune,Chicken pox,0
+2026-10-16,Pune,Chicken pox,3
+2026-10-17,Pune,Chicken pox,0
+2026-10-18,Pune,Chicken pox,2
+2026-10-19,Pune,Chicken pox,0
+2026-10-20,Pune,Chicken pox,0
+2026-10-21,Pune,Chicken pox,0
+2026-10-22,Pune,Chicken pox,1
+2026-10-23,Pune,Chicken pox,4
+2026-10-24,Pune,Chicken pox,2
+2026-10-25,Pune,Chicken pox,2
+2026-10-26,Pune,Chicken pox,3
+2026-10-27,Pune,Chicken pox,2
+2026-10-28,Pune,Chicken pox,3
+2026-10-29,Pune,Chicken pox,2
+2026-10-30,Pune,Chicken pox,6
+2026-10-31,Pune,Chicken pox,5
+2026-11-01,Pune,Chicken pox,3
+2026-11-02,Pune,Chicken pox,0
+2026-11-03,Pune,Chicken pox,4
+2026-11-04,Pune,Chicken pox,3
+2026-11-05,Pune,Chicken pox,3
+2026-11-06,Pune,Chicken pox,3
+2026-11-07,Pune,Chicken pox,3
+2026-11-08,Pune,Chicken pox,0
+2026-11-09,Pune,Chicken pox,4
+2026-11-10,Pune,Chicken pox,0
+2026-11-11,Pune,Chicken pox,4
+2026-11-12,Pune,Chicken pox,2
+2026-11-13,Pune,Chicken pox,0
+2026-11-14,Pune,Chicken pox,6
+2026-11-15,Pune,Chicken pox,5
+2026-11-16,Pune,Chicken pox,0
+2026-11-17,Pune,Chicken pox,1
+2026-11-18,Pune,Chicken pox,0
+2026-11-19,Pune,Chicken pox,3
+2026-11-20,Pune,Chicken pox,2
+2026-11-21,Pune,Chicken pox,1
+2026-11-22,Pune,Chicken pox,2
+2026-11-23,Pune,Chicken pox,4
+2026-11-24,Pune,Chicken pox,5
+2026-11-25,Pune,Chicken pox,1
+2026-10-15,Pune,Tuberculosis,5
+2026-10-16,Pune,Tuberculosis,1
+2026-10-17,Pune,Tuberculosis,4
+2026-10-18,Pune,Tuberculosis,5
+2026-10-19,Pune,Tuberculosis,2
+2026-10-20,Pune,Tuberculosis,3
+2026-10-21,Pune,Tuberculosis,9
+2026-10-22,Pune,Tuberculosis,4
+2026-10-23,Pune,Tuberculosis,0
+2026-10-24,Pune,Tuberculosis,6
+2026-10-25,Pune,Tuberculosis,7
+2026-10-26,Pune,Tuberculosis,2
+2026-10-27,Pune,Tuberculosis,3
+2026-10-28,Pune,Tuberculosis,6
+2026-10-29,Pune,Tuberculosis,6
+2026-10-30,Pune,Tuberculosis,2
+2026-10-31,Pune,Tuberculosis,3
+2026-11-01,Pune,Tuberculosis,3
+2026-11-02,Pune,Tuberculosis,4
+2026-11-03,Pune,Tuberculosis,1
+2026-11-04,Pune,Tuberculosis,2
+2026-11-05,Pune,Tuberculosis,1
+2026-11-06,Pune,Tuberculosis,5
+2026-11-07,Pune,Tuberculosis,2
+2026-11-08,Pune,Tuberculosis,2
+2026-11-09,Pune,Tuberculosis,2
+2026-11-10,Pune,Tuberculosis,8
+2026-11-11,Pune,Tuberculosis,1
+2026-11-12,Pune,Tuberculosis,5
+2026-11-13,Pune,Tuberculosis,6
+2026-11-14,Pune,Tuberculosis,2
+2026-11-15,Pune,Tuberculosis,4
+2026-11-16,Pune,Tuberculosis,5
+2026-11-17,Pune,Tuberculosis,1
+2026-11-18,Pune,Tuberculosis,3
+2026-11-19,Pune,Tuberculosis,2
+2026-11-20,Pune,Tuberculosis,3
+2026-11-21,Pune,Tuberculosis,1
+2026-11-22,Pune,Tuberculosis,1
+2026-11-23,Pune,Tuberculosis,1
+2026-11-24,Pune,Tuberculosis,2
+2026-11-25,Pune,Tuberculosis,2
+2026-10-15,Ahmedabad,Dengue,6
+2026-10-16,Ahmedabad,Dengue,8
+2026-10-17,Ahmedabad,Dengue,5
+2026-10-18,Ahmedabad,Dengue,6
+2026-10-19,Ahmedabad,Dengue,8
+2026-10-20,Ahmedabad,Dengue,4
+2026-10-21,Ahmedabad,Dengue,5
+2026-10-22,Ahmedabad,Dengue,11
+2026-10-23,Ahmedabad,Dengue,7
+2026-10-24,Ahmedabad,Dengue,3
+2026-10-25,Ahmedabad,Dengue,4
+2026-10-26,Ahmedabad,Dengue,8
+2026-10-27,Ahmedabad,Dengue,10
+2026-10-28,Ahmedabad,Dengue,7
+2026-10-29,Ahmedabad,Dengue,16
+2026-10-30,Ahmedabad,Dengue,8
+2026-10-31,Ahmedabad,Dengue,12
+2026-11-01,Ahmedabad,Dengue,9
+2026-11-02,Ahmedabad,Dengue,6
+2026-11-03,Ahmedabad,Dengue,7
+2026-11-04,Ahmedabad,Dengue,5
+2026-11-05,Ahmedabad,Dengue,4
+2026-11-06,Ahmedabad,Dengue,7
+2026-11-07,Ahmedabad,Dengue,8
+2026-11-08,Ahmedabad,Dengue,6
+2026-11-09,Ahmedabad,Dengue,3
+2026-11-10,Ahmedabad,Dengue,13
+2026-11-11,Ahmedabad,Dengue,7
+2026-11-12,Ahmedabad,Dengue,9
+2026-11-13,Ahmedabad,Dengue,4
+2026-11-14,Ahmedabad,Dengue,8
+2026-11-15,Ahmedabad,Dengue,2
+2026-11-16,Ahmedabad,Dengue,5
+2026-11-17,Ahmedabad,Dengue,8
+2026-11-18,Ahmedabad,Dengue,7
+2026-11-19,Ahmedabad,Dengue,6
+2026-11-20,Ahmedabad,Dengue,7
+2026-11-21,Ahmedabad,Dengue,11
+2026-11-22,Ahmedabad,Dengue,5
+2026-11-23,Ahmedabad,Dengue,6
+2026-11-24,Ahmedabad,Dengue,1
+2026-11-25,Ahmedabad,Dengue,9
+2026-10-15,Ahmedabad,Malaria,14
+2026-10-16,Ahmedabad,Malaria,2
+2026-10-17,Ahmedabad,Malaria,1
+2026-10-18,Ahmedabad,Malaria,0
+2026-10-19,Ahmedabad,Malaria,4
+2026-10-20,Ahmedabad,Malaria,6
+2026-10-21,Ahmedabad,Malaria,6
+2026-10-22,Ahmedabad,Malaria,5
+2026-10-23,Ahmedabad,Malaria,10
+2026-10-24,Ahmedabad,Malaria,9
+2026-10-25,Ahmedabad,Malaria,4
+2026-10-26,Ahmedabad,Malaria,9
+2026-10-27,Ahmedabad,Malaria,4
+2026-10-28,Ahmedabad,Malaria,2
+2026-10-29,Ahmedabad,Malaria,3
+2026-10-30,Ahmedabad,Malaria,7
+2026-10-31,Ahmedabad,Malaria,5
+2026-11-01,Ahmedabad,Malaria,7
+2026-11-02,Ahmedabad,Malaria,1
+2026-11-03,Ahmedabad,Malaria,2
+2026-11-04,Ahmedabad,Malaria,4
+2026-11-05,Ahmedabad,Malaria,6
+2026-11-06,Ahmedabad,Malaria,1
+2026-11-07,Ahmedabad,Malaria,14
+2026-11-08,Ahmedabad,Malaria,6
+2026-11-09,Ahmedabad,Malaria,6
+2026-11-10,Ahmedabad,Malaria,7
+2026-11-11,Ahmedabad,Malaria,1
+2026-11-12,Ahmedabad,Malaria,9
+2026-11-13,Ahmedabad,Malaria,4
+2026-11-14,Ahmedabad,Malaria,3
+2026-11-15,Ahmedabad,Malaria,12
+2026-11-16,Ahmedabad,Malaria,1
+2026-11-17,Ahmedabad,Malaria,6
+2026-11-18,Ahmedabad,Malaria,3
+2026-11-19,Ahmedabad,Malaria,2
+2026-11-20,Ahmedabad,Malaria,1
+2026-11-21,Ahmedabad,Malaria,4
+2026-11-22,Ahmedabad,Malaria,2
+2026-11-23,Ahmedabad,Malaria,3
+2026-11-24,Ahmedabad,Malaria,6
+2026-11-25,Ahmedabad,Malaria,2
+2026-10-15,Ahmedabad,Typhoid,0
+2026-10-16,Ahmedabad,Typhoid,7
+2026-10-17,Ahmedabad,Typhoid,5
+2026-10-18,Ahmedabad,Typhoid,6
+2026-10-19,Ahmedabad,Typhoid,6
+2026-10-20,Ahmedabad,Typhoid,4
+2026-10-21,Ahmedabad,Typhoid,3
+2026-10-22,Ahmedabad,Typhoid,4
+2026-10-23,Ahmedabad,Typhoid,3
+2026-10-24,Ahmedabad,Typhoid,9
+2026-10-25,Ahmedabad,Typhoid,2
+2026-10-26,Ahmedabad,Typhoid,2
+2026-10-27,Ahmedabad,Typhoid,3
+2026-10-28,Ahmedabad,Typhoid,7
+2026-10-29,Ahmedabad,Typhoid,8
+2026-10-30,Ahmedabad,Typhoid,1
+2026-10-31,Ahmedabad,Typhoid,2
+2026-11-01,Ahmedabad,Typhoid,5
+2026-11-02,Ahmedabad,Typhoid,9
+2026-11-03,Ahmedabad,Typhoid,3
+2026-11-04,Ahmedabad,Typhoid,5
+2026-11-05,Ahmedabad,Typhoid,4
+2026-11-06,Ahmedabad,Typhoid,3
+2026-11-07,Ahmedabad,Typhoid,3
+2026-11-08,Ahmedabad,Typhoid,4
+2026-11-09,Ahmedabad,Typhoid,5
+2026-11-10,Ahmedabad,Typhoid,3
+2026-11-11,Ahmedabad,Typhoid,2
+2026-11-12,Ahmedabad,Typhoid,4
+2026-11-13,Ahmedabad,Typhoid,5
+2026-11-14,Ahmedabad,Typhoid,5
+2026-11-15,Ahmedabad,Typhoid,4
+2026-11-16,Ahmedabad,Typhoid,6
+2026-11-17,Ahmedabad,Typhoid,0
+2026-11-18,Ahmedabad,Typhoid,6
+2026-11-19,Ahmedabad,Typhoid,2
+2026-11-20,Ahmedabad,Typhoid,6
+2026-11-21,Ahmedabad,Typhoid,4
+2026-11-22,Ahmedabad,Typhoid,5
+2026-11-23,Ahmedabad,Typhoid,5
+2026-11-24,Ahmedabad,Typhoid,3
+2026-11-25,Ahmedabad,Typhoid,3
+2026-10-15,Ahmedabad,Jaundice,4
+2026-10-16,Ahmedabad,Jaundice,4
+2026-10-17,Ahmedabad,Jaundice,2
+2026-10-18,Ahmedabad,Jaundice,2
+2026-10-19,Ahmedabad,Jaundice,3
+2026-10-20,Ahmedabad,Jaundice,6
+2026-10-21,Ahmedabad,Jaundice,4
+2026-10-22,Ahmedabad,Jaundice,3
+2026-10-23,Ahmedabad,Jaundice,0
+2026-10-24,Ahmedabad,Jaundice,1
+2026-10-25,Ahmedabad,Jaundice,2
+2026-10-26,Ahmedabad,Jaundice,3
+2026-10-27,Ahmedabad,Jaundice,4
+2026-10-28,Ahmedabad,Jaundice,4
+2026-10-29,Ahmedabad,Jaundice,8
+2026-10-30,Ahmedabad,Jaundice,3
+2026-10-31,Ahmedabad,Jaundice,5
+2026-11-01,Ahmedabad,Jaundice,4
+2026-11-02,Ahmedabad,Jaundice,4
+2026-11-03,Ahmedabad,Jaundice,7
+2026-11-04,Ahmedabad,Jaundice,3
+2026-11-05,Ahmedabad,Jaundice,4
+2026-11-06,Ahmedabad,Jaundice,4
+2026-11-07,Ahmedabad,Jaundice,3
+2026-11-08,Ahmedabad,Jaundice,1
+2026-11-09,Ahmedabad,Jaundice,1
+2026-11-10,Ahmedabad,Jaundice,1
+2026-11-11,Ahmedabad,Jaundice,6
+2026-11-12,Ahmedabad,Jaundice,2
+2026-11-13,Ahmedabad,Jaundice,4
+2026-11-14,Ahmedabad,Jaundice,5
+2026-11-15,Ahmedabad,Jaundice,3
+2026-11-16,Ahmedabad,Jaundice,3
+2026-11-17,Ahmedabad,Jaundice,1
+2026-11-18,Ahmedabad,Jaundice,2
+2026-11-19,Ahmedabad,Jaundice,3
+2026-11-20,Ahmedabad,Jaundice,2
+2026-11-21,Ahmedabad,Jaundice,2
+2026-11-22,Ahmedabad,Jaundice,1
+2026-11-23,Ahmedabad,Jaundice,0
+2026-11-24,Ahmedabad,Jaundice,7
+2026-11-25,Ahmedabad,Jaundice,3
+2026-10-15,Ahmedabad,Pneumonia,3
+2026-10-16,Ahmedabad,Pneumonia,6
+2026-10-17,Ahmedabad,Pneumonia,6
+2026-10-18,Ahmedabad,Pneumonia,3
+2026-10-19,Ahmedabad,Pneumonia,4
+2026-10-20,Ahmedabad,Pneumonia,9
+2026-10-21,Ahmedabad,Pneumonia,0
+2026-10-22,Ahmedabad,Pneumonia,4
+2026-10-23,Ahmedabad,Pneumonia,9
+2026-10-24,Ahmedabad,Pneumonia,3
+2026-10-25,Ahmedabad,Pneumonia,7
+2026-10-26,Ahmedabad,Pneumonia,4
+2026-10-27,Ahmedabad,Pneumonia,7
+2026-10-28,Ahmedabad,Pneumonia,1
+2026-10-29,Ahmedabad,Pneumonia,3
+2026-10-30,Ahmedabad,Pneumonia,2
+2026-10-31,Ahmedabad,Pneumonia,4
+2026-11-01,Ahmedabad,Pneumonia,2
+2026-11-02,Ahmedabad,Pneumonia,4
+2026-11-03,Ahmedabad,Pneumonia,5
+2026-11-04,Ahmedabad,Pneumonia,5
+2026-11-05,Ahmedabad,Pneumonia,3
+2026-11-06,Ahmedabad,Pneumonia,3
+2026-11-07,Ahmedabad,Pneumonia,5
+2026-11-08,Ahmedabad,Pneumonia,2
+2026-11-09,Ahmedabad,Pneumonia,2
+2026-11-10,Ahmedabad,Pneumonia,5
+2026-11-11,Ahmedabad,Pneumonia,4
+2026-11-12,Ahmedabad,Pneumonia,7
+2026-11-13,Ahmedabad,Pneumonia,5
+2026-11-14,Ahmedabad,Pneumonia,5
+2026-11-15,Ahmedabad,Pneumonia,5
+2026-11-16,Ahmedabad,Pneumonia,2
+2026-11-17,Ahmedabad,Pneumonia,1
+2026-11-18,Ahmedabad,Pneumonia,5
+2026-11-19,Ahmedabad,Pneumonia,2
+2026-11-20,Ahmedabad,Pneumonia,4
+2026-11-21,Ahmedabad,Pneumonia,5
+2026-11-22,Ahmedabad,Pneumonia,4
+2026-11-23,Ahmedabad,Pneumonia,3
+2026-11-24,Ahmedabad,Pneumonia,2
+2026-11-25,Ahmedabad,Pneumonia,1
+2026-10-15,Ahmedabad,Common Cold,2
+2026-10-16,Ahmedabad,Common Cold,9
+2026-10-17,Ahmedabad,Common Cold,17
+2026-10-18,Ahmedabad,Common Cold,13
+2026-10-19,Ahmedabad,Common Cold,11
+2026-10-20,Ahmedabad,Common Cold,13
+2026-10-21,Ahmedabad,Common Cold,9
+2026-10-22,Ahmedabad,Common Cold,11
+2026-10-23,Ahmedabad,Common Cold,5
+2026-10-24,Ahmedabad,Common Cold,6
+2026-10-25,Ahmedabad,Common Cold,11
+2026-10-26,Ahmedabad,Common Cold,18
+2026-10-27,Ahmedabad,Common Cold,7
+2026-10-28,Ahmedabad,Common Cold,2
+2026-10-29,Ahmedabad,Common Cold,10
+2026-10-30,Ahmedabad,Common Cold,10
+2026-10-31,Ahmedabad,Common Cold,12
+2026-11-01,Ahmedabad,Common Cold,13
+2026-11-02,Ahmedabad,Common Cold,7
+2026-11-03,Ahmedabad,Common Cold,8
+2026-11-04,Ahmedabad,Common Cold,2
+2026-11-05,Ahmedabad,Common Cold,3
+2026-11-06,Ahmedabad,Common Cold,10
+2026-11-07,Ahmedabad,Common Cold,4
+2026-11-08,Ahmedabad,Common Cold,6
+2026-11-09,Ahmedabad,Common Cold,3
+2026-11-10,Ahmedabad,Common Cold,7
+2026-11-11,Ahmedabad,Common Cold,6
+2026-11-12,Ahmedabad,Common Cold,3
+2026-11-13,Ahmedabad,Common Cold,13
+2026-11-14,Ahmedabad,Common Cold,5
+2026-11-15,Ahmedabad,Common Cold,12
+2026-11-16,Ahmedabad,Common Cold,12
+2026-11-17,Ahmedabad,Common Cold,8
+2026-11-18,Ahmedabad,Common Cold,13
+2026-11-19,Ahmedabad,Common Cold,6
+2026-11-20,Ahmedabad,Common Cold,5
+2026-11-21,Ahmedabad,Common Cold,9
+2026-11-22,Ahmedabad,Common Cold,6
+2026-11-23,Ahmedabad,Common Cold,11
+2026-11-24,Ahmedabad,Common Cold,9
+2026-11-25,Ahmedabad,Common Cold,16
+2026-10-15,Ahmedabad,Chicken pox,2
+2026-10-16,Ahmedabad,Chicken pox,4
+2026-10-17,Ahmedabad,Chicken pox,1
+2026-10-18,Ahmedabad,Chicken pox,3
+2026-10-19,Ahmedabad,Chicken pox,1
+2026-10-20,Ahmedabad,Chicken pox,3
+2026-10-21,Ahmedabad,Chicken pox,0
+2026-10-22,Ahmedabad,Chicken pox,2
+2026-10-23,Ahmedabad,Chicken pox,3
+2026-10-24,Ahmedabad,Chicken pox,3
+2026-10-25,Ahmedabad,Chicken pox,2
+2026-10-26,Ahmedabad,Chicken pox,0
+2026-10-27,Ahmedabad,Chicken pox,0
+2026-10-28,Ahmedabad,Chicken pox,3
+2026-10-29,Ahmedabad,Chicken pox,2
+2026-10-30,Ahmedabad,Chicken pox,1
+2026-10-31,Ahmedabad,Chicken pox,1
+2026-11-01,Ahmedabad,Chicken pox,1
+2026-11-02,Ahmedabad,Chicken pox,3
+2026-11-03,Ahmedabad,Chicken pox,4
+2026-11-04,Ahmedabad,Chicken pox,0
+2026-11-05,Ahmedabad,Chicken pox,0
+2026-11-06,Ahmedabad,Chicken pox,3
+2026-11-07,Ahmedabad,Chicken pox,1
+2026-11-08,Ahmedabad,Chicken pox,3
+2026-11-09,Ahmedabad,Chicken pox,1
+2026-11-10,Ahmedabad,Chicken pox,1
+2026-11-11,Ahmedabad,Chicken pox,2
+2026-11-12,Ahmedabad,Chicken pox,3
+2026-11-13,Ahmedabad,Chicken pox,2
+2026-11-14,Ahmedabad,Chicken pox,3
+2026-11-15,Ahmedabad,Chicken pox,1
+2026-11-16,Ahmedabad,Chicken pox,3
+2026-11-17,Ahmedabad,Chicken pox,5
+2026-11-18,Ahmedabad,Chicken pox,1
+2026-11-19,Ahmedabad,Chicken pox,3
+2026-11-20,Ahmedabad,Chicken pox,2
+2026-11-21,Ahmedabad,Chicken pox,1
+2026-11-22,Ahmedabad,Chicken pox,7
+2026-11-23,Ahmedabad,Chicken pox,3
+2026-11-24,Ahmedabad,Chicken pox,2
+2026-11-25,Ahmedabad,Chicken pox,1
+2026-10-15,Ahmedabad,Tuberculosis,4
+2026-10-16,Ahmedabad,Tuberculosis,2
+2026-10-17,Ahmedabad,Tuberculosis,3
+2026-10-18,Ahmedabad,Tuberculosis,0
+2026-10-19,Ahmedabad,Tuberculosis,3
+2026-10-20,Ahmedabad,Tuberculosis,1
+2026-10-21,Ahmedabad,Tuberculosis,2
+2026-10-22,Ahmedabad,Tuberculosis,2
+2026-10-23,Ahmedabad,Tuberculosis,2
+2026-10-24,Ahmedabad,Tuberculosis,3
+2026-10-25,Ahmedabad,Tuberculosis,6
+2026-10-26,Ahmedabad,Tuberculosis,5
+2026-10-27,Ahmedabad,Tuberculosis,0
+2026-10-28,Ahmedabad,Tuberculosis,6
+2026-10-29,Ahmedabad,Tuberculosis,2
+2026-10-30,Ahmedabad,Tuberculosis,2
+2026-10-31,Ahmedabad,Tuberculosis,7
+2026-11-01,Ahmedabad,Tuberculosis,1
+2026-11-02,Ahmedabad,Tuberculosis,0
+2026-11-03,Ahmedabad,Tuberculosis,4
+2026-11-04,Ahmedabad,Tuberculosis,3
+2026-11-05,Ahmedabad,Tuberculosis,4
+2026-11-06,Ahmedabad,Tuberculosis,5
+2026-11-07,Ahmedabad,Tuberculosis,2
+2026-11-08,Ahmedabad,Tuberculosis,3
+2026-11-09,Ahmedabad,Tuberculosis,2
+2026-11-10,Ahmedabad,Tuberculosis,3
+2026-11-11,Ahmedabad,Tuberculosis,4
+2026-11-12,Ahmedabad,Tuberculosis,0
+2026-11-13,Ahmedabad,Tuberculosis,2
+2026-11-14,Ahmedabad,Tuberculosis,7
+2026-11-15,Ahmedabad,Tuberculosis,4
+2026-11-16,Ahmedabad,Tuberculosis,2
+2026-11-17,Ahmedabad,Tuberculosis,3
+2026-11-18,Ahmedabad,Tuberculosis,5
+2026-11-19,Ahmedabad,Tuberculosis,4
+2026-11-20,Ahmedabad,Tuberculosis,1
+2026-11-21,Ahmedabad,Tuberculosis,1
+2026-11-22,Ahmedabad,Tuberculosis,2
+2026-11-23,Ahmedabad,Tuberculosis,5
+2026-11-24,Ahmedabad,Tuberculosis,4
+2026-11-25,Ahmedabad,Tuberculosis,2
+2026-10-15,Jaipur,Dengue,10
+2026-10-16,Jaipur,Dengue,3
+2026-10-17,Jaipur,Dengue,6
+2026-10-18,Jaipur,Dengue,6
+2026-10-19,Jaipur,Dengue,8
+2026-10-20,Jaipur,Dengue,10
+2026-10-21,Jaipur,Dengue,10
+2026-10-22,Jaipur,Dengue,3
+2026-10-23,Jaipur,Dengue,6
+2026-10-24,Jaipur,Dengue,6
+2026-10-25,Jaipur,Dengue,2
+2026-10-26,Jaipur,Dengue,6
+2026-10-27,Jaipur,Dengue,5
+2026-10-28,Jaipur,Dengue,6
+2026-10-29,Jaipur,Dengue,5
+2026-10-30,Jaipur,Dengue,8
+2026-10-31,Jaipur,Dengue,9
+2026-11-01,Jaipur,Dengue,6
+2026-11-02,Jaipur,Dengue,4
+2026-11-03,Jaipur,Dengue,3
+2026-11-04,Jaipur,Dengue,6
+2026-11-05,Jaipur,Dengue,9
+2026-11-06,Jaipur,Dengue,1
+2026-11-07,Jaipur,Dengue,7
+2026-11-08,Jaipur,Dengue,3
+2026-11-09,Jaipur,Dengue,6
+2026-11-10,Jaipur,Dengue,9
+2026-11-11,Jaipur,Dengue,2
+2026-11-12,Jaipur,Dengue,11
+2026-11-13,Jaipur,Dengue,4
+2026-11-14,Jaipur,Dengue,7
+2026-11-15,Jaipur,Dengue,8
+2026-11-16,Jaipur,Dengue,5
+2026-11-17,Jaipur,Dengue,7
+2026-11-18,Jaipur,Dengue,7
+2026-11-19,Jaipur,Dengue,9
+2026-11-20,Jaipur,Dengue,8
+2026-11-21,Jaipur,Dengue,4
+2026-11-22,Jaipur,Dengue,9
+2026-11-23,Jaipur,Dengue,9
+2026-11-24,Jaipur,Dengue,5
+2026-11-25,Jaipur,Dengue,5
+2026-10-15,Jaipur,Malaria,3
+2026-10-16,Jaipur,Malaria,2
+2026-10-17,Jaipur,Malaria,2
+2026-10-18,Jaipur,Malaria,9
+2026-10-19,Jaipur,Malaria,1
+2026-10-20,Jaipur,Malaria,10
+2026-10-21,Jaipur,Malaria,4
+2026-10-22,Jaipur,Malaria,4
+2026-10-23,Jaipur,Malaria,8
+2026-10-24,Jaipur,Malaria,3
+2026-10-25,Jaipur,Malaria,2
+2026-10-26,Jaipur,Malaria,0
+2026-10-27,Jaipur,Malaria,3
+2026-10-28,Jaipur,Malaria,2
+2026-10-29,Jaipur,Malaria,8
+2026-10-30,Jaipur,Malaria,5
+2026-10-31,Jaipur,Malaria,5
+2026-11-01,Jaipur,Malaria,7
+2026-11-02,Jaipur,Malaria,3
+2026-11-03,Jaipur,Malaria,3
+2026-11-04,Jaipur,Malaria,3
+2026-11-05,Jaipur,Malaria,1
+2026-11-06,Jaipur,Malaria,5
+2026-11-07,Jaipur,Malaria,5
+2026-11-08,Jaipur,Malaria,4
+2026-11-09,Jaipur,Malaria,5
+2026-11-10,Jaipur,Malaria,2
+2026-11-11,Jaipur,Malaria,6
+2026-11-12,Jaipur,Malaria,6
+2026-11-13,Jaipur,Malaria,3
+2026-11-14,Jaipur,Malaria,7
+2026-11-15,Jaipur,Malaria,5
+2026-11-16,Jaipur,Malaria,2
+2026-11-17,Jaipur,Malaria,10
+2026-11-18,Jaipur,Malaria,6
+2026-11-19,Jaipur,Malaria,4
+2026-11-20,Jaipur,Malaria,3
+2026-11-21,Jaipur,Malaria,1
+2026-11-22,Jaipur,Malaria,6
+2026-11-23,Jaipur,Malaria,8
+2026-11-24,Jaipur,Malaria,6
+2026-11-25,Jaipur,Malaria,3
+2026-10-15,Jaipur,Typhoid,5
+2026-10-16,Jaipur,Typhoid,5
+2026-10-17,Jaipur,Typhoid,8
+2026-10-18,Jaipur,Typhoid,6
+2026-10-19,Jaipur,Typhoid,3
+2026-10-20,Jaipur,Typhoid,4
+2026-10-21,Jaipur,Typhoid,2
+2026-10-22,Jaipur,Typhoid,0
+2026-10-23,Jaipur,Typhoid,4
+2026-10-24,Jaipur,Typhoid,5
+2026-10-25,Jaipur,Typhoid,8
+2026-10-26,Jaipur,Typhoid,2
+2026-10-27,Jaipur,Typhoid,0
+2026-10-28,Jaipur,Typhoid,4
+2026-10-29,Jaipur,Typhoid,5
+2026-10-30,Jaipur,Typhoid,5
+2026-10-31,Jaipur,Typhoid,3
+2026-11-01,Jaipur,Typhoid,6
+2026-11-02,Jaipur,Typhoid,0
+2026-11-03,Jaipur,Typhoid,2
+2026-11-04,Jaipur,Typhoid,2
+2026-11-05,Jaipur,Typhoid,6
+2026-11-06,Jaipur,Typhoid,2
+2026-11-07,Jaipur,Typhoid,5
+2026-11-08,Jaipur,Typhoid,4
+2026-11-09,Jaipur,Typhoid,5
+2026-11-10,Jaipur,Typhoid,2
+2026-11-11,Jaipur,Typhoid,6
+2026-11-12,Jaipur,Typhoid,8
+2026-11-13,Jaipur,Typhoid,2
+2026-11-14,Jaipur,Typhoid,5
+2026-11-15,Jaipur,Typhoid,5
+2026-11-16,Jaipur,Typhoid,2
+2026-11-17,Jaipur,Typhoid,1
+2026-11-18,Jaipur,Typhoid,3
+2026-11-19,Jaipur,Typhoid,0
+2026-11-20,Jaipur,Typhoid,5
+2026-11-21,Jaipur,Typhoid,3
+2026-11-22,Jaipur,Typhoid,2
+2026-11-23,Jaipur,Typhoid,4
+2026-11-24,Jaipur,Typhoid,3
+2026-11-25,Jaipur,Typhoid,2
+2026-10-15,Jaipur,Jaundice,4
+2026-10-16,Jaipur,Jaundice,4
+2026-10-17,Jaipur,Jaundice,1
+2026-10-18,Jaipur,Jaundice,4
+2026-10-19,Jaipur,Jaundice,1
+2026-10-20,Jaipur,Jaundice,5
+2026-10-21,Jaipur,Jaundice,4
+2026-10-22,Jaipur,Jaundice,0
+2026-10-23,Jaipur,Jaundice,2
+2026-10-24,Jaipur,Jaundice,3
+2026-10-25,Jaipur,Jaundice,1
+2026-10-26,Jaipur,Jaundice,1
+2026-10-27,Jaipur,Jaundice,2
+2026-10-28,Jaipur,Jaundice,1
+2026-10-29,Jaipur,Jaundice,10
+2026-10-30,Jaipur,Jaundice,5
+2026-10-31,Jaipur,Jaundice,0
+2026-11-01,Jaipur,Jaundice,2
+2026-11-02,Jaipur,Jaundice,6
+2026-11-03,Jaipur,Jaundice,4
+2026-11-04,Jaipur,Jaundice,2
+2026-11-05,Jaipur,Jaundice,2
+2026-11-06,Jaipur,Jaundice,3
+2026-11-07,Jaipur,Jaundice,8
+2026-11-08,Jaipur,Jaundice,7
+2026-11-09,Jaipur,Jaundice,5
+2026-11-10,Jaipur,Jaundice,2
+2026-11-11,Jaipur,Jaundice,2
+2026-11-12,Jaipur,Jaundice,7
+2026-11-13,Jaipur,Jaundice,3
+2026-11-14,Jaipur,Jaundice,0
+2026-11-15,Jaipur,Jaundice,2
+2026-11-16,Jaipur,Jaundice,3
+2026-11-17,Jaipur,Jaundice,6
+2026-11-18,Jaipur,Jaundice,5
+2026-11-19,Jaipur,Jaundice,3
+2026-11-20,Jaipur,Jaundice,4
+2026-11-21,Jaipur,Jaundice,0
+2026-11-22,Jaipur,Jaundice,1
+2026-11-23,Jaipur,Jaundice,1
+2026-11-24,Jaipur,Jaundice,1
+2026-11-25,Jaipur,Jaundice,3
+2026-10-15,Jaipur,Pneumonia,6
+2026-10-16,Jaipur,Pneumonia,7
+2026-10-17,Jaipur,Pneumonia,4
+2026-10-18,Jaipur,Pneumonia,3
+2026-10-19,Jaipur,Pneumonia,2
+2026-10-20,Jaipur,Pneumonia,3
+2026-10-21,Jaipur,Pneumonia,3
+2026-10-22,Jaipur,Pneumonia,3
+2026-10-23,Jaipur,Pneumonia,2
+2026-10-24,Jaipur,Pneumonia,3
+2026-10-25,Jaipur,Pneumonia,12
+2026-10-26,Jaipur,Pneumonia,8
+2026-10-27,Jaipur,Pneumonia,3
+2026-10-28,Jaipur,Pneumonia,4
+2026-10-29,Jaipur,Pneumonia,4
+2026-10-30,Jaipur,Pneumonia,4
+2026-10-31,Jaipur,Pneumonia,6
+2026-11-01,Jaipur,Pneumonia,2
+2026-11-02,Jaipur,Pneumonia,2
+2026-11-03,Jaipur,Pneumonia,5
+2026-11-04,Jaipur,Pneumonia,3
+2026-11-05,Jaipur,Pneumonia,5
+2026-11-06,Jaipur,Pneumonia,2
+2026-11-07,Jaipur,Pneumonia,3
+2026-11-08,Jaipur,Pneumonia,6
+2026-11-09,Jaipur,Pneumonia,3
+2026-11-10,Jaipur,Pneumonia,7
+2026-11-11,Jaipur,Pneumonia,1
+2026-11-12,Jaipur,Pneumonia,4
+2026-11-13,Jaipur,Pneumonia,3
+2026-11-14,Jaipur,Pneumonia,6
+2026-11-15,Jaipur,Pneumonia,1
+2026-11-16,Jaipur,Pneumonia,1
+2026-11-17,Jaipur,Pneumonia,1
+2026-11-18,Jaipur,Pneumonia,6
+2026-11-19,Jaipur,Pneumonia,5
+2026-11-20,Jaipur,Pneumonia,5
+2026-11-21,Jaipur,Pneumonia,3
+2026-11-22,Jaipur,Pneumonia,6
+2026-11-23,Jaipur,Pneumonia,5
+2026-11-24,Jaipur,Pneumonia,4
+2026-11-25,Jaipur,Pneumonia,5
+2026-10-15,Jaipur,Common Cold,19
+2026-10-16,Jaipur,Common Cold,14
+2026-10-17,Jaipur,Common Cold,15
+2026-10-18,Jaipur,Common Cold,7
+2026-10-19,Jaipur,Common Cold,15
+2026-10-20,Jaipur,Common Cold,10
+2026-10-21,Jaipur,Common Cold,20
+2026-10-22,Jaipur,Common Cold,10
+2026-10-23,Jaipur,Common Cold,10
+2026-10-24,Jaipur,Common Cold,6
+2026-10-25,Jaipur,Common Cold,12
+2026-10-26,Jaipur,Common Cold,6
+2026-10-27,Jaipur,Common Cold,9
+2026-10-28,Jaipur,Common Cold,12
+2026-10-29,Jaipur,Common Cold,16
+2026-10-30,Jaipur,Common Cold,9
+2026-10-31,Jaipur,Common Cold,7
+2026-11-01,Jaipur,Common Cold,14
+2026-11-02,Jaipur,Common Cold,7
+2026-11-03,Jaipur,Common Cold,10
+2026-11-04,Jaipur,Common Cold,10
+2026-11-05,Jaipur,Common Cold,12
+2026-11-06,Jaipur,Common Cold,9
+2026-11-07,Jaipur,Common Cold,7
+2026-11-08,Jaipur,Common Cold,6
+2026-11-09,Jaipur,Common Cold,15
+2026-11-10,Jaipur,Common Cold,10
+2026-11-11,Jaipur,Common Cold,12
+2026-11-12,Jaipur,Common Cold,8
+2026-11-13,Jaipur,Common Cold,12
+2026-11-14,Jaipur,Common Cold,4
+2026-11-15,Jaipur,Common Cold,13
+2026-11-16,Jaipur,Common Cold,13
+2026-11-17,Jaipur,Common Cold,11
+2026-11-18,Jaipur,Common Cold,5
+2026-11-19,Jaipur,Common Cold,10
+2026-11-20,Jaipur,Common Cold,6
+2026-11-21,Jaipur,Common Cold,4
+2026-11-22,Jaipur,Common Cold,8
+2026-11-23,Jaipur,Common Cold,6
+2026-11-24,Jaipur,Common Cold,18
+2026-11-25,Jaipur,Common Cold,14
+2026-10-15,Jaipur,Chicken pox,6
+2026-10-16,Jaipur,Chicken pox,1
+2026-10-17,Jaipur,Chicken pox,0
+2026-10-18,Jaipur,Chicken pox,3
+2026-10-19,Jaipur,Chicken pox,1
+2026-10-20,Jaipur,Chicken pox,1
+2026-10-21,Jaipur,Chicken pox,1
+2026-10-22,Jaipur,Chicken pox,1
+2026-10-23,Jaipur,Chicken pox,3
+2026-10-24,Jaipur,Chicken pox,1
+2026-10-25,Jaipur,Chicken pox,5
+2026-10-26,Jaipur,Chicken pox,2
+2026-10-27,Jaipur,Chicken pox,1
+2026-10-28,Jaipur,Chicken pox,1
+2026-10-29,Jaipur,Chicken pox,1
+2026-10-30,Jaipur,Chicken pox,1
+2026-10-31,Jaipur,Chicken pox,0
+2026-11-01,Jaipur,Chicken pox,2
+2026-11-02,Jaipur,Chicken pox,2
+2026-11-03,Jaipur,Chicken pox,0
+2026-11-04,Jaipur,Chicken pox,3
+2026-11-05,Jaipur,Chicken pox,6
+2026-11-06,Jaipur,Chicken pox,4
+2026-11-07,Jaipur,Chicken pox,1
+2026-11-08,Jaipur,Chicken pox,2
+2026-11-09,Jaipur,Chicken pox,1
+2026-11-10,Jaipur,Chicken pox,2
+2026-11-11,Jaipur,Chicken pox,3
+2026-11-12,Jaipur,Chicken pox,0
+2026-11-13,Jaipur,Chicken pox,0
+2026-11-14,Jaipur,Chicken pox,3
+2026-11-15,Jaipur,Chicken pox,1
+2026-11-16,Jaipur,Chicken pox,2
+2026-11-17,Jaipur,Chicken pox,4
+2026-11-18,Jaipur,Chicken pox,1
+2026-11-19,Jaipur,Chicken pox,1
+2026-11-20,Jaipur,Chicken pox,4
+2026-11-21,Jaipur,Chicken pox,2
+2026-11-22,Jaipur,Chicken pox,0
+2026-11-23,Jaipur,Chicken pox,2
+2026-11-24,Jaipur,Chicken pox,1
+2026-11-25,Jaipur,Chicken pox,2
+2026-10-15,Jaipur,Tuberculosis,5
+2026-10-16,Jaipur,Tuberculosis,4
+2026-10-17,Jaipur,Tuberculosis,4
+2026-10-18,Jaipur,Tuberculosis,4
+2026-10-19,Jaipur,Tuberculosis,3
+2026-10-20,Jaipur,Tuberculosis,4
+2026-10-21,Jaipur,Tuberculosis,1
+2026-10-22,Jaipur,Tuberculosis,3
+2026-10-23,Jaipur,Tuberculosis,0
+2026-10-24,Jaipur,Tuberculosis,6
+2026-10-25,Jaipur,Tuberculosis,4
+2026-10-26,Jaipur,Tuberculosis,3
+2026-10-27,Jaipur,Tuberculosis,3
+2026-10-28,Jaipur,Tuberculosis,2
+2026-10-29,Jaipur,Tuberculosis,2
+2026-10-30,Jaipur,Tuberculosis,5
+2026-10-31,Jaipur,Tuberculosis,4
+2026-11-01,Jaipur,Tuberculosis,4
+2026-11-02,Jaipur,Tuberculosis,2
+2026-11-03,Jaipur,Tuberculosis,5
+2026-11-04,Jaipur,Tuberculosis,4
+2026-11-05,Jaipur,Tuberculosis,4
+2026-11-06,Jaipur,Tuberculosis,1
+2026-11-07,Jaipur,Tuberculosis,2
+2026-11-08,Jaipur,Tuberculosis,2
+2026-11-09,Jaipur,Tuberculosis,8
+2026-11-10,Jaipur,Tuberculosis,1
+2026-11-11,Jaipur,Tuberculosis,4
+2026-11-12,Jaipur,Tuberculosis,3
+2026-11-13,Jaipur,Tuberculosis,0
+2026-11-14,Jaipur,Tuberculosis,0
+2026-11-15,Jaipur,Tuberculosis,6
+2026-11-16,Jaipur,Tuberculosis,0
+2026-11-17,Jaipur,Tuberculosis,6
+2026-11-18,Jaipur,Tuberculosis,5
+2026-11-19,Jaipur,Tuberculosis,0
+2026-11-20,Jaipur,Tuberculosis,5
+2026-11-21,Jaipur,Tuberculosis,1
+2026-11-22,Jaipur,Tuberculosis,2
+2026-11-23,Jaipur,Tuberculosis,2
+2026-11-24,Jaipur,Tuberculosis,2
+2026-11-25,Jaipur,Tuberculosis,4
+2026-10-15,Lucknow,Dengue,7
+2026-10-16,Lucknow,Dengue,9
+2026-10-17,Lucknow,Dengue,8
+2026-10-18,Lucknow,Dengue,8
+2026-10-19,Lucknow,Dengue,12
+2026-10-20,Lucknow,Dengue,8
+2026-10-21,Lucknow,Dengue,1
+2026-10-22,Lucknow,Dengue,3
+2026-10-23,Lucknow,Dengue,7
+2026-10-24,Lucknow,Dengue,13
+2026-10-25,Lucknow,Dengue,6
+2026-10-26,Lucknow,Dengue,9
+2026-10-27,Lucknow,Dengue,8
+2026-10-28,Lucknow,Dengue,5
+2026-10-29,Lucknow,Dengue,2
+2026-10-30,Lucknow,Dengue,4
+2026-10-31,Lucknow,Dengue,8
+2026-11-01,Lucknow,Dengue,7
+2026-11-02,Lucknow,Dengue,7
+2026-11-03,Lucknow,Dengue,5
+2026-11-04,Lucknow,Dengue,5
+2026-11-05,Lucknow,Dengue,4
+2026-11-06,Lucknow,Dengue,1
+2026-11-07,Lucknow,Dengue,9
+2026-11-08,Lucknow,Dengue,9
+2026-11-09,Lucknow,Dengue,6
+2026-11-10,Lucknow,Dengue,5
+2026-11-11,Lucknow,Dengue,6
+2026-11-12,Lucknow,Dengue,2
+2026-11-13,Lucknow,Dengue,5
+2026-11-14,Lucknow,Dengue,11
+2026-11-15,Lucknow,Dengue,9
+2026-11-16,Lucknow,Dengue,10
+2026-11-17,Lucknow,Dengue,10
+2026-11-18,Lucknow,Dengue,3
+2026-11-19,Lucknow,Dengue,7
+2026-11-20,Lucknow,Dengue,5
+2026-11-21,Lucknow,Dengue,2
+2026-11-22,Lucknow,Dengue,6
+2026-11-23,Lucknow,Dengue,4
+2026-11-24,Lucknow,Dengue,9
+2026-11-25,Lucknow,Dengue,4
+2026-10-15,Lucknow,Malaria,4
+2026-10-16,Lucknow,Malaria,10
+2026-10-17,Lucknow,Malaria,2
+2026-10-18,Lucknow,Malaria,5
+2026-10-19,Lucknow,Malaria,3
+2026-10-20,Lucknow,Malaria,5
+2026-10-21,Lucknow,Malaria,3
+2026-10-22,Lucknow,Malaria,6
+2026-10-23,Lucknow,Malaria,5
+2026-10-24,Lucknow,Malaria,6
+2026-10-25,Lucknow,Malaria,4
+2026-10-26,Lucknow,Malaria,6
+2026-10-27,Lucknow,Malaria,8
+2026-10-28,Lucknow,Malaria,1
+2026-10-29,Lucknow,Malaria,5
+2026-10-30,Lucknow,Malaria,6
+2026-10-31,Lucknow,Malaria,2
+2026-11-01,Lucknow,Malaria,2
+2026-11-02,Lucknow,Malaria,2
+2026-11-03,Lucknow,Malaria,9
+2026-11-04,Lucknow,Malaria,4
+2026-11-05,Lucknow,Malaria,10
+2026-11-06,Lucknow,Malaria,13
+2026-11-07,Lucknow,Malaria,3
+2026-11-08,Lucknow,Malaria,3
+2026-11-09,Lucknow,Malaria,4
+2026-11-10,Lucknow,Malaria,6
+2026-11-11,Lucknow,Malaria,5
+2026-11-12,Lucknow,Malaria,5
+2026-11-13,Lucknow,Malaria,4
+2026-11-14,Lucknow,Malaria,5
+2026-11-15,Lucknow,Malaria,6
+2026-11-16,Lucknow,Malaria,6
+2026-11-17,Lucknow,Malaria,7
+2026-11-18,Lucknow,Malaria,5
+2026-11-19,Lucknow,Malaria,9
+2026-11-20,Lucknow,Malaria,9
+2026-11-21,Lucknow,Malaria,8
+2026-11-22,Lucknow,Malaria,6
+2026-11-23,Lucknow,Malaria,5
+2026-11-24,Lucknow,Malaria,4
+2026-11-25,Lucknow,Malaria,8
+2026-10-15,Lucknow,Typhoid,3
+2026-10-16,Lucknow,Typhoid,7
+2026-10-17,Lucknow,Typhoid,7
+2026-10-18,Lucknow,Typhoid,1
+2026-10-19,Lucknow,Typhoid,2
+2026-10-20,Lucknow,Typhoid,4
+2026-10-21,Lucknow,Typhoid,6
+2026-10-22,Lucknow,Typhoid,3
+2026-10-23,Lucknow,Typhoid,3
+2026-10-24,Lucknow,Typhoid,3
+2026-10-25,Lucknow,Typhoid,4
+2026-10-26,Lucknow,Typhoid,4
+2026-10-27,Lucknow,Typhoid,1
+2026-10-28,Lucknow,Typhoid,7
+2026-10-29,Lucknow,Typhoid,1
+2026-10-30,Lucknow,Typhoid,3
+2026-10-31,Lucknow,Typhoid,6
+2026-11-01,Lucknow,Typhoid,3
+2026-11-02,Lucknow,Typhoid,4
+2026-11-03,Lucknow,Typhoid,2
+2026-11-04,Lucknow,Typhoid,8
+2026-11-05,Lucknow,Typhoid,4
+2026-11-06,Lucknow,Typhoid,5
+2026-11-07,Lucknow,Typhoid,2
+2026-11-08,Lucknow,Typhoid,4
+2026-11-09,Lucknow,Typhoid,6
+2026-11-10,Lucknow,Typhoid,2
+2026-11-11,Lucknow,Typhoid,7
+2026-11-12,Lucknow,Typhoid,4
+2026-11-13,Lucknow,Typhoid,6
+2026-11-14,Lucknow,Typhoid,3
+2026-11-15,Lucknow,Typhoid,5
+2026-11-16,Lucknow,Typhoid,1
+2026-11-17,Lucknow,Typhoid,3
+2026-11-18,Lucknow,Typhoid,4
+2026-11-19,Lucknow,Typhoid,3
+2026-11-20,Lucknow,Typhoid,6
+2026-11-21,Lucknow,Typhoid,3
+2026-11-22,Lucknow,Typhoid,1
+2026-11-23,Lucknow,Typhoid,2
+2026-11-24,Lucknow,Typhoid,2
+2026-11-25,Lucknow,Typhoid,3
+2026-10-15,Lucknow,Jaundice,2
+2026-10-16,Lucknow,Jaundice,2
+2026-10-17,Lucknow,Jaundice,2
+2026-10-18,Lucknow,Jaundice,2
+2026-10-19,Lucknow,Jaundice,4
+2026-10-20,Lucknow,Jaundice,1
+2026-10-21,Lucknow,Jaundice,3
+2026-10-22,Lucknow,Jaundice,3
+2026-10-23,Lucknow,Jaundice,2
+2026-10-24,Lucknow,Jaundice,0
+2026-10-25,Lucknow,Jaundice,2
+2026-10-26,Lucknow,Jaundice,4
+2026-10-27,Lucknow,Jaundice,3
+2026-10-28,Lucknow,Jaundice,5
+2026-10-29,Lucknow,Jaundice,3
+2026-10-30,Lucknow,Jaundice,0
+2026-10-31,Lucknow,Jaundice,4
+2026-11-01,Lucknow,Jaundice,6
+2026-11-02,Lucknow,Jaundice,2
+2026-11-03,Lucknow,Jaundice,5
+2026-11-04,Lucknow,Jaundice,3
+2026-11-05,Lucknow,Jaundice,8
+2026-11-06,Lucknow,Jaundice,2
+2026-11-07,Lucknow,Jaundice,2
+2026-11-08,Lucknow,Jaundice,2
+2026-11-09,Lucknow,Jaundice,6
+2026-11-10,Lucknow,Jaundice,2
+2026-11-11,Lucknow,Jaundice,4
+2026-11-12,Lucknow,Jaundice,1
+2026-11-13,Lucknow,Jaundice,4
+2026-11-14,Lucknow,Jaundice,5
+2026-11-15,Lucknow,Jaundice,2
+2026-11-16,Lucknow,Jaundice,3
+2026-11-17,Lucknow,Jaundice,2
+2026-11-18,Lucknow,Jaundice,3
+2026-11-19,Lucknow,Jaundice,4
+2026-11-20,Lucknow,Jaundice,4
+2026-11-21,Lucknow,Jaundice,4
+2026-11-22,Lucknow,Jaundice,4
+2026-11-23,Lucknow,Jaundice,3
+2026-11-24,Lucknow,Jaundice,5
+2026-11-25,Lucknow,Jaundice,2
+2026-10-15,Lucknow,Pneumonia,1
+2026-10-16,Lucknow,Pneumonia,7
+2026-10-17,Lucknow,Pneumonia,4
+2026-10-18,Lucknow,Pneumonia,3
+2026-10-19,Lucknow,Pneumonia,3
+2026-10-20,Lucknow,Pneumonia,2
+2026-10-21,Lucknow,Pneumonia,5
+2026-10-22,Lucknow,Pneumonia,7
+2026-10-23,Lucknow,Pneumonia,2
+2026-10-24,Lucknow,Pneumonia,6
+2026-10-25,Lucknow,Pneumonia,11
+2026-10-26,Lucknow,Pneumonia,3
+2026-10-27,Lucknow,Pneumonia,2
+2026-10-28,Lucknow,Pneumonia,6
+2026-10-29,Lucknow,Pneumonia,4
+2026-10-30,Lucknow,Pneumonia,6
+2026-10-31,Lucknow,Pneumonia,3
+2026-11-01,Lucknow,Pneumonia,2
+2026-11-02,Lucknow,Pneumonia,5
+2026-11-03,Lucknow,Pneumonia,5
+2026-11-04,Lucknow,Pneumonia,1
+2026-11-05,Lucknow,Pneumonia,3
+2026-11-06,Lucknow,Pneumonia,5
+2026-11-07,Lucknow,Pneumonia,2
+2026-11-08,Lucknow,Pneumonia,10
+2026-11-09,Lucknow,Pneumonia,2
+2026-11-10,Lucknow,Pneumonia,6
+2026-11-11,Lucknow,Pneumonia,8
+2026-11-12,Lucknow,Pneumonia,5
+2026-11-13,Lucknow,Pneumonia,3
+2026-11-14,Lucknow,Pneumonia,7
+2026-11-15,Lucknow,Pneumonia,7
+2026-11-16,Lucknow,Pneumonia,3
+2026-11-17,Lucknow,Pneumonia,3
+2026-11-18,Lucknow,Pneumonia,8
+2026-11-19,Lucknow,Pneumonia,6
+2026-11-20,Lucknow,Pneumonia,8
+2026-11-21,Lucknow,Pneumonia,4
+2026-11-22,Lucknow,Pneumonia,4
+2026-11-23,Lucknow,Pneumonia,5
+2026-11-24,Lucknow,Pneumonia,3
+2026-11-25,Lucknow,Pneumonia,1
+2026-10-15,Lucknow,Common Cold,6
+2026-10-16,Lucknow,Common Cold,8
+2026-10-17,Lucknow,Common Cold,7
+2026-10-18,Lucknow,Common Cold,10
+2026-10-19,Lucknow,Common Cold,10
+2026-10-20,Lucknow,Common Cold,11
+2026-10-21,Lucknow,Common Cold,17
+2026-10-22,Lucknow,Common Cold,4
+2026-10-23,Lucknow,Common Cold,10
+2026-10-24,Lucknow,Common Cold,6
+2026-10-25,Lucknow,Common Cold,12
+2026-10-26,Lucknow,Common Cold,11
+2026-10-27,Lucknow,Common Cold,11
+2026-10-28,Lucknow,Common Cold,4
+2026-10-29,Lucknow,Common Cold,16
+2026-10-30,Lucknow,Common Cold,7
+2026-10-31,Lucknow,Common Cold,5
+2026-11-01,Lucknow,Common Cold,11
+2026-11-02,Lucknow,Common Cold,11
+2026-11-03,Lucknow,Common Cold,14
+2026-11-04,Lucknow,Common Cold,8
+2026-11-05,Lucknow,Common Cold,13
+2026-11-06,Lucknow,Common Cold,9
+2026-11-07,Lucknow,Common Cold,11
+2026-11-08,Lucknow,Common Cold,8
+2026-11-09,Lucknow,Common Cold,11
+2026-11-10,Lucknow,Common Cold,9
+2026-11-11,Lucknow,Common Cold,5
+2026-11-12,Lucknow,Common Cold,5
+2026-11-13,Lucknow,Common Cold,11
+2026-11-14,Lucknow,Common Cold,6
+2026-11-15,Lucknow,Common Cold,11
+2026-11-16,Lucknow,Common Cold,4
+2026-11-17,Lucknow,Common Cold,9
+2026-11-18,Lucknow,Common Cold,12
+2026-11-19,Lucknow,Common Cold,12
+2026-11-20,Lucknow,Common Cold,7
+2026-11-21,Lucknow,Common Cold,10
+2026-11-22,Lucknow,Common Cold,14
+2026-11-23,Lucknow,Common Cold,12
+2026-11-24,Lucknow,Common Cold,8
+2026-11-25,Lucknow,Common Cold,9
+2026-10-15,Lucknow,Chicken pox,3
+2026-10-16,Lucknow,Chicken pox,0
+2026-10-17,Lucknow,Chicken pox,1
+2026-10-18,Lucknow,Chicken pox,0
+2026-10-19,Lucknow,Chicken pox,6
+2026-10-20,Lucknow,Chicken pox,3
+2026-10-21,Lucknow,Chicken pox,1
+2026-10-22,Lucknow,Chicken pox,2
+2026-10-23,Lucknow,Chicken pox,2
+2026-10-24,Lucknow,Chicken pox,3
+2026-10-25,Lucknow,Chicken pox,2
+2026-10-26,Lucknow,Chicken pox,3
+2026-10-27,Lucknow,Chicken pox,2
+2026-10-28,Lucknow,Chicken pox,5
+2026-10-29,Lucknow,Chicken pox,3
+2026-10-30,Lucknow,Chicken pox,1
+2026-10-31,Lucknow,Chicken pox,2
+2026-11-01,Lucknow,Chicken pox,1
+2026-11-02,Lucknow,Chicken pox,5
+2026-11-03,Lucknow,Chicken pox,1
+2026-11-04,Lucknow,Chicken pox,3
+2026-11-05,Lucknow,Chicken pox,2
+2026-11-06,Lucknow,Chicken pox,3
+2026-11-07,Lucknow,Chicken pox,1
+2026-11-08,Lucknow,Chicken pox,3
+2026-11-09,Lucknow,Chicken pox,1
+2026-11-10,Lucknow,Chicken pox,2
+2026-11-11,Lucknow,Chicken pox,0
+2026-11-12,Lucknow,Chicken pox,3
+2026-11-13,Lucknow,Chicken pox,1
+2026-11-14,Lucknow,Chicken pox,3
+2026-11-15,Lucknow,Chicken pox,2
+2026-11-16,Lucknow,Chicken pox,0
+2026-11-17,Lucknow,Chicken pox,5
+2026-11-18,Lucknow,Chicken pox,0
+2026-11-19,Lucknow,Chicken pox,2
+2026-11-20,Lucknow,Chicken pox,0
+2026-11-21,Lucknow,Chicken pox,1
+2026-11-22,Lucknow,Chicken pox,2
+2026-11-23,Lucknow,Chicken pox,4
+2026-11-24,Lucknow,Chicken pox,1
+2026-11-25,Lucknow,Chicken pox,2
+2026-10-15,Lucknow,Tuberculosis,6
+2026-10-16,Lucknow,Tuberculosis,4
+2026-10-17,Lucknow,Tuberculosis,4
+2026-10-18,Lucknow,Tuberculosis,3
+2026-10-19,Lucknow,Tuberculosis,3
+2026-10-20,Lucknow,Tuberculosis,6
+2026-10-21,Lucknow,Tuberculosis,4
+2026-10-22,Lucknow,Tuberculosis,5
+2026-10-23,Lucknow,Tuberculosis,2
+2026-10-24,Lucknow,Tuberculosis,1
+2026-10-25,Lucknow,Tuberculosis,3
+2026-10-26,Lucknow,Tuberculosis,2
+2026-10-27,Lucknow,Tuberculosis,2
+2026-10-28,Lucknow,Tuberculosis,4
+2026-10-29,Lucknow,Tuberculosis,0
+2026-10-30,Lucknow,Tuberculosis,2
+2026-10-31,Lucknow,Tuberculosis,0
+2026-11-01,Lucknow,Tuberculosis,2
+2026-11-02,Lucknow,Tuberculosis,7
+2026-11-03,Lucknow,Tuberculosis,6
+2026-11-04,Lucknow,Tuberculosis,3
+2026-11-05,Lucknow,Tuberculosis,4
+2026-11-06,Lucknow,Tuberculosis,3
+2026-11-07,Lucknow,Tuberculosis,8
+2026-11-08,Lucknow,Tuberculosis,6
+2026-11-09,Lucknow,Tuberculosis,0
+2026-11-10,Lucknow,Tuberculosis,2
+2026-11-11,Lucknow,Tuberculosis,4
+2026-11-12,Lucknow,Tuberculosis,1
+2026-11-13,Lucknow,Tuberculosis,6
+2026-11-14,Lucknow,Tuberculosis,2
+2026-11-15,Lucknow,Tuberculosis,2
+2026-11-16,Lucknow,Tuberculosis,2
+2026-11-17,Lucknow,Tuberculosis,8
+2026-11-18,Lucknow,Tuberculosis,4
+2026-11-19,Lucknow,Tuberculosis,1
+2026-11-20,Lucknow,Tuberculosis,2
+2026-11-21,Lucknow,Tuberculosis,2
+2026-11-22,Lucknow,Tuberculosis,1
+2026-11-23,Lucknow,Tuberculosis,2
+2026-11-24,Lucknow,Tuberculosis,6
+2026-11-25,Lucknow,Tuberculosis,4
+2026-10-15,Kochi,Dengue,5
+2026-10-16,Kochi,Dengue,7
+2026-10-17,Kochi,Dengue,5
+2026-10-18,Kochi,Dengue,10
+2026-10-19,Kochi,Dengue,4
+2026-10-20,Kochi,Dengue,11
+2026-10-21,Kochi,Dengue,6
+2026-10-22,Kochi,Dengue,4
+2026-10-23,Kochi,Dengue,11
+2026-10-24,Kochi,Dengue,8
+2026-10-25,Kochi,Dengue,5
+2026-10-26,Kochi,Dengue,7
+2026-10-27,Kochi,Dengue,3
+2026-10-28,Kochi,Dengue,11
+2026-10-29,Kochi,Dengue,7
+2026-10-30,Kochi,Dengue,8
+2026-10-31,Kochi,Dengue,4
+2026-11-01,Kochi,Dengue,4
+2026-11-02,Kochi,Dengue,5
+2026-11-03,Kochi,Dengue,5
+2026-11-04,Kochi,Dengue,7
+2026-11-05,Kochi,Dengue,5
+2026-11-06,Kochi,Dengue,7
+2026-11-07,Kochi,Dengue,6
+2026-11-08,Kochi,Dengue,5
+2026-11-09,Kochi,Dengue,10
+2026-11-10,Kochi,Dengue,4
+2026-11-11,Kochi,Dengue,8
+2026-11-12,Kochi,Dengue,8
+2026-11-13,Kochi,Dengue,8
+2026-11-14,Kochi,Dengue,9
+2026-11-15,Kochi,Dengue,1
+2026-11-16,Kochi,Dengue,7
+2026-11-17,Kochi,Dengue,10
+2026-11-18,Kochi,Dengue,8
+2026-11-19,Kochi,Dengue,11
+2026-11-20,Kochi,Dengue,1
+2026-11-21,Kochi,Dengue,2
+2026-11-22,Kochi,Dengue,5
+2026-11-23,Kochi,Dengue,5
+2026-11-24,Kochi,Dengue,7
+2026-11-25,Kochi,Dengue,2
+2026-10-15,Kochi,Malaria,6
+2026-10-16,Kochi,Malaria,3
+2026-10-17,Kochi,Malaria,8
+2026-10-18,Kochi,Malaria,6
+2026-10-19,Kochi,Malaria,2
+2026-10-20,Kochi,Malaria,8
+2026-10-21,Kochi,Malaria,4
+2026-10-22,Kochi,Malaria,7
+2026-10-23,Kochi,Malaria,6
+2026-10-24,Kochi,Malaria,3
+2026-10-25,Kochi,Malaria,6
+2026-10-26,Kochi,Malaria,2
+2026-10-27,Kochi,Malaria,5
+2026-10-28,Kochi,Malaria,3
+2026-10-29,Kochi,Malaria,8
+2026-10-30,Kochi,Malaria,6
+2026-10-31,Kochi,Malaria,8
+2026-11-01,Kochi,Malaria,4
+2026-11-02,Kochi,Malaria,3
+2026-11-03,Kochi,Malaria,5
+2026-11-04,Kochi,Malaria,5
+2026-11-05,Kochi,Malaria,1
+2026-11-06,Kochi,Malaria,2
+2026-11-07,Kochi,Malaria,3
+2026-11-08,Kochi,Malaria,4
+2026-11-09,Kochi,Malaria,7
+2026-11-10,Kochi,Malaria,4
+2026-11-11,Kochi,Malaria,4
+2026-11-12,Kochi,Malaria,9
+2026-11-13,Kochi,Malaria,4
+2026-11-14,Kochi,Malaria,4
+2026-11-15,Kochi,Malaria,3
+2026-11-16,Kochi,Malaria,3
+2026-11-17,Kochi,Malaria,1
+2026-11-18,Kochi,Malaria,6
+2026-11-19,Kochi,Malaria,2
+2026-11-20,Kochi,Malaria,1
+2026-11-21,Kochi,Malaria,3
+2026-11-22,Kochi,Malaria,7
+2026-11-23,Kochi,Malaria,8
+2026-11-24,Kochi,Malaria,3
+2026-11-25,Kochi,Malaria,3
+2026-10-15,Kochi,Typhoid,5
+2026-10-16,Kochi,Typhoid,2
+2026-10-17,Kochi,Typhoid,1
+2026-10-18,Kochi,Typhoid,6
+2026-10-19,Kochi,Typhoid,1
+2026-10-20,Kochi,Typhoid,4
+2026-10-21,Kochi,Typhoid,6
+2026-10-22,Kochi,Typhoid,7
+2026-10-23,Kochi,Typhoid,2
+2026-10-24,Kochi,Typhoid,5
+2026-10-25,Kochi,Typhoid,7
+2026-10-26,Kochi,Typhoid,2
+2026-10-27,Kochi,Typhoid,6
+2026-10-28,Kochi,Typhoid,4
+2026-10-29,Kochi,Typhoid,3
+2026-10-30,Kochi,Typhoid,7
+2026-10-31,Kochi,Typhoid,3
+2026-11-01,Kochi,Typhoid,1
+2026-11-02,Kochi,Typhoid,3
+2026-11-03,Kochi,Typhoid,2
+2026-11-04,Kochi,Typhoid,2
+2026-11-05,Kochi,Typhoid,2
+2026-11-06,Kochi,Typhoid,4
+2026-11-07,Kochi,Typhoid,1
+2026-11-08,Kochi,Typhoid,2
+2026-11-09,Kochi,Typhoid,2
+2026-11-10,Kochi,Typhoid,3
+2026-11-11,Kochi,Typhoid,3
+2026-11-12,Kochi,Typhoid,3
+2026-11-13,Kochi,Typhoid,6
+2026-11-14,Kochi,Typhoid,2
+2026-11-15,Kochi,Typhoid,0
+2026-11-16,Kochi,Typhoid,7
+2026-11-17,Kochi,Typhoid,6
+2026-11-18,Kochi,Typhoid,7
+2026-11-19,Kochi,Typhoid,7
+2026-11-20,Kochi,Typhoid,4
+2026-11-21,Kochi,Typhoid,8
+2026-11-22,Kochi,Typhoid,4
+2026-11-23,Kochi,Typhoid,4
+2026-11-24,Kochi,Typhoid,4
+2026-11-25,Kochi,Typhoid,4
+2026-10-15,Kochi,Jaundice,1
+2026-10-16,Kochi,Jaundice,0
+2026-10-17,Kochi,Jaundice,5
+2026-10-18,Kochi,Jaundice,0
+2026-10-19,Kochi,Jaundice,1
+2026-10-20,Kochi,Jaundice,2
+2026-10-21,Kochi,Jaundice,0
+2026-10-22,Kochi,Jaundice,3
+2026-10-23,Kochi,Jaundice,4
+2026-10-24,Kochi,Jaundice,3
+2026-10-25,Kochi,Jaundice,1
+2026-10-26,Kochi,Jaundice,3
+2026-10-27,Kochi,Jaundice,4
+2026-10-28,Kochi,Jaundice,3
+2026-10-29,Kochi,Jaundice,4
+2026-10-30,Kochi,Jaundice,6
+2026-10-31,Kochi,Jaundice,4
+2026-11-01,Kochi,Jaundice,4
+2026-11-02,Kochi,Jaundice,3
+2026-11-03,Kochi,Jaundice,2
+2026-11-04,Kochi,Jaundice,1
+2026-11-05,Kochi,Jaundice,2
+2026-11-06,Kochi,Jaundice,2
+2026-11-07,Kochi,Jaundice,3
+2026-11-08,Kochi,Jaundice,5
+2026-11-09,Kochi,Jaundice,2
+2026-11-10,Kochi,Jaundice,5
+2026-11-11,Kochi,Jaundice,7
+2026-11-12,Kochi,Jaundice,3
+2026-11-13,Kochi,Jaundice,2
+2026-11-14,Kochi,Jaundice,1
+2026-11-15,Kochi,Jaundice,6
+2026-11-16,Kochi,Jaundice,2
+2026-11-17,Kochi,Jaundice,4
+2026-11-18,Kochi,Jaundice,5
+2026-11-19,Kochi,Jaundice,4
+2026-11-20,Kochi,Jaundice,6
+2026-11-21,Kochi,Jaundice,1
+2026-11-22,Kochi,Jaundice,7
+2026-11-23,Kochi,Jaundice,2
+2026-11-24,Kochi,Jaundice,4
+2026-11-25,Kochi,Jaundice,3
+2026-10-15,Kochi,Pneumonia,1
+2026-10-16,Kochi,Pneumonia,2
+2026-10-17,Kochi,Pneumonia,4
+2026-10-18,Kochi,Pneumonia,5
+2026-10-19,Kochi,Pneumonia,3
+2026-10-20,Kochi,Pneumonia,2
+2026-10-21,Kochi,Pneumonia,3
+2026-10-22,Kochi,Pneumonia,3
+2026-10-23,Kochi,Pneumonia,2
+2026-10-24,Kochi,Pneumonia,1
+2026-10-25,Kochi,Pneumonia,5
+2026-10-26,Kochi,Pneumonia,3
+2026-10-27,Kochi,Pneumonia,1
+2026-10-28,Kochi,Pneumonia,2
+2026-10-29,Kochi,Pneumonia,2
+2026-10-30,Kochi,Pneumonia,6
+2026-10-31,Kochi,Pneumonia,3
+2026-11-01,Kochi,Pneumonia,3
+2026-11-02,Kochi,Pneumonia,4
+2026-11-03,Kochi,Pneumonia,4
+2026-11-04,Kochi,Pneumonia,7
+2026-11-05,Kochi,Pneumonia,4
+2026-11-06,Kochi,Pneumonia,2
+2026-11-07,Kochi,Pneumonia,3
+2026-11-08,Kochi,Pneumonia,6
+2026-11-09,Kochi,Pneumonia,2
+2026-11-10,Kochi,Pneumonia,6
+2026-11-11,Kochi,Pneumonia,9
+2026-11-12,Kochi,Pneumonia,6
+2026-11-13,Kochi,Pneumonia,6
+2026-11-14,Kochi,Pneumonia,1
+2026-11-15,Kochi,Pneumonia,3
+2026-11-16,Kochi,Pneumonia,6
+2026-11-17,Kochi,Pneumonia,2
+2026-11-18,Kochi,Pneumonia,5
+2026-11-19,Kochi,Pneumonia,3
+2026-11-20,Kochi,Pneumonia,6
+2026-11-21,Kochi,Pneumonia,10
+2026-11-22,Kochi,Pneumonia,8
+2026-11-23,Kochi,Pneumonia,5
+2026-11-24,Kochi,Pneumonia,4
+2026-11-25,Kochi,Pneumonia,9
+2026-10-15,Kochi,Common Cold,6
+2026-10-16,Kochi,Common Cold,4
+2026-10-17,Kochi,Common Cold,5
+2026-10-18,Kochi,Common Cold,4
+2026-10-19,Kochi,Common Cold,11
+2026-10-20,Kochi,Common Cold,5
+2026-10-21,Kochi,Common Cold,10
+2026-10-22,Kochi,Common Cold,7
+2026-10-23,Kochi,Common Cold,20
+2026-10-24,Kochi,Common Cold,11
+2026-10-25,Kochi,Common Cold,9
+2026-10-26,Kochi,Common Cold,11
+2026-10-27,Kochi,Common Cold,6
+2026-10-28,Kochi,Common Cold,11
+2026-10-29,Kochi,Common Cold,9
+2026-10-30,Kochi,Common Cold,11
+2026-10-31,Kochi,Common Cold,10
+2026-11-01,Kochi,Common Cold,12
+2026-11-02,Kochi,Common Cold,4
+2026-11-03,Kochi,Common Cold,6
+2026-11-04,Kochi,Common Cold,11
+2026-11-05,Kochi,Common Cold,10
+2026-11-06,Kochi,Common Cold,10
+2026-11-07,Kochi,Common Cold,12
+2026-11-08,Kochi,Common Cold,1
+2026-11-09,Kochi,Common Cold,20
+2026-11-10,Kochi,Common Cold,8
+2026-11-11,Kochi,Common Cold,11
+2026-11-12,Kochi,Common Cold,7
+2026-11-13,Kochi,Common Cold,9
+2026-11-14,Kochi,Common Cold,12
+2026-11-15,Kochi,Common Cold,11
+2026-11-16,Kochi,Common Cold,4
+2026-11-17,Kochi,Common Cold,5
+2026-11-18,Kochi,Common Cold,13
+2026-11-19,Kochi,Common Cold,9
+2026-11-20,Kochi,Common Cold,10
+2026-11-21,Kochi,Common Cold,13
+2026-11-22,Kochi,Common Cold,5
+2026-11-23,Kochi,Common Cold,4
+2026-11-24,Kochi,Common Cold,6
+2026-11-25,Kochi,Common Cold,16
+2026-10-15,Kochi,Chicken pox,4
+2026-10-16,Kochi,Chicken pox,2
+2026-10-17,Kochi,Chicken pox,3
+2026-10-18,Kochi,Chicken pox,5
+2026-10-19,Kochi,Chicken pox,0
+2026-10-20,Kochi,Chicken pox,2
+2026-10-21,Kochi,Chicken pox,4
+2026-10-22,Kochi,Chicken pox,2
+2026-10-23,Kochi,Chicken pox,3
+2026-10-24,Kochi,Chicken pox,3
+2026-10-25,Kochi,Chicken pox,2
+2026-10-26,Kochi,Chicken pox,0
+2026-10-27,Kochi,Chicken pox,2
+2026-10-28,Kochi,Chicken pox,4
+2026-10-29,Kochi,Chicken pox,1
+2026-10-30,Kochi,Chicken pox,2
+2026-10-31,Kochi,Chicken pox,3
+2026-11-01,Kochi,Chicken pox,2
+2026-11-02,Kochi,Chicken pox,0
+2026-11-03,Kochi,Chicken pox,4
+2026-11-04,Kochi,Chicken pox,1
+2026-11-05,Kochi,Chicken pox,3
+2026-11-06,Kochi,Chicken pox,3
+2026-11-07,Kochi,Chicken pox,1
+2026-11-08,Kochi,Chicken pox,2
+2026-11-09,Kochi,Chicken pox,5
+2026-11-10,Kochi,Chicken pox,2
+2026-11-11,Kochi,Chicken pox,3
+2026-11-12,Kochi,Chicken pox,4
+2026-11-13,Kochi,Chicken pox,0
+2026-11-14,Kochi,Chicken pox,0
+2026-11-15,Kochi,Chicken pox,4
+2026-11-16,Kochi,Chicken pox,2
+2026-11-17,Kochi,Chicken pox,0
+2026-11-18,Kochi,Chicken pox,1
+2026-11-19,Kochi,Chicken pox,2
+2026-11-20,Kochi,Chicken pox,0
+2026-11-21,Kochi,Chicken pox,2
+2026-11-22,Kochi,Chicken pox,2
+2026-11-23,Kochi,Chicken pox,2
+2026-11-24,Kochi,Chicken pox,2
+2026-11-25,Kochi,Chicken pox,2
+2026-10-15,Kochi,Tuberculosis,2
+2026-10-16,Kochi,Tuberculosis,1
+2026-10-17,Kochi,Tuberculosis,4
+2026-10-18,Kochi,Tuberculosis,1
+2026-10-19,Kochi,Tuberculosis,4
+2026-10-20,Kochi,Tuberculosis,3
+2026-10-21,Kochi,Tuberculosis,3
+2026-10-22,Kochi,Tuberculosis,2
+2026-10-23,Kochi,Tuberculosis,5
+2026-10-24,Kochi,Tuberculosis,1
+2026-10-25,Kochi,Tuberculosis,3
+2026-10-26,Kochi,Tuberculosis,0
+2026-10-27,Kochi,Tuberculosis,6
+2026-10-28,Kochi,Tuberculosis,4
+2026-10-29,Kochi,Tuberculosis,1
+2026-10-30,Kochi,Tuberculosis,5
+2026-10-31,Kochi,Tuberculosis,2
+2026-11-01,Kochi,Tuberculosis,3
+2026-11-02,Kochi,Tuberculosis,2
+2026-11-03,Kochi,Tuberculosis,3
+2026-11-04,Kochi,Tuberculosis,6
+2026-11-05,Kochi,Tuberculosis,1
+2026-11-06,Kochi,Tuberculosis,2
+2026-11-07,Kochi,Tuberculosis,3
+2026-11-08,Kochi,Tuberculosis,3
+2026-11-09,Kochi,Tuberculosis,2
+2026-11-10,Kochi,Tuberculosis,1
+2026-11-11,Kochi,Tuberculosis,4
+2026-11-12,Kochi,Tuberculosis,7
+2026-11-13,Kochi,Tuberculosis,3
+2026-11-14,Kochi,Tuberculosis,3
+2026-11-15,Kochi,Tuberculosis,3
+2026-11-16,Kochi,Tuberculosis,1
+2026-11-17,Kochi,Tuberculosis,5
+2026-11-18,Kochi,Tuberculosis,3
+2026-11-19,Kochi,Tuberculosis,1
+2026-11-20,Kochi,Tuberculosis,3
+2026-11-21,Kochi,Tuberculosis,2
+2026-11-22,Kochi,Tuberculosis,7
+2026-11-23,Kochi,Tuberculosis,2
+2026-11-24,Kochi,Tuberculosis,1
+2026-11-25,Kochi,Tuberculosis,1
+2026-10-15,Mangaluru,Dengue,5
+2026-10-16,Mangaluru,Dengue,7
+2026-10-17,Mangaluru,Dengue,7
+2026-10-18,Mangaluru,Dengue,5
+2026-10-19,Mangaluru,Dengue,3
+2026-10-20,Mangaluru,Dengue,5
+2026-10-21,Mangaluru,Dengue,4
+2026-10-22,Mangaluru,Dengue,4
+2026-10-23,Mangaluru,Dengue,6
+2026-10-24,Mangaluru,Dengue,6
+2026-10-25,Mangaluru,Dengue,4
+2026-10-26,Mangaluru,Dengue,6
+2026-10-27,Mangaluru,Dengue,5
+2026-10-28,Mangaluru,Dengue,10
+2026-10-29,Mangaluru,Dengue,9
+2026-10-30,Mangaluru,Dengue,2
+2026-10-31,Mangaluru,Dengue,9
+2026-11-01,Mangaluru,Dengue,14
+2026-11-02,Mangaluru,Dengue,11
+2026-11-03,Mangaluru,Dengue,6
+2026-11-04,Mangaluru,Dengue,11
+2026-11-05,Mangaluru,Dengue,5
+2026-11-06,Mangaluru,Dengue,7
+2026-11-07,Mangaluru,Dengue,4
+2026-11-08,Mangaluru,Dengue,3
+2026-11-09,Mangaluru,Dengue,2
+2026-11-10,Mangaluru,Dengue,7
+2026-11-11,Mangaluru,Dengue,3
+2026-11-12,Mangaluru,Dengue,6
+2026-11-13,Mangaluru,Dengue,0
+2026-11-14,Mangaluru,Dengue,2
+2026-11-15,Mangaluru,Dengue,10
+2026-11-16,Mangaluru,Dengue,8
+2026-11-17,Mangaluru,Dengue,4
+2026-11-18,Mangaluru,Dengue,9
+2026-11-19,Mangaluru,Dengue,2
+2026-11-20,Mangaluru,Dengue,6
+2026-11-21,Mangaluru,Dengue,9
+2026-11-22,Mangaluru,Dengue,4
+2026-11-23,Mangaluru,Dengue,6
+2026-11-24,Mangaluru,Dengue,11
+2026-11-25,Mangaluru,Dengue,10
+2026-10-15,Mangaluru,Malaria,7
+2026-10-16,Mangaluru,Malaria,8
+2026-10-17,Mangaluru,Malaria,3
+2026-10-18,Mangaluru,Malaria,4
+2026-10-19,Mangaluru,Malaria,4
+2026-10-20,Mangaluru,Malaria,1
+2026-10-21,Mangaluru,Malaria,6
+2026-10-22,Mangaluru,Malaria,4
+2026-10-23,Mangaluru,Malaria,7
+2026-10-24,Mangaluru,Malaria,4
+2026-10-25,Mangaluru,Malaria,8
+2026-10-26,Mangaluru,Malaria,13
+2026-10-27,Mangaluru,Malaria,1
+2026-10-28,Mangaluru,Malaria,7
+2026-10-29,Mangaluru,Malaria,8
+2026-10-30,Mangaluru,Malaria,5
+2026-10-31,Mangaluru,Malaria,3
+2026-11-01,Mangaluru,Malaria,7
+2026-11-02,Mangaluru,Malaria,1
+2026-11-03,Mangaluru,Malaria,1
+2026-11-04,Mangaluru,Malaria,3
+2026-11-05,Mangaluru,Malaria,4
+2026-11-06,Mangaluru,Malaria,2
+2026-11-07,Mangaluru,Malaria,5
+2026-11-08,Mangaluru,Malaria,7
+2026-11-09,Mangaluru,Malaria,5
+2026-11-10,Mangaluru,Malaria,5
+2026-11-11,Mangaluru,Malaria,3
+2026-11-12,Mangaluru,Malaria,7
+2026-11-13,Mangaluru,Malaria,1
+2026-11-14,Mangaluru,Malaria,10
+2026-11-15,Mangaluru,Malaria,3
+2026-11-16,Mangaluru,Malaria,10
+2026-11-17,Mangaluru,Malaria,8
+2026-11-18,Mangaluru,Malaria,8
+2026-11-19,Mangaluru,Malaria,3
+2026-11-20,Mangaluru,Malaria,9
+2026-11-21,Mangaluru,Malaria,9
+2026-11-22,Mangaluru,Malaria,2
+2026-11-23,Mangaluru,Malaria,9
+2026-11-24,Mangaluru,Malaria,5
+2026-11-25,Mangaluru,Malaria,6
+2026-10-15,Mangaluru,Typhoid,5
+2026-10-16,Mangaluru,Typhoid,4
+2026-10-17,Mangaluru,Typhoid,10
+2026-10-18,Mangaluru,Typhoid,4
+2026-10-19,Mangaluru,Typhoid,7
+2026-10-20,Mangaluru,Typhoid,4
+2026-10-21,Mangaluru,Typhoid,4
+2026-10-22,Mangaluru,Typhoid,2
+2026-10-23,Mangaluru,Typhoid,4
+2026-10-24,Mangaluru,Typhoid,3
+2026-10-25,Mangaluru,Typhoid,3
+2026-10-26,Mangaluru,Typhoid,6
+2026-10-27,Mangaluru,Typhoid,3
+2026-10-28,Mangaluru,Typhoid,4
+2026-10-29,Mangaluru,Typhoid,5
+2026-10-30,Mangaluru,Typhoid,1
+2026-10-31,Mangaluru,Typhoid,6
+2026-11-01,Mangaluru,Typhoid,9
+2026-11-02,Mangaluru,Typhoid,2
+2026-11-03,Mangaluru,Typhoid,2
+2026-11-04,Mangaluru,Typhoid,6
+2026-11-05,Mangaluru,Typhoid,0
+2026-11-06,Mangaluru,Typhoid,4
+2026-11-07,Mangaluru,Typhoid,6
+2026-11-08,Mangaluru,Typhoid,5
+2026-11-09,Mangaluru,Typhoid,6
+2026-11-10,Mangaluru,Typhoid,4
+2026-11-11,Mangaluru,Typhoid,3
+2026-11-12,Mangaluru,Typhoid,5
+2026-11-13,Mangaluru,Typhoid,3
+2026-11-14,Mangaluru,Typhoid,9
+2026-11-15,Mangaluru,Typhoid,5
+2026-11-16,Mangaluru,Typhoid,0
+2026-11-17,Mangaluru,Typhoid,2
+2026-11-18,Mangaluru,Typhoid,5
+2026-11-19,Mangaluru,Typhoid,3
+2026-11-20,Mangaluru,Typhoid,4
+2026-11-21,Mangaluru,Typhoid,5
+2026-11-22,Mangaluru,Typhoid,4
+2026-11-23,Mangaluru,Typhoid,3
+2026-11-24,Mangaluru,Typhoid,3
+2026-11-25,Mangaluru,Typhoid,3
+2026-10-15,Mangaluru,Jaundice,2
+2026-10-16,Mangaluru,Jaundice,2
+2026-10-17,Mangaluru,Jaundice,4
+2026-10-18,Mangaluru,Jaundice,2
+2026-10-19,Mangaluru,Jaundice,1
+2026-10-20,Mangaluru,Jaundice,1
+2026-10-21,Mangaluru,Jaundice,2
+2026-10-22,Mangaluru,Jaundice,3
+2026-10-23,Mangaluru,Jaundice,2
+2026-10-24,Mangaluru,Jaundice,1
+2026-10-25,Mangaluru,Jaundice,5
+2026-10-26,Mangaluru,Jaundice,3
+2026-10-27,Mangaluru,Jaundice,2
+2026-10-28,Mangaluru,Jaundice,3
+2026-10-29,Mangaluru,Jaundice,4
+2026-10-30,Mangaluru,Jaundice,3
+2026-10-31,Mangaluru,Jaundice,1
+2026-11-01,Mangaluru,Jaundice,3
+2026-11-02,Mangaluru,Jaundice,4
+2026-11-03,Mangaluru,Jaundice,5
+2026-11-04,Mangaluru,Jaundice,1
+2026-11-05,Mangaluru,Jaundice,3
+2026-11-06,Mangaluru,Jaundice,3
+2026-11-07,Mangaluru,Jaundice,3
+2026-11-08,Mangaluru,Jaundice,1
+2026-11-09,Mangaluru,Jaundice,3
+2026-11-10,Mangaluru,Jaundice,4
+2026-11-11,Mangaluru,Jaundice,2
+2026-11-12,Mangaluru,Jaundice,3
+2026-11-13,Mangaluru,Jaundice,4
+2026-11-14,Mangaluru,Jaundice,3
+2026-11-15,Mangaluru,Jaundice,5
+2026-11-16,Mangaluru,Jaundice,0
+2026-11-17,Mangaluru,Jaundice,1
+2026-11-18,Mangaluru,Jaundice,8
+2026-11-19,Mangaluru,Jaundice,3
+2026-11-20,Mangaluru,Jaundice,2
+2026-11-21,Mangaluru,Jaundice,2
+2026-11-22,Mangaluru,Jaundice,3
+2026-11-23,Mangaluru,Jaundice,2
+2026-11-24,Mangaluru,Jaundice,2
+2026-11-25,Mangaluru,Jaundice,2
+2026-10-15,Mangaluru,Pneumonia,5
+2026-10-16,Mangaluru,Pneumonia,3
+2026-10-17,Mangaluru,Pneumonia,6
+2026-10-18,Mangaluru,Pneumonia,4
+2026-10-19,Mangaluru,Pneumonia,6
+2026-10-20,Mangaluru,Pneumonia,5
+2026-10-21,Mangaluru,Pneumonia,4
+2026-10-22,Mangaluru,Pneumonia,4
+2026-10-23,Mangaluru,Pneumonia,2
+2026-10-24,Mangaluru,Pneumonia,9
+2026-10-25,Mangaluru,Pneumonia,1
+2026-10-26,Mangaluru,Pneumonia,3
+2026-10-27,Mangaluru,Pneumonia,0
+2026-10-28,Mangaluru,Pneumonia,4
+2026-10-29,Mangaluru,Pneumonia,2
+2026-10-30,Mangaluru,Pneumonia,3
+2026-10-31,Mangaluru,Pneumonia,0
+2026-11-01,Mangaluru,Pneumonia,4
+2026-11-02,Mangaluru,Pneumonia,3
+2026-11-03,Mangaluru,Pneumonia,2
+2026-11-04,Mangaluru,Pneumonia,7
+2026-11-05,Mangaluru,Pneumonia,3
+2026-11-06,Mangaluru,Pneumonia,4
+2026-11-07,Mangaluru,Pneumonia,7
+2026-11-08,Mangaluru,Pneumonia,8
+2026-11-09,Mangaluru,Pneumonia,4
+2026-11-10,Mangaluru,Pneumonia,3
+2026-11-11,Mangaluru,Pneumonia,4
+2026-11-12,Mangaluru,Pneumonia,5
+2026-11-13,Mangaluru,Pneumonia,2
+2026-11-14,Mangaluru,Pneumonia,1
+2026-11-15,Mangaluru,Pneumonia,2
+2026-11-16,Mangaluru,Pneumonia,3
+2026-11-17,Mangaluru,Pneumonia,2
+2026-11-18,Mangaluru,Pneumonia,4
+2026-11-19,Mangaluru,Pneumonia,4
+2026-11-20,Mangaluru,Pneumonia,5
+2026-11-21,Mangaluru,Pneumonia,0
+2026-11-22,Mangaluru,Pneumonia,4
+2026-11-23,Mangaluru,Pneumonia,5
+2026-11-24,Mangaluru,Pneumonia,5
+2026-11-25,Mangaluru,Pneumonia,4
+2026-10-15,Mangaluru,Common Cold,11
+2026-10-16,Mangaluru,Common Cold,11
+2026-10-17,Mangaluru,Common Cold,12
+2026-10-18,Mangaluru,Common Cold,12
+2026-10-19,Mangaluru,Common Cold,8
+2026-10-20,Mangaluru,Common Cold,9
+2026-10-21,Mangaluru,Common Cold,7
+2026-10-22,Mangaluru,Common Cold,13
+2026-10-23,Mangaluru,Common Cold,9
+2026-10-24,Mangaluru,Common Cold,12
+2026-10-25,Mangaluru,Common Cold,16
+2026-10-26,Mangaluru,Common Cold,14
+2026-10-27,Mangaluru,Common Cold,5
+2026-10-28,Mangaluru,Common Cold,10
+2026-10-29,Mangaluru,Common Cold,7
+2026-10-30,Mangaluru,Common Cold,11
+2026-10-31,Mangaluru,Common Cold,16
+2026-11-01,Mangaluru,Common Cold,6
+2026-11-02,Mangaluru,Common Cold,14
+2026-11-03,Mangaluru,Common Cold,10
+2026-11-04,Mangaluru,Common Cold,15
+2026-11-05,Mangaluru,Common Cold,8
+2026-11-06,Mangaluru,Common Cold,4
+2026-11-07,Mangaluru,Common Cold,7
+2026-11-08,Mangaluru,Common Cold,8
+2026-11-09,Mangaluru,Common Cold,14
+2026-11-10,Mangaluru,Common Cold,5
+2026-11-11,Mangaluru,Common Cold,7
+2026-11-12,Mangaluru,Common Cold,14
+2026-11-13,Mangaluru,Common Cold,8
+2026-11-14,Mangaluru,Common Cold,15
+2026-11-15,Mangaluru,Common Cold,7
+2026-11-16,Mangaluru,Common Cold,6
+2026-11-17,Mangaluru,Common Cold,8
+2026-11-18,Mangaluru,Common Cold,14
+2026-11-19,Mangaluru,Common Cold,15
+2026-11-20,Mangaluru,Common Cold,5
+2026-11-21,Mangaluru,Common Cold,7
+2026-11-22,Mangaluru,Common Cold,3
+2026-11-23,Mangaluru,Common Cold,8
+2026-11-24,Mangaluru,Common Cold,4
+2026-11-25,Mangaluru,Common Cold,6
+2026-10-15,Mangaluru,Chicken pox,2
+2026-10-16,Mangaluru,Chicken pox,3
+2026-10-17,Mangaluru,Chicken pox,3
+2026-10-18,Mangaluru,Chicken pox,3
+2026-10-19,Mangaluru,Chicken pox,5
+2026-10-20,Mangaluru,Chicken pox,3
+2026-10-21,Mangaluru,Chicken pox,3
+2026-10-22,Mangaluru,Chicken pox,1
+2026-10-23,Mangaluru,Chicken pox,2
+2026-10-24,Mangaluru,Chicken pox,3
+2026-10-25,Mangaluru,Chicken pox,2
+2026-10-26,Mangaluru,Chicken pox,3
+2026-10-27,Mangaluru,Chicken pox,0
+2026-10-28,Mangaluru,Chicken pox,4
+2026-10-29,Mangaluru,Chicken pox,4
+2026-10-30,Mangaluru,Chicken pox,1
+2026-10-31,Mangaluru,Chicken pox,2
+2026-11-01,Mangaluru,Chicken pox,2
+2026-11-02,Mangaluru,Chicken pox,2
+2026-11-03,Mangaluru,Chicken pox,1
+2026-11-04,Mangaluru,Chicken pox,1
+2026-11-05,Mangaluru,Chicken pox,1
+2026-11-06,Mangaluru,Chicken pox,2
+2026-11-07,Mangaluru,Chicken pox,1
+2026-11-08,Mangaluru,Chicken pox,2
+2026-11-09,Mangaluru,Chicken pox,2
+2026-11-10,Mangaluru,Chicken pox,0
+2026-11-11,Mangaluru,Chicken pox,1
+2026-11-12,Mangaluru,Chicken pox,0
+2026-11-13,Mangaluru,Chicken pox,2
+2026-11-14,Mangaluru,Chicken pox,2
+2026-11-15,Mangaluru,Chicken pox,2
+2026-11-16,Mangaluru,Chicken pox,1
+2026-11-17,Mangaluru,Chicken pox,4
+2026-11-18,Mangaluru,Chicken pox,3
+2026-11-19,Mangaluru,Chicken pox,1
+2026-11-20,Mangaluru,Chicken pox,5
+2026-11-21,Mangaluru,Chicken pox,3
+2026-11-22,Mangaluru,Chicken pox,0
+2026-11-23,Mangaluru,Chicken pox,1
+2026-11-24,Mangaluru,Chicken pox,1
+2026-11-25,Mangaluru,Chicken pox,2
+2026-10-15,Mangaluru,Tuberculosis,4
+2026-10-16,Mangaluru,Tuberculosis,7
+2026-10-17,Mangaluru,Tuberculosis,0
+2026-10-18,Mangaluru,Tuberculosis,6
+2026-10-19,Mangaluru,Tuberculosis,8
+2026-10-20,Mangaluru,Tuberculosis,2
+2026-10-21,Mangaluru,Tuberculosis,5
+2026-10-22,Mangaluru,Tuberculosis,7
+2026-10-23,Mangaluru,Tuberculosis,1
+2026-10-24,Mangaluru,Tuberculosis,0
+2026-10-25,Mangaluru,Tuberculosis,5
+2026-10-26,Mangaluru,Tuberculosis,5
+2026-10-27,Mangaluru,Tuberculosis,5
+2026-10-28,Mangaluru,Tuberculosis,1
+2026-10-29,Mangaluru,Tuberculosis,2
+2026-10-30,Mangaluru,Tuberculosis,4
+2026-10-31,Mangaluru,Tuberculosis,0
+2026-11-01,Mangaluru,Tuberculosis,4
+2026-11-02,Mangaluru,Tuberculosis,4
+2026-11-03,Mangaluru,Tuberculosis,6
+2026-11-04,Mangaluru,Tuberculosis,0
+2026-11-05,Mangaluru,Tuberculosis,1
+2026-11-06,Mangaluru,Tuberculosis,1
+2026-11-07,Mangaluru,Tuberculosis,4
+2026-11-08,Mangaluru,Tuberculosis,4
+2026-11-09,Mangaluru,Tuberculosis,2
+2026-11-10,Mangaluru,Tuberculosis,2
+2026-11-11,Mangaluru,Tuberculosis,3
+2026-11-12,Mangaluru,Tuberculosis,4
+2026-11-13,Mangaluru,Tuberculosis,2
+2026-11-14,Mangaluru,Tuberculosis,4
+2026-11-15,Mangaluru,Tuberculosis,1
+2026-11-16,Mangaluru,Tuberculosis,2
+2026-11-17,Mangaluru,Tuberculosis,4
+2026-11-18,Mangaluru,Tuberculosis,3
+2026-11-19,Mangaluru,Tuberculosis,2
+2026-11-20,Mangaluru,Tuberculosis,6
+2026-11-21,Mangaluru,Tuberculosis,2
+2026-11-22,Mangaluru,Tuberculosis,1
+2026-11-23,Mangaluru,Tuberculosis,3
+2026-11-24,Mangaluru,Tuberculosis,1
+2026-11-25,Mangaluru,Tuberculosis,4
