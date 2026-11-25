@@ -10,128 +10,135 @@ from chat_engine import Chat, CITIES
 st.set_page_config(page_title="HealthRadar", page_icon="🩺", layout="wide")
 
 # =====================================================================
-#  DESIGN: fonts, colours, cards.  Edit the hex colours here to re-theme.
-#    indigo  #4F46E5   violet #7C3AED   pink #EC4899   teal #14B8A6
-#  Fonts: Poppins (headings, bold) + Inter (body) from Google Fonts.
+#  DARK THEME.  To re-colour the whole app, change the hex values in the
+#  ":root{ ... }" block below.  Fonts: Poppins (headings) + Inter (body).
 # =====================================================================
 STYLE = """
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap');
 
-.stApp{
-  background:
-    radial-gradient(900px 420px at 6% -6%, #E0E7FF 0, transparent 60%),
-    radial-gradient(800px 380px at 96% 0%, #FCE7F3 0, transparent 55%),
-    #F8FAFC;
+:root{
+  --bg:#0F131A;       /* page background        */
+  --surface:#171C26;  /* cards, chat bubbles    */
+  --surface2:#1D2330; /* inner panels           */
+  --line:#2A3240;     /* thin borders           */
+  --text:#E6EAF2;     /* main text              */
+  --soft:#B8C2D6;     /* secondary text         */
+  --muted:#8C97AB;    /* captions               */
+  --indigo:#6F7BE8;   /* main accent            */
+  --violet:#8B7CF6;
+  --teal:#4DB6AC;
+  --rose:#E5546B;     /* high risk              */
+  --amber:#D9A441;    /* moderate               */
+  --green:#3FB68B;    /* low                    */
 }
-html, body, .stApp, [data-testid="stMarkdownContainer"], label, input, textarea{
-  font-family:'Inter', sans-serif;
-}
-h1, h2, h3, h4{font-family:'Poppins', sans-serif !important; font-weight:700 !important; color:#1E293B;}
+
+.stApp{background:var(--bg); color:var(--text);}
+html, body, .stApp, [data-testid="stMarkdownContainer"], label, input, textarea{font-family:'Inter', sans-serif;}
+h1, h2, h3, h4{font-family:'Poppins', sans-serif !important; font-weight:600 !important; color:var(--text);}
 .block-container{max-width:1080px; padding-top:1.4rem; padding-bottom:3rem;}
 footer, #MainMenu{visibility:hidden;}
 header[data-testid="stHeader"]{background:transparent;}
 
 /* ---------- hero ---------- */
-.hero{position:relative; overflow:hidden; border-radius:28px; padding:34px 38px; margin-bottom:20px; color:#fff;
-  background:linear-gradient(120deg,#4F46E5 0%,#7C3AED 50%,#EC4899 100%);
-  box-shadow:0 18px 40px rgba(79,70,229,.28);}
-.hero:before,.hero:after{content:""; position:absolute; border-radius:50%; background:rgba(255,255,255,.12);}
-.hero:before{width:260px; height:260px; right:-60px; top:-90px;}
-.hero:after{width:150px; height:150px; right:170px; bottom:-80px;}
-.hero .badge{display:inline-block; background:rgba(255,255,255,.2); padding:6px 14px; border-radius:999px;
-  font-weight:700; font-size:.78rem; letter-spacing:.8px;}
-.hero .hero-title{font-family:'Poppins',sans-serif; font-weight:800; font-size:2.8rem; line-height:1.1; margin:12px 0 6px;}
-.hero .hero-title span{color:#FDE68A;}
-.hero p{max-width:580px; font-size:1.05rem; opacity:.95; margin:0 0 14px; color:#fff;}
+.hero{position:relative; overflow:hidden; border-radius:22px; padding:32px 36px; margin-bottom:18px;
+  background:linear-gradient(120deg,#1B2440 0%,#2A2250 55%,#3B2147 100%); border:1px solid var(--line);}
+.hero:before{content:""; position:absolute; left:0; top:0; right:0; height:3px;
+  background:linear-gradient(90deg,var(--teal),var(--violet),var(--rose));}
+.hero .badge{display:inline-block; background:rgba(255,255,255,.07); color:var(--soft); padding:6px 14px;
+  border-radius:999px; font-weight:600; font-size:.74rem; letter-spacing:1px; border:1px solid rgba(255,255,255,.12);}
+.hero .hero-title{font-family:'Poppins',sans-serif; font-weight:700; font-size:2.7rem; line-height:1.1;
+  margin:14px 0 6px; color:#F4F6FB;}
+.hero .hero-title span{color:var(--teal);}
+.hero p{max-width:580px; font-size:1.02rem; margin:0 0 14px; color:var(--soft);}
 .hero .chips span{display:inline-block; margin:4px 8px 0 0; padding:6px 14px; border-radius:999px;
-  background:#fff; color:#4F46E5; font-weight:700; font-size:.8rem;}
+  background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.14); color:#D5DCEC;
+  font-weight:600; font-size:.8rem;}
 
 /* ---------- notice ---------- */
-.notice{background:#FFFBEB; border:1px solid #FDE68A; border-left:6px solid #F59E0B; border-radius:14px;
-  padding:12px 16px; margin-bottom:16px; color:#78350F; font-size:.92rem;}
+.notice{background:rgba(217,164,65,.08); border:1px solid rgba(217,164,65,.25); border-left:4px solid var(--amber);
+  border-radius:12px; padding:12px 16px; margin-bottom:16px; color:#E6D3A8; font-size:.9rem;}
+.notice b{color:#F1DFB4;}
 
 /* ---------- tabs ---------- */
-.stTabs [data-baseweb="tab-list"]{gap:6px; background:#fff; padding:6px; border-radius:999px; width:fit-content;
-  box-shadow:0 6px 20px rgba(79,70,229,.12);}
-.stTabs [data-baseweb="tab"]{border-radius:999px; padding:8px 22px; height:auto;}
-.stTabs [data-baseweb="tab"] p{font-family:'Poppins',sans-serif; font-weight:700; font-size:.95rem;}
-.stTabs [aria-selected="true"]{background:linear-gradient(120deg,#4F46E5,#EC4899);}
+.stTabs [data-baseweb="tab-list"]{gap:4px; background:var(--surface); padding:5px; border-radius:14px;
+  width:fit-content; border:1px solid var(--line);}
+.stTabs [data-baseweb="tab"]{border-radius:10px; padding:8px 22px; height:auto; background:transparent;}
+.stTabs [data-baseweb="tab"] p{font-family:'Poppins',sans-serif; font-weight:600; font-size:.92rem; color:var(--muted);}
+.stTabs [aria-selected="true"]{background:#3B4390;}
 .stTabs [aria-selected="true"] p{color:#fff !important;}
 .stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"]{display:none;}
 
 /* ---------- chat ---------- */
-[data-testid="stChatMessage"]{background:#fff; border:1px solid #EEF2FF; border-radius:20px; padding:14px 18px;
-  margin-bottom:12px; box-shadow:0 6px 18px rgba(15,23,42,.06);}
-[data-testid="stChatMessage"] strong{color:#4338CA; font-weight:700;}
-[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]){
-  background:linear-gradient(120deg,#4F46E5,#7C3AED); border:none;}
+[data-testid="stChatMessage"]{background:var(--surface); border:1px solid var(--line); border-radius:16px;
+  padding:14px 18px; margin-bottom:12px; color:var(--text);}
+[data-testid="stChatMessage"] p, [data-testid="stChatMessage"] li{color:var(--text);}
+[data-testid="stChatMessage"] strong{color:#A5B4FC; font-weight:700;}
+[data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]){background:#2B3470; border-color:#38428A;}
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) p,
 [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarUser"]) strong{color:#fff;}
-[data-testid="stChatInput"]{border-radius:24px; border:2px solid #E0E7FF; background:#fff;
-  box-shadow:0 10px 26px rgba(79,70,229,.14);}
-[data-testid="stChatInput"]:focus-within{border-color:#7C3AED;}
+[data-testid="stChatInput"]{border-radius:16px; border:1px solid var(--line); background:var(--surface);}
+[data-testid="stChatInput"]:focus-within{border-color:var(--violet);}
+[data-testid="stChatInput"] textarea{color:var(--text);}
 
 /* ---------- buttons ---------- */
-.stButton > button{border-radius:999px; border:none; padding:.55rem 1.2rem;
-  background:linear-gradient(120deg,#4F46E5,#7C3AED); box-shadow:0 8px 18px rgba(79,70,229,.25);
-  transition:transform .15s ease, box-shadow .15s ease;}
-.stButton > button p{color:#fff !important; font-family:'Poppins',sans-serif; font-weight:700; font-size:.9rem;}
-.stButton > button:hover{transform:translateY(-2px); box-shadow:0 12px 24px rgba(79,70,229,.32);}
-[class*="st-key-more_"] button{background:linear-gradient(120deg,#F97316,#EC4899);
-  box-shadow:0 8px 18px rgba(236,72,153,.28);}
-[class*="st-key-sat_"] button{background:linear-gradient(120deg,#10B981,#14B8A6);
-  box-shadow:0 8px 18px rgba(16,185,129,.28);}
-[class*="st-key-new_"] button{background:#fff; border:2px solid #C7D2FE; box-shadow:none;}
-[class*="st-key-new_"] button p{color:#4F46E5 !important;}
-[data-testid="stWidgetLabel"] p{font-weight:700; color:#334155;}
+.stButton > button{border-radius:12px; border:1px solid #3B4390; background:#3B4390; padding:.55rem 1.1rem;
+  transition:background .15s ease, transform .15s ease;}
+.stButton > button p{color:#fff !important; font-family:'Poppins',sans-serif; font-weight:600; font-size:.88rem;}
+.stButton > button:hover{background:#4953A8; border-color:#4953A8; transform:translateY(-1px);}
+[class*="st-key-more_"] button{background:#B5603F; border-color:#B5603F;}
+[class*="st-key-more_"] button:hover{background:#C66F4D; border-color:#C66F4D;}
+[class*="st-key-sat_"] button{background:#2E8F70; border-color:#2E8F70;}
+[class*="st-key-sat_"] button:hover{background:#38A181; border-color:#38A181;}
+[class*="st-key-new_"] button{background:transparent; border:1px solid #3A4458;}
+[class*="st-key-new_"] button:hover{background:#1D2330; border-color:#4A5468;}
+[class*="st-key-new_"] button p{color:var(--soft) !important;}
+[data-testid="stWidgetLabel"] p{font-weight:600; color:var(--soft);}
 
 /* ---------- result cards ---------- */
-.rcard{background:#fff; border-radius:20px; padding:16px 18px; border:1px solid #EEF2FF; position:relative;
-  box-shadow:0 8px 22px rgba(15,23,42,.07); border-top:6px solid #10B981; transition:transform .15s ease;}
-.rcard:hover{transform:translateY(-3px);}
-.rcard.high{border-top-color:#F43F5E;} .rcard.mid{border-top-color:#F59E0B;} .rcard.low{border-top-color:#10B981;}
-.rtop{display:flex; justify-content:space-between; align-items:center; margin-bottom:6px;}
-.rbadge{font-size:.68rem; font-weight:800; letter-spacing:.8px; color:#6366F1; background:#EEF2FF;
+.rcard{background:var(--surface2); border-radius:16px; padding:16px 18px; border:1px solid var(--line);
+  border-top:4px solid var(--green);}
+.rcard.high{border-top-color:var(--rose);} .rcard.mid{border-top-color:var(--amber);} .rcard.low{border-top-color:var(--green);}
+.rtop{display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;}
+.rbadge{font-size:.66rem; font-weight:700; letter-spacing:1px; color:var(--soft); background:rgba(255,255,255,.07);
   padding:3px 10px; border-radius:999px;}
-.rpill{font-size:.72rem; font-weight:700; padding:3px 10px; border-radius:999px; color:#fff; background:#10B981;}
-.rcard.high .rpill{background:#F43F5E;} .rcard.mid .rpill{background:#F59E0B;}
-.rname{font-family:'Poppins',sans-serif; font-weight:700; font-size:1.05rem; color:#1E293B; min-height:1.6rem;}
-.rpct{font-family:'Poppins',sans-serif; font-weight:800; font-size:2.6rem; line-height:1.1; color:#4F46E5;}
-.rpct span{font-size:1.2rem; margin-left:2px; color:#818CF8;}
-.rbar{height:8px; background:#EEF2FF; border-radius:999px; overflow:hidden; margin-top:8px;}
-.rbar div{height:100%; border-radius:999px; background:linear-gradient(90deg,#10B981,#34D399);}
-.rcard.high .rbar div{background:linear-gradient(90deg,#F43F5E,#FB7185);}
-.rcard.mid .rbar div{background:linear-gradient(90deg,#F59E0B,#FBBF24);}
-.why{background:linear-gradient(120deg,#EEF2FF,#FDF2F8); border-radius:14px; padding:12px 16px; margin:10px 0 6px;
-  color:#1E293B;}
-.key{font-size:.82rem; color:#64748B; font-weight:600; margin-bottom:6px;}
-.tips{color:#64748B; font-size:.85rem; margin:4px 2px 0;}
-.tips b{color:#4F46E5;}
+.rpill{font-size:.7rem; font-weight:700; padding:3px 10px; border-radius:999px; color:#0F131A; background:var(--green);}
+.rcard.high .rpill{background:var(--rose); color:#fff;} .rcard.mid .rpill{background:var(--amber);}
+.rname{font-family:'Poppins',sans-serif; font-weight:600; font-size:1.02rem; color:var(--text); min-height:1.6rem;}
+.rpct{font-family:'Poppins',sans-serif; font-weight:700; font-size:2.5rem; line-height:1.1; color:#F4F6FB;}
+.rpct span{font-size:1.15rem; margin-left:2px; color:var(--muted);}
+.rbar{height:6px; background:#2A3240; border-radius:999px; overflow:hidden; margin-top:10px;}
+.rbar div{height:100%; border-radius:999px; background:var(--green);}
+.rcard.high .rbar div{background:var(--rose);} .rcard.mid .rbar div{background:var(--amber);}
+.why{background:var(--surface2); border:1px solid var(--line); border-left:4px solid var(--violet);
+  border-radius:12px; padding:12px 16px; margin:10px 0 6px; color:#D6DCEB;}
+.why b{color:#A5B4FC;}
+.tips{color:var(--muted); font-size:.85rem; margin:4px 2px 0;}
+.tips b{color:#A5B4FC;}
 
 /* ---------- map dashboard ---------- */
-.stat{background:#fff; border-radius:18px; padding:16px 18px; border:1px solid #EEF2FF;
-  box-shadow:0 8px 22px rgba(15,23,42,.06);}
-.stat .n{font-family:'Poppins',sans-serif; font-weight:800; font-size:2rem; color:#4F46E5; line-height:1.15;}
-.stat .n.small{font-size:1.15rem; padding-top:.45rem; padding-bottom:.35rem;}
-.stat .l{color:#64748B; font-weight:600; font-size:.82rem; text-transform:uppercase; letter-spacing:.6px;}
-.demo{display:inline-block; background:#FEF3C7; color:#92400E; font-weight:700; font-size:.8rem; padding:6px 14px;
-  border-radius:999px; margin:6px 0 14px;}
-.alert{background:#fff; border-radius:14px; padding:12px 16px; margin:8px 0; border-left:6px solid #10B981;
-  box-shadow:0 6px 18px rgba(15,23,42,.06); color:#1E293B;}
-.alert.red{border-left-color:#F43F5E; background:#FFF1F2;} .alert.orange{border-left-color:#F59E0B; background:#FFFBEB;}
+.stat{background:var(--surface); border-radius:16px; padding:16px 18px; border:1px solid var(--line);}
+.stat .n{font-family:'Poppins',sans-serif; font-weight:700; font-size:1.9rem; color:#F4F6FB; line-height:1.15;}
+.stat .n.small{font-size:1.1rem; padding-top:.5rem; padding-bottom:.4rem;}
+.stat .l{color:var(--muted); font-weight:600; font-size:.74rem; text-transform:uppercase; letter-spacing:1px;}
+.demo{display:inline-block; background:rgba(217,164,65,.12); color:#E2C07A; font-weight:600; font-size:.78rem;
+  padding:6px 14px; border-radius:999px; margin:6px 0 14px; border:1px solid rgba(217,164,65,.25);}
+.alert{background:var(--surface); border-radius:12px; padding:12px 16px; margin:8px 0; border:1px solid var(--line);
+  border-left:4px solid var(--green); color:var(--text);}
+.alert.red{border-left-color:var(--rose); background:rgba(229,84,107,.09);}
+.alert.orange{border-left-color:var(--amber); background:rgba(217,164,65,.09);}
 .legend{display:flex; gap:18px; flex-wrap:wrap; margin:10px 0 16px;}
-.legend span{font-weight:600; color:#475569; font-size:.88rem;}
-.dot{display:inline-block; width:12px; height:12px; border-radius:50%; margin-right:6px;}
+.legend span{font-weight:500; color:var(--soft); font-size:.86rem;}
+.dot{display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px;}
+iframe{border-radius:16px; border:1px solid var(--line);}
 
 /* ---------- sidebar ---------- */
-[data-testid="stSidebar"]{background:linear-gradient(180deg,#EEF2FF 0%,#FDF2F8 100%); border-right:1px solid #E0E7FF;}
-.side-title{font-family:'Poppins',sans-serif; font-weight:800; font-size:1.6rem; line-height:1.2;
-  background:linear-gradient(120deg,#4F46E5,#EC4899); -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
-.side-sub{color:#64748B; font-weight:600; font-size:.85rem; margin-bottom:12px;}
-.side-card{background:#fff; border-radius:16px; padding:12px 16px; margin:12px 0; font-size:.88rem; color:#334155;
-  box-shadow:0 6px 16px rgba(15,23,42,.06);}
-.side-card b{font-family:'Poppins',sans-serif; color:#4F46E5;}
+[data-testid="stSidebar"]{background:#0B0F15; border-right:1px solid #1F2632;}
+.side-title{font-family:'Poppins',sans-serif; font-weight:700; font-size:1.55rem; line-height:1.2; color:#F4F6FB;}
+.side-sub{color:var(--muted); font-weight:500; font-size:.84rem; margin-bottom:12px;}
+.side-card{background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:12px 16px;
+  margin:12px 0; font-size:.86rem; color:var(--soft);}
+.side-card b{font-family:'Poppins',sans-serif; color:#A5B4FC;}
 .side-card ol{margin:6px 0 0 16px; padding:0;}
 </style>
 """
@@ -147,6 +154,9 @@ HERO = ('<div class="hero"><span class="badge">🩺 AI HEALTH COMPANION</span>'
 NOTICE = ('<div class="notice">⚠️ <b>HealthRadar is an educational project, not a medical device,</b> and it cannot '
           'diagnose illness. In an emergency (chest pain, trouble breathing, severe bleeding) call <b>112</b> '
           'or go to the nearest hospital.</div>')
+
+ROSE, AMBER, GREEN, BLUE = "#E5546B", "#D9A441", "#3FB68B", "#6F8FE8"
+CARD_BG = "#171C26"
 
 
 # ---------------------------------------------------------------- model
@@ -222,22 +232,23 @@ def render_result(res, key, latest):
         d = next(x for x in res if x["disease"] == pick)
         st.markdown(f'<div class="why">💡 {explain_html(d)}</div>', unsafe_allow_html=True)
 
-        fig, ax = plt.subplots(figsize=(6.4, 3.2))
+        fig, ax = plt.subplots(figsize=(6.4, 3.2), facecolor=CARD_BG)
+        ax.set_facecolor(CARD_BG)
         labels = [pretty(f) + (" (you reported)" if p else " (not reported)")
                   for f, v, p in d["drivers"]][::-1]
         vals = [v for _, v, _ in d["drivers"]][::-1]
-        ax.barh(labels, vals, color=["#F43F5E" if v > 0 else "#6366F1" for v in vals], height=0.62)
-        for side in ("top", "right", "left"):
+        ax.barh(labels, vals, color=[ROSE if v > 0 else BLUE for v in vals], height=0.6)
+        for side in ("top", "right", "left", "bottom"):
             ax.spines[side].set_visible(False)
-        ax.axvline(0, color="#94A3B8", lw=1)
-        ax.tick_params(axis="y", length=0, labelsize=9)
-        ax.tick_params(axis="x", labelsize=8, colors="#64748B")
+        ax.axvline(0, color="#4A5468", lw=1)
+        ax.tick_params(axis="y", length=0, labelsize=9, colors="#C7D0E2")
+        ax.tick_params(axis="x", length=0, labelsize=8, colors="#8C97AB")
         ax.set_xlabel("lowers the score   ←   SHAP value   →   raises the score",
-                      fontsize=8.5, fontweight="bold", color="#475569")
+                      fontsize=8.5, fontweight="bold", color="#8C97AB")
         plt.tight_layout()
         st.pyplot(fig)
         plt.close(fig)
-        st.caption("🟥 pushes the score up   ·   🟦 pushes it down   ·   "
+        st.caption("🟥 raises the score   ·   🟦 lowers it   ·   "
                    "⚠️ Educational project, not medical advice. Please see a doctor for real concerns.")
         if latest:
             c1, c2, c3 = st.columns(3)
@@ -329,26 +340,30 @@ with tab2:
         n_crit = int((hot.z >= 3).sum())
         s1, s2, s3 = st.columns(3)
         s1.markdown(stat_card("Cities monitored", int(hot.city.nunique())), unsafe_allow_html=True)
-        s2.markdown(stat_card("Active alerts", f"{n_alert} <span style='font-size:1rem;color:#F43F5E'>"
+        s2.markdown(stat_card("Active alerts", f"{n_alert} <span style='font-size:.95rem;color:{ROSE}'>"
                                                f"({n_crit} critical)</span>"), unsafe_allow_html=True)
         s3.markdown(stat_card("Biggest spike", f"{top.city} · {top.disease}", small=True), unsafe_allow_html=True)
         st.write("")
 
-    m = folium.Map(location=[22.5, 79], zoom_start=5, tiles="OpenStreetMap")
+    # Dark map tiles (free CARTO basemap, no API key). If they ever fail to load, swap the two
+    # tiles/attr lines for:  tiles="OpenStreetMap"
+    m = folium.Map(location=[22.5, 79], zoom_start=5,
+                   tiles="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                   attr="&copy; OpenStreetMap contributors &copy; CARTO")
     for _, r in hot.iterrows():
         if r.city not in CITIES:
             continue
-        color = "#F43F5E" if r.z >= 3 else "#F59E0B" if r.z >= 1.5 else "#10B981"
+        color = ROSE if r.z >= 3 else AMBER if r.z >= 1.5 else GREEN
         folium.CircleMarker(CITIES[r.city], radius=8 + min(max(r.z, 0), 6) * 3,
-                            color=color, weight=2, fill=True, fill_color=color, fill_opacity=.55,
+                            color=color, weight=2, fill=True, fill_color=color, fill_opacity=.5,
                             tooltip=f"{r.city}: {r.disease}",
                             popup=f"<b>{r.city}</b><br>{r.disease}<br>Last 7 days: {r.recent} cases"
                                   f"<br>Normal week: ~{r.baseline}<br>Anomaly score: {r.z:.1f}").add_to(m)
     st_folium(m, height=520, width=1000, returned_objects=[])
 
-    st.markdown('<div class="legend"><span><i class="dot" style="background:#F43F5E"></i>Outbreak alert</span>'
-                '<span><i class="dot" style="background:#F59E0B"></i>Watch</span>'
-                '<span><i class="dot" style="background:#10B981"></i>Normal</span></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="legend"><span><i class="dot" style="background:{ROSE}"></i>Outbreak alert</span>'
+                f'<span><i class="dot" style="background:{AMBER}"></i>Watch</span>'
+                f'<span><i class="dot" style="background:{GREEN}"></i>Normal</span></div>', unsafe_allow_html=True)
 
     shown = 0
     for _, r in hot.sort_values("z", ascending=False).head(3).iterrows():
