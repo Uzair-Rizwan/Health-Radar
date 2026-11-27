@@ -131,7 +131,7 @@ header[data-testid="stHeader"]{background:transparent;}
 .legend{display:flex; gap:18px; flex-wrap:wrap; margin:10px 0 16px;}
 .legend span{font-weight:500; color:var(--soft); font-size:.86rem;}
 .dot{display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:6px;}
-iframe{border-radius:16px; border:1px solid var(--line); filter:invert(92%) hue-rotate(180deg) brightness(.95) contrast(.9);}
+iframe{border-radius:16px; border:1px solid var(--line);}
 
 /* ---------- sidebar ---------- */
 [data-testid="stSidebar"]{background:#0B0F15; border-right:1px solid #1F2632;}
@@ -376,7 +376,9 @@ with tab2:
 
     # Dark map tiles (free CARTO basemap, no API key). If they ever fail to load, swap the two
     # tiles/attr lines for:  tiles="OpenStreetMap"
-        m = folium.Map(location=[22.5, 79], zoom_start=5, tiles="OpenStreetMap")
+        m = folium.Map(location=[22.5, 79], zoom_start=5,
+                   tiles="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+                   attr="&copy; OpenStreetMap contributors &copy; CARTO")
     for _, r in hot.iterrows():
         if r.city not in CITIES:
             continue
