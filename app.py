@@ -1,11 +1,12 @@
 import datetime as dt
+import os
 from pathlib import Path
 
 import joblib, numpy as np, pandas as pd, shap, streamlit as st
 import matplotlib.pyplot as plt, folium
 from streamlit_folium import st_folium
 
-from chat_engine import Chat, CITIES
+from chat_engine import Chat, CITIES, VERSION as CHAT_VERSION
 
 st.set_page_config(page_title="HealthRadar", page_icon="🩺", layout="wide")
 
@@ -194,10 +195,30 @@ def log_report(city, disease):
         f, mode="a", header=not f.exists(), index=False)
 
 
+# ---------------------------------------------------------------- optional AI conversation layer
+@st.cache_resource
+def get_llm():
+    """Returns the AI helper if an API key is set (secrets or environment), otherwise None."""
+    key, model, cap = None, None, 400
+    try:
+        key = st.secrets["ANTHROPIC_API_KEY"]
+        model = st.secrets.get("LLM_MODEL")
+        cap = int(st.secrets.get("LLM_DAILY_CAP", 400))
+    except Exception:
+        key = key or os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        return None
+    try:
+        from llm_layer import LLM
+        return LLM(key, features, list(CITIES), model=model, daily_cap=cap)
+    except Exception:
+        return None
+
+
 # ---------------------------------------------------------------- chat state
 ss = st.session_state
-if "chat" not in ss or not hasattr(ss.chat, "more_details"):
-    ss.chat = Chat(features, predict, log_report)
+if "chat" not in ss or getattr(ss.chat, "version", 0) != CHAT_VERSION:
+    ss.chat = Chat(features, predict, log_report, llm=get_llm())
 chat = ss.chat
 
 
@@ -300,6 +321,14 @@ with st.sidebar:
                 '<li>Not happy? Add more details</li></ol></div>'
                 '<div class="side-card"><b>Good to know</b><br>Typos are fine. Say <i>"I don\'t have fever"</i> '
                 'to remove a symptom, or type <i>restart</i> any time.</div>', unsafe_allow_html=True)
+    mode = chat.llm_status()
+    if mode == "ai":
+        st.markdown('<div class="side-card"><b>🧠 Smart chat: on</b><br>Your messages are processed by an AI '
+                    'service so Radar can understand you better. Please don\'t share personal identifiers.</div>',
+                    unsafe_allow_html=True)
+    elif mode == "limit":
+        st.markdown('<div class="side-card"><b>🧠 Smart chat: paused</b><br>Session limit reached, so Radar is '
+                    'using its basic chat for the rest of this session.</div>', unsafe_allow_html=True)
     st.caption("Regional feed is simulated. Symptom model trained on a public dataset.")
 
 st.markdown(HERO, unsafe_allow_html=True)
@@ -347,7 +376,7 @@ with tab2:
 
     # Dark map tiles (free CARTO basemap, no API key). If they ever fail to load, swap the two
     # tiles/attr lines for:  tiles="OpenStreetMap"
-    m = folium.Map(location=[22.5, 79], zoom_start=5, tiles="OpenStreetMap")
+        m = folium.Map(location=[22.5, 79], zoom_start=5, tiles="OpenStreetMap")
     for _, r in hot.iterrows():
         if r.city not in CITIES:
             continue

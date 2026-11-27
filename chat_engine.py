@@ -145,6 +145,71 @@ SYNONYMS = {
     "swelling in legs": "swollen_legs", "unsteady": "unsteadiness", "slurred speech": "slurred_speech",
 }
 
+VERSION = 3            # bump when the Chat class changes (app.py uses it to drop stale sessions)
+LLM_MAX_CALLS = 40     # AI calls allowed per visitor session
+
+# fever levels, "I'm burning up" style statements, swelling
+SYNONYMS.update({
+    "feverish": "mild_fever",
+    "light fever": "mild_fever", "little fever": "mild_fever", "bit of fever": "mild_fever",
+    "slight temperature": "mild_fever", "mild temperature": "mild_fever", "halka bukhar": "mild_fever",
+    "feeling warm": "mild_fever", "feel warm": "mild_fever", "slightly warm": "mild_fever",
+    "little warm": "mild_fever", "bit warm": "mild_fever", "body feels warm": "mild_fever",
+    "burning up": "high_fever", "burning hot": "high_fever", "body is burning": "high_fever",
+    "body burning": "high_fever", "burning with fever": "high_fever", "feel hot": "high_fever",
+    "feeling hot": "high_fever", "feels hot": "high_fever", "body is hot": "high_fever",
+    "body hot": "high_fever", "hot body": "high_fever", "hot to touch": "high_fever",
+    "running a fever": "high_fever", "running fever": "high_fever", "running a temperature": "high_fever",
+    "running temperature": "high_fever", "have a temperature": "high_fever", "got a temperature": "high_fever",
+    "very high fever": "high_fever", "tez bukhar": "high_fever", "tez bukhaar": "high_fever",
+    "swollen feet": "swollen_legs", "swollen ankles": "swollen_legs", "feet swollen": "swollen_legs",
+    "ankles swollen": "swollen_legs", "swelling in feet": "swollen_legs", "swelling in ankles": "swollen_legs",
+    "swollen foot": "swollen_legs", "puffy feet": "swollen_legs",
+})
+
+MILD_Q = {"light", "slight", "slightly", "mild", "mildly", "low", "little", "minor", "small", "bit",
+          "halka", "halki"}
+HIGH_Q = {"high", "severe", "extreme", "extremely", "terrible", "raging", "strong", "tez", "bad", "badly",
+          "heavy", "tough", "worse"}
+FEVER_WORDS = {"fever", "temperature", "temp", "bukhar", "bukhaar", "feverish"}
+
+# "pain in my <body part>": any body part works, not only memorised phrases.
+# value = (candidate dataset columns in order of preference, is it an exact match for that body part?)
+PAIN_WORDS = ["pain", "pains", "painful", "paining", "ache", "aches", "aching", "achy", "hurt", "hurts",
+              "hurting", "sore", "soreness", "cramp", "cramps", "cramping", "throbbing", "stabbing", "tender"]
+PAIN_TYPOS = {"payn", "pian", "paine", "paiin", "pein", "paen"}
+_J = ("joint_pain",)
+BODY_PARTS = {
+    "head": (("headache",), True), "forehead": (("headache",), True), "temple": (("headache",), True),
+    "temples": (("headache",), True), "neck": (("neck_pain",), True), "throat": (("throat_irritation",), True),
+    "chest": (("chest_pain",), True), "stomach": (("stomach_pain",), True), "tummy": (("stomach_pain",), True),
+    "abdomen": (("abdominal_pain",), True), "belly": (("belly_pain",), True), "back": (("back_pain",), True),
+    "spine": (("back_pain",), False), "knee": (("knee_pain",), True), "knees": (("knee_pain",), True),
+    "hip": (("hip_joint_pain",), True), "hips": (("hip_joint_pain",), True),
+    "joint": (_J, True), "joints": (_J, True),
+    "ankle": (_J, False), "ankles": (_J, False), "wrist": (_J, False), "wrists": (_J, False),
+    "elbow": (_J, False), "elbows": (_J, False), "shoulder": (_J, False), "shoulders": (_J, False),
+    "finger": (_J, False), "fingers": (_J, False), "toe": (_J, False), "toes": (_J, False),
+    "foot": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "feet": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "heel": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "heels": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "sole": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "soles": (("painful_walking", "joint_pain", "muscle_pain"), False),
+    "leg": (("muscle_pain", "joint_pain"), False), "legs": (("muscle_pain", "joint_pain"), False),
+    "calf": (("muscle_pain",), False), "calves": (("muscle_pain",), False),
+    "thigh": (("muscle_pain",), False), "thighs": (("muscle_pain",), False),
+    "arm": (("muscle_pain",), False), "arms": (("muscle_pain",), False),
+    "hand": (("muscle_pain",), False), "hands": (("muscle_pain",), False),
+    "muscle": (("muscle_pain",), True), "muscles": (("muscle_pain",), True), "body": (("muscle_pain",), True),
+    "eye": (("pain_behind_the_eyes",), False), "eyes": (("pain_behind_the_eyes",), False),
+}
+
+
+def is_pain_word(w):
+    return w in PAIN_WORDS or w in PAIN_TYPOS or bool(close(w, PAIN_WORDS))
+
+
 # --------------------------------------------------------------------------
 # 2. Small-talk phrases
 # --------------------------------------------------------------------------
@@ -287,7 +352,10 @@ def dissatisfied(t, tokens):
 # 4. The conversation
 # --------------------------------------------------------------------------
 class Chat:
-    def __init__(self, features, predict_fn, report_fn=None):
+    def __init__(self, features, predict_fn, report_fn=None, llm=None):
+        self.version = VERSION
+        self.llm = llm                    # optional llm_layer.LLM object
+        self.llm_calls = 0
         self.features = list(features)
         self.predict_fn = predict_fn      # symptoms list -> top-3 result list
         self.report_fn = report_fn        # (city, disease) -> None  (logs one anonymous report)
@@ -319,6 +387,9 @@ class Chat:
         self.duration = 0
         self.severe = False
         self.warned = False
+        self.fever_q = False
+        self.pain_q = False
+        self.result_summary = None
         h = ist_hour()
         tod = "Good morning" if 5 <= h < 12 else "Good afternoon" if 12 <= h < 17 else \
               "Good evening" if 17 <= h < 22 else "Hello"
@@ -400,6 +471,38 @@ class Chat:
             m = self.fuzzy_words(window.split())
         return (self.phrases[m], m) if m else None
 
+    def body_hits(self, tokens, used):
+        """'pain in my feet', 'my legs are aching', 'sore ankle' ... any body part + any pain word nearby."""
+        pains = [i for i, w in enumerate(tokens) if not used[i] and is_pain_word(w)]
+        if not pains:
+            return []
+        keys = list(BODY_PARTS)
+        hits = []
+        linked = {}                                        # body-part index -> the pain word it belongs to
+        for bi, w in enumerate(tokens):
+            if used[bi] or w in COMMON:
+                continue
+            key = w if w in BODY_PARTS else close(w, keys)
+            if not key:
+                continue
+            near = [pi for pi in pains if pi != bi and abs(pi - bi) <= 4]
+            if near:
+                pi = min(near, key=lambda q: abs(q - bi))
+            elif bi >= 2 and tokens[bi - 1] in ("and", "or", "also") and (bi - 2) in linked:
+                pi = linked[bi - 2]                        # "pain in my ankle AND heel"
+            else:
+                continue
+            if key == "back" and abs(pi - bi) != 1 and \
+                    (bi == 0 or tokens[bi - 1] not in ("my", "the", "lower", "upper", "whole", "entire")):
+                continue                                   # "I'm back and my head hurts" is not back pain
+            cands, exact = BODY_PARTS[key]
+            feat = next((f for f in cands if f in self.features), None)
+            if not feat:
+                continue
+            linked[bi] = pi
+            hits.append((min(pi, bi), max(pi, bi) + 1, feat, None, None if exact else {"approx": key}))
+        return hits
+
     def match(self, tokens):
         used = [False] * len(tokens)
         found = []
@@ -414,8 +517,40 @@ class Chat:
                     found.append((i, i + n, feat, fuzzy))
                     for k in range(i, i + n):
                         used[k] = True
-        found.sort()
-        return found
+        hits = []
+        for i, j, feat, fuzzy in found:
+            extra = None
+            if feat == "high_fever":                       # "light fever" -> mild, plain "fever" -> high (+ ask)
+                words, before = tokens[i:j], tokens[max(0, i - 3):i]
+                if any(w in FEVER_WORDS for w in words):
+                    if any(w in MILD_Q for w in before) and not any(w in HIGH_Q for w in words + before) \
+                            and "mild_fever" in self.features:
+                        feat = "mild_fever"
+                    elif all(w in FEVER_WORDS for w in words) and not any(w in HIGH_Q for w in before):
+                        extra = {"generic_fever": True}
+            hits.append((i, j, feat, fuzzy, extra))
+        hits += self.body_hits(tokens, used)
+        hits.sort(key=lambda h: h[0])
+        return hits
+
+    def temp_feature(self, t):
+        """'temperature is 101', '102 degrees', 'fever of 38.5' -> mild_fever / high_fever."""
+        for m in re.finditer(r"(\d{2,3}(?:\.\d+)?)\s*(?:(\u00b0|degrees?|deg|celsius|fahrenheit|f|c)\b)?", t):
+            val, unit = float(m.group(1)), m.group(2)
+            before = t[max(0, m.start() - 30):m.start()]
+            if not (unit or re.search(r"(temp|temperature|fever|thermometer|reading|reads)", before)):
+                continue
+            if 94 <= val <= 110:
+                c = (val - 32) * 5 / 9
+            elif 34 <= val <= 43:
+                c = val
+            else:
+                continue
+            if c >= 38.5:
+                return "high_fever"
+            if c >= 37.6:
+                return "mild_fever"
+        return None
 
     def find_city(self, tokens):
         names = {c.lower(): c for c in CITIES}
@@ -470,21 +605,36 @@ class Chat:
     def parse(self, t):
         stage = self.stage
         clauses = re.split(r"[.,;:!?\n]+|\b(?:but|however|although|though|except)\b", t)
-        present, negated, fixes, all_tokens = [], [], [], []
+        present, negated, fixes, approx, all_tokens = [], [], [], [], []
+        generic = False
         for cl in clauses:
             toks = re.findall(r"[a-z]+", cl)
             all_tokens += toks
-            for i, j, feat, fuzzy in self.match(toks):
+            for i, j, feat, fuzzy, extra in self.match(toks):
                 neg = any(x in NEGATORS for x in toks[max(0, i - 3):i])
                 (negated if neg else present).append(feat)
                 typed = " ".join(toks[i:j])
                 if fuzzy and typed != fuzzy:
                     fixes.append((typed, feat))
+                if extra and not neg:
+                    if "approx" in extra:
+                        approx.append((extra["approx"], feat))
+                    if extra.get("generic_fever"):
+                        generic = True
+        tf = self.temp_feature(t)
+        if tf and tf in self.features:
+            present = [f for f in present if f not in ("high_fever", "mild_fever")] + [tf]
+            generic = False
         present = list(dict.fromkeys(present))
+        if "high_fever" in present and "mild_fever" in present:
+            present.remove("mild_fever")
+        if "high_fever" not in present:
+            generic = False
         negated = [f for f in dict.fromkeys(negated) if f not in present]
         intents = self.find_intents(t, all_tokens)
         info = {"tokens": all_tokens, "present": present, "negated": negated, "fixes": fixes,
-                "intents": intents, "city": None, "name": None, "done": False}
+                "intents": intents, "city": None, "name": None, "done": False,
+                "approx": approx, "generic_fever": generic}
         if not self.city:
             info["city"] = self.find_city(all_tokens)
         if stage == "name":
@@ -536,7 +686,106 @@ class Chat:
                      "heavy bleeding and similar) can be an emergency. Please don't wait on an app. Call **112** or "
                      "get to the nearest hospital now. I'll keep helping here, but real help comes first.")
 
+        # --- optional AI conversation layer (falls back to the rules below on any problem) ---
+        if self.llm is not None and self.llm_calls < LLM_MAX_CALLS:
+            out = self._ask_llm(info)
+            if out is not None and self._handle_llm(info, out):
+                return
+        return self._rules(t, info, stage)
+
+    # ---------- AI layer helpers ----------
+    def llm_status(self):
+        if self.llm is None:
+            return "rules"
+        return "ai" if self.llm_calls < LLM_MAX_CALLS else "limit"
+
+    def _ask_llm(self, info):
+        self.llm_calls += 1
+        history = [{"role": r, "content": c[:600]} for r, c in self.msgs[-14:]
+                   if r in ("user", "assistant") and isinstance(c, str)]
+        ctx = {"known_name": bool(self.name), "city": self.city or None,
+               "symptom_keys_so_far": list(self.symptoms),
+               "missing": [k for k, v in (("name", self.name), ("city", self.city), ("symptoms", self.symptoms)) if not v],
+               "analysis_already_shown": bool(self.rounds), "last_result": self.result_summary,
+               "rule_engine_saw": {"present": info["present"], "negated": info["negated"]}}
+        try:
+            return self.llm.turn(history, ctx)
+        except Exception:
+            return None
+
+    def _valid_name(self, s):
+        if not isinstance(s, str):
+            return None
+        m = re.match(r"\s*([A-Za-z][A-Za-z'-]{1,19})", s)
+        if not m:
+            return None
+        cand = m.group(1).lower()
+        if cand in NOT_NAMES or cand in COMMON or self.lookup(cand, 1) or self.find_city([cand]):
+            return None
+        return cand.title()
+
+    def _valid_city(self, s):
+        if not isinstance(s, str):
+            return None
+        toks = re.findall(r"[a-z]+", normalize(s))
+        return self.find_city(toks) if toks else None
+
+    def _handle_llm(self, info, out):
+        """Apply a validated AI turn. Returns False if it can't be used (then the rule-based chat answers)."""
+        reply = out.get("reply")
+        if not isinstance(reply, str) or not reply.strip():
+            return False
+        reply = reply.strip()[:900]
+        if self.stage == "name":
+            nm = self._valid_name(out.get("name")) or info["name"]
+            if nm:
+                self.name = nm
+        if not self.city:
+            c = self._valid_city(out.get("city")) or info["city"]
+            if c:
+                self.city = c
+        reply = reply.replace("{name}", self.name) if self.name else re.sub(r"[ ,]*\{name\}", "", reply)
+        add = [f for f in out.get("add", []) if f in self.features] + list(info["present"])
+        rem = [f for f in out.get("remove", []) if f in self.features] + list(info["negated"])
+        add = [f for f in dict.fromkeys(add) if f not in rem]
+        new = [f for f in add if f not in self.symptoms]
+        self.symptoms += new
+        removed = [f for f in dict.fromkeys(rem) if f in self.symptoms]
+        self.symptoms = [f for f in self.symptoms if f not in removed]
+        ready = bool(out.get("ready")) or info["done"]
+        complete = bool(self.name and self.city and self.symptoms)
+        if complete and ((ready and self.rounds == 0) or (self.rounds and (new or removed))):
+            self.finish(new, removed, lead=reply)
+        else:
+            self.bot(reply)
+        return True
+
+    # ---------- rule-based conversation ----------
+    def _rules(self, t, info, stage):
         has_symptoms = bool(info["present"] or info["negated"])
+
+        # --- answer to "where does it hurt?" (e.g. just "my feet") ---
+        if self.pain_q:
+            self.pain_q = False
+            if not has_symptoms:
+                alt = self.parse("pain in " + t)
+                if alt["present"]:
+                    info["present"], info["approx"], info["fixes"] = alt["present"], alt["approx"], alt["fixes"]
+                    has_symptoms = True
+
+        # --- "is the fever mild or high?" follow-up answer ---
+        if self.fever_q:
+            self.fever_q = False
+            toks = info["tokens"]
+            if not has_symptoms and len(toks) <= 6 and "high_fever" in self.symptoms:
+                mild, high = any(w in MILD_Q for w in toks), any(w in HIGH_Q for w in toks)
+                if mild and not high and "mild_fever" in self.features:
+                    self.symptoms = ["mild_fever" if f == "high_fever" else f for f in self.symptoms]
+                    return self.bot("Thanks, I've changed that to **mild fever**. Any other symptoms? "
+                                    "Say **that's all** when you're ready.")
+                if high and not mild:
+                    return self.bot("Okay, I'll keep it as **high fever**. Any other symptoms? "
+                                    "Say **that's all** when you're ready.")
 
         # --- after a result: unhappy / yes / no ---
         if stage == "result" and not has_symptoms:
@@ -616,6 +865,12 @@ class Chat:
                     "body ache'* works, and spelling mistakes are fine.",
                     "So how are you feeling, {name}? List whatever symptoms you have, and don't worry about typos.",
                     "What symptoms are you having? Write it however it comes to you, I'll figure it out."]))
+            elif any(is_pain_word(x) for x in info["tokens"]):
+                self.pain_q = True
+                bits.append(self.say("pain_q", [
+                    "Sorry you're in pain. Where does it hurt? A body part helps, like head, chest, stomach, back, "
+                    "joints, legs or feet.",
+                    "Ouch, that sounds uncomfortable. Where exactly is the pain?"]))
             else:
                 self.fails += 1
                 if self.fails >= 2:
@@ -652,6 +907,14 @@ class Chat:
         if new and info["fixes"]:
             typed, feat = info["fixes"][0]
             bits.append("(I read “" + typed + "” as **" + self.label(feat) + "**. Tell me if that's wrong.)")
+        if new and info.get("approx"):
+            part, feat = info["approx"][0]
+            if feat in new:
+                bits.append("(I don't have a separate “" + part + " pain” in my data, so I noted it as **" +
+                            self.label(feat) + "**, the closest match.)")
+        if "high_fever" in new and info.get("generic_fever"):
+            bits.append("Is it a mild fever or a really high one?")
+            self.fever_q = True
         return " ".join(bits)
 
     def smalltalk(self, intents, stage):
@@ -734,22 +997,24 @@ class Chat:
             "Type **restart** for a new check.",
             "Happy that was useful{n}! 💙 Remember I'm an educational tool, so please see a doctor if you're worried."]))
 
-    def finish(self, new=(), removed=()):
+    def finish(self, new=(), removed=(), lead=None):
         res = self.predict_fn(list(self.symptoms))
         top = res[0]
         pct = round(top["prob"] * 100)
         if self.rounds == 0:
-            intro = self.say("intro", [
+            intro = lead or self.say("intro", [
                 "Okay{n}, I've crunched the numbers. Here's what I'm seeing 👇",
                 "Thanks for your patience{n}! Here's my read on it 👇",
                 "Done! Here's what your symptoms point to{n} 👇"])
+            if lead:
+                intro += " Here's what I'm seeing 👇"
             if len(self.symptoms) == 1:
                 intro += " (With just one symptom my read is rough, so take it lightly.)"
         else:
-            bits = []
-            if new:
+            bits = [lead] if lead else []
+            if new and not lead:
                 bits.append("Thanks, adding " + join_and(["**" + self.label(f) + "**" for f in new]) + " helps.")
-            if removed:
+            if removed and not lead:
                 bits.append("I've taken out " + join_and(["**" + self.label(f) + "**" for f in removed]) + ".")
             if self.prev_top and self.prev_top != top["disease"]:
                 bits.append("My top pick has moved from **" + self.prev_top + "** to **" + top["disease"] + "** (" +
@@ -765,6 +1030,7 @@ class Chat:
             except Exception:
                 pass
         self.prev_top = top["disease"]
+        self.result_summary = ", ".join(d["disease"] + " " + str(round(d["prob"] * 100)) + "%" for d in res)
         self.rounds += 1
         follow = "Does this feel about right? If not, or if you remember anything else, just tell me more or tap " \
                  "**Not satisfied**. The more detail you give, the better I can narrow it down."
